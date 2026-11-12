@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_examples/include/franka_spine_examples/spine_client_example.hpp

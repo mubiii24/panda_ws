@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/build/franka_gazebo_hardware/ament_cmake_environment_hooks/local_setup.zsh

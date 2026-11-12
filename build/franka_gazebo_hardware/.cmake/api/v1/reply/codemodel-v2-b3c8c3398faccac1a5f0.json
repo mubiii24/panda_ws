@@ -1,0 +1,184 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f167901a9e9ac0762f74.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						7
+					]
+				},
+				{
+					"build" : "gmock",
+					"jsonFile" : "directory-gmock-3370d118e31866b3418b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gmock_vendor",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "franka_gazebo_hardware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gmock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_gazebo_hardware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_gazebo_hardware_uninstall-7388fff44f63510f77a6.json",
+					"name" : "franka_gazebo_hardware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_gz_hardware_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_gz_hardware_plugins-ac90a99b2e6e0d6bb5fa.json",
+					"name" : "franka_gz_hardware_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock-3d6e2e4b8b4ab4d5a796.json",
+					"name" : "gmock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock_main::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock_main-877de65e468583a959d6.json",
+					"name" : "gmock_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gravity_compensation_model_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gravity_compensation_model_test-816fa846bc1e93be6b7d.json",
+					"name" : "gravity_compensation_model_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-0f9fee0c57daf081d83c.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-091703de11889a982fbd.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e4d37895c2dbc5317e9f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mubii/panda_ws/build/franka_gazebo_hardware",
+		"source" : "/home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

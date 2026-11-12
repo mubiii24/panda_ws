@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/build/panda_planning/ament_cmake_environment_hooks/local_setup.bash

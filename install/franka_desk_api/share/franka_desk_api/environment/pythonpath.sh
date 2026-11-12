@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/build/franka_desk_api/ament_cmake_environment_hooks/pythonpath.sh

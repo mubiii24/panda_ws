@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_generator_py/franka_spine_msgs/msg/_spine_parameters.py

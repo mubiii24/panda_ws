@@ -1,0 +1,10 @@
+/home/mubii/panda_ws/build/franka_spine_examples/CMakeFiles/uninstall.dir
+/home/mubii/panda_ws/build/franka_spine_examples/CMakeFiles/franka_spine_examples_uninstall.dir
+/home/mubii/panda_ws/build/franka_spine_examples/CMakeFiles/spine_client_example_cpp.dir
+/home/mubii/panda_ws/build/franka_spine_examples/CMakeFiles/test.dir
+/home/mubii/panda_ws/build/franka_spine_examples/CMakeFiles/edit_cache.dir
+/home/mubii/panda_ws/build/franka_spine_examples/CMakeFiles/rebuild_cache.dir
+/home/mubii/panda_ws/build/franka_spine_examples/CMakeFiles/list_install_components.dir
+/home/mubii/panda_ws/build/franka_spine_examples/CMakeFiles/install.dir
+/home/mubii/panda_ws/build/franka_spine_examples/CMakeFiles/install/local.dir
+/home/mubii/panda_ws/build/franka_spine_examples/CMakeFiles/install/strip.dir

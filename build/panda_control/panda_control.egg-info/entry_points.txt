@@ -1,0 +1,8 @@
+[console_scripts]
+manual_path = panda_control.manual_path:main
+move_arm = panda_control.move_arm:main
+pick_place = panda_control.pick_place:main
+pick_place_object = panda_control.pick_place_object:main
+play_path = panda_control.play_path:main
+record_path = panda_control.record_path:main
+

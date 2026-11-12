@@ -1,0 +1,211 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ba1e576a0a5a3bfa0c2c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						9,
+						10
+					]
+				},
+				{
+					"build" : "gmock",
+					"jsonFile" : "directory-gmock-3370d118e31866b3418b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gmock_vendor",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "franka_example_controllers",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gmock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_example_controllers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_example_controllers-9648815d236b1c44a380.json",
+					"name" : "franka_example_controllers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_example_controllers_gravity_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_example_controllers_gravity_test-5f491468042d166f05e1.json",
+					"name" : "franka_example_controllers_gravity_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_example_controllers_move_to_start_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_example_controllers_move_to_start_test-822637ca41ba8af15cc0.json",
+					"name" : "franka_example_controllers_move_to_start_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_example_controllers_test_load_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_example_controllers_test_load_all-8e5179e4cf087ea57f43.json",
+					"name" : "franka_example_controllers_test_load_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_example_controllers_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_example_controllers_uninstall-57d304c8c332e56ab340.json",
+					"name" : "franka_example_controllers_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock-9c71dcd261c7f38bb506.json",
+					"name" : "gmock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock_main::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock_main-cd100955a39cc02400d4.json",
+					"name" : "gmock_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-34a56a0745ee4e3e5509.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-88fda398c045061d54ed.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ptp_motion_example_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ptp_motion_example_node-e516d31462da56510e75.json",
+					"name" : "ptp_motion_example_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-235c9a0adcb1389ac097.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mubii/panda_ws/build/franka_example_controllers",
+		"source" : "/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

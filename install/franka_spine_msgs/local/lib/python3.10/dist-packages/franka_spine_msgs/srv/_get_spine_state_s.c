@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_generator_py/franka_spine_msgs/srv/_get_spine_state_s.c

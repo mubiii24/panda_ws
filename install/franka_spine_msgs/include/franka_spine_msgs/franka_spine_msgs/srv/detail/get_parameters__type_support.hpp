@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_generator_cpp/franka_spine_msgs/srv/detail/get_parameters__type_support.hpp

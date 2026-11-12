@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/build/moveit_resources/ament_cmake_core/moveit_resourcesConfig.cmake

@@ -1,0 +1,110 @@
+[0.012s] Invoking command in '/home/mubii/panda_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_msgs:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mubii/panda_ws/src/franka_ros2/franka_gripper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/franka_gripper
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.132s] -- The CXX compiler identification is GNU 11.4.0
+[0.140s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.229s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.329s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.330s] -- Detecting CXX compile features
+[0.330s] -- Detecting CXX compile features - done
+[0.334s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.493s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.558s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.597s] -- Found franka_msgs: 2.7.1 (/home/mubii/panda_ws/install/franka_msgs/share/franka_msgs/cmake)
+[0.644s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.651s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.662s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.695s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.795s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.840s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.844s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.966s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.000s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.053s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.064s] -- Looking for pthread.h
+[1.148s] -- Looking for pthread.h - found
+[1.148s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.233s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.234s] -- Found Threads: TRUE  
+[1.276s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.288s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.327s] -- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)
+[1.341s] -- Found control_msgs: 4.9.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.474s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.485s] -- Found ament_cmake_clang_format: 0.12.15 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[1.487s] -- Found ament_cmake_copyright: 0.12.15 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+[1.490s] -- Found ament_cmake_cppcheck: 0.12.15 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.492s] -- Found ament_cmake_flake8: 0.12.15 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.495s] -- Found ament_cmake_lint_cmake: 0.12.15 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[1.497s] -- Found ament_cmake_pep257: 0.12.15 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.500s] -- Found ament_cmake_xmllint: 0.12.15 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+[1.502s] -- Found launch_testing_ament_cmake: 1.0.14 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.505s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.530s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.535s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.535s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.536s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.536s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.558s] -- Found PythonExtra: .so  
+[1.561s] -- ROBOT_IP not defined, defaulting to 172.16.0.1...
+[1.625s] -- Configuring done
+[1.645s] -- Generating done
+[1.651s] -- Build files have been written to: /home/mubii/panda_ws/build/franka_gripper
+[1.666s] Invoked command in '/home/mubii/panda_ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_msgs:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mubii/panda_ws/src/franka_ros2/franka_gripper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/franka_gripper
+[1.669s] Invoking command in '/home/mubii/panda_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_msgs:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_gripper -- -j12 -l12
+[1.764s] [ 25%] [32mBuilding CXX object CMakeFiles/gripper_server.dir/src/gripper_action_server.cpp.o[0m
+[1.780s] [ 50%] [32mBuilding CXX object CMakeFiles/franka_gripper_node.dir/rclcpp_components/node_main_franka_gripper_node.cpp.o[0m
+[1.782s] [ 50%] Built target ament_cmake_python_symlink_franka_gripper
+[2.203s] running egg_info
+[2.204s] creating franka_gripper.egg-info
+[2.205s] writing franka_gripper.egg-info/PKG-INFO
+[2.205s] writing dependency_links to franka_gripper.egg-info/dependency_links.txt
+[2.206s] writing top-level names to franka_gripper.egg-info/top_level.txt
+[2.207s] writing manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[2.212s] reading manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[2.215s] writing manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[2.349s] [ 50%] Built target ament_cmake_python_build_franka_gripper_egg
+[8.374s] [ 75%] [32m[1mLinking CXX executable franka_gripper_node[0m
+[8.693s] [ 75%] Built target franka_gripper_node
+[14.597s] [100%] [32m[1mLinking CXX shared library libgripper_server.so[0m
+[15.835s] [100%] Built target gripper_server
+[15.854s] Invoked command in '/home/mubii/panda_ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_msgs:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_gripper -- -j12 -l12
+[15.856s] Invoking command in '/home/mubii/panda_ws/build/franka_gripper': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_msgs:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mubii/panda_ws/build/franka_gripper
+[15.867s] -- Install configuration: ""
+[15.868s] -- Execute custom install script
+[15.868s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/lib/franka_gripper/franka_gripper_node
+[15.882s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/lib/libgripper_server.so
+[15.897s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper//launch/gripper.launch.py
+[15.910s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper//config/franka_gripper_node.yaml
+[15.924s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper/environment/pythonpath.sh
+[15.938s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper/environment/pythonpath.dsv
+[15.952s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-2.7.1-py3.10.egg-info/PKG-INFO
+[15.965s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-2.7.1-py3.10.egg-info/SOURCES.txt
+[15.979s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-2.7.1-py3.10.egg-info/dependency_links.txt
+[15.992s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-2.7.1-py3.10.egg-info/top_level.txt
+[16.005s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper/__init__.py
+[16.027s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/lib/franka_gripper/fake_gripper_state_publisher.py
+[16.040s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/ament_index/resource_index/package_run_dependencies/franka_gripper
+[16.054s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/ament_index/resource_index/parent_prefix_path/franka_gripper
+[16.068s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper/environment/ament_prefix_path.sh
+[16.081s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper/environment/ament_prefix_path.dsv
+[16.095s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper/environment/path.sh
+[16.109s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper/environment/path.dsv
+[16.122s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper/local_setup.bash
+[16.138s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper/local_setup.sh
+[16.152s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper/local_setup.zsh
+[16.165s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper/local_setup.dsv
+[16.179s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper/package.dsv
+[16.192s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/ament_index/resource_index/packages/franka_gripper
+[16.206s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/ament_index/resource_index/rclcpp_components/franka_gripper
+[16.220s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper/cmake/franka_gripperConfig.cmake
+[16.232s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper/cmake/franka_gripperConfig-version.cmake
+[16.246s] -- Symlinking: /home/mubii/panda_ws/install/franka_gripper/share/franka_gripper/package.xml
+[16.309s] Listing '/home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper'...
+[16.309s] Compiling '/home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper/__init__.py'...
+[16.324s] Invoked command in '/home/mubii/panda_ws/build/franka_gripper' returned '0': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_msgs:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mubii/panda_ws/build/franka_gripper

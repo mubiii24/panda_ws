@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_generator_c/franka_spine_msgs/srv/get_parameters.h

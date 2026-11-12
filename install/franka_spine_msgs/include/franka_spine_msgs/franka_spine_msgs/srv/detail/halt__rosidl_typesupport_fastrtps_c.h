@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_typesupport_fastrtps_c/franka_spine_msgs/srv/detail/halt__rosidl_typesupport_fastrtps_c.h

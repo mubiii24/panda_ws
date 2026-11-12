@@ -1,0 +1,73 @@
+[0.030s] Invoking command in '/home/mubii/panda_ws/build/franka_mobile': CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/panda_ws/install/franka_example_controllers:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:/home/mubii/panda_ws/install/franka_example_controllers/lib:/home/mubii/panda_ws/install/franka_gazebo_hardware/lib:/home/mubii/panda_ws/install/franka_spine_msgs/lib:/home/mubii/panda_ws/install/franka_gripper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_mobile -- -j12 -l12
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.104s] [ 12%] Built target swerve_drive_controller_parameters
+[0.110s] [ 37%] Built target gtest_main
+[0.110s] [ 37%] Built target gtest
+[0.116s] [ 37%] Built target ament_cmake_python_symlink_franka_mobile
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target franka_mobile[0m
+[0.140s] [ 43%] [32mBuilding CXX object CMakeFiles/franka_mobile.dir/src/swerve_kinematics.cpp.o[0m
+[0.144s] [ 56%] [32mBuilding CXX object CMakeFiles/franka_mobile.dir/src/swerve_drive_controller.cpp.o[0m
+[0.144s] [ 56%] [32mBuilding CXX object CMakeFiles/franka_mobile.dir/src/swerve_ik_controller.cpp.o[0m
+[0.361s] running egg_info
+[0.362s] writing franka_mobile.egg-info/PKG-INFO
+[0.362s] writing dependency_links to franka_mobile.egg-info/dependency_links.txt
+[0.362s] writing top-level names to franka_mobile.egg-info/top_level.txt
+[0.365s] reading manifest file 'franka_mobile.egg-info/SOURCES.txt'
+[0.366s] writing manifest file 'franka_mobile.egg-info/SOURCES.txt'
+[0.410s] [ 56%] Built target ament_cmake_python_build_franka_mobile_egg
+[11.424s] [ 62%] [32m[1mLinking CXX shared library libfranka_mobile.so[0m
+[13.734s] [ 75%] Built target franka_mobile
+[13.764s] [ 87%] [32mBuilding CXX object CMakeFiles/test_swerve_kinematics.dir/test/test_swerve_kinematics.cpp.o[0m
+[13.764s] [ 87%] [32mBuilding CXX object CMakeFiles/test_odometry.dir/test/test_odometry.cpp.o[0m
+[15.777s] [ 93%] [32m[1mLinking CXX executable test_swerve_kinematics[0m
+[17.294s] [100%] [32m[1mLinking CXX executable test_odometry[0m
+[17.828s] [100%] Built target test_swerve_kinematics
+[19.290s] [100%] Built target test_odometry
+[19.305s] Invoked command in '/home/mubii/panda_ws/build/franka_mobile' returned '0': CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/panda_ws/install/franka_example_controllers:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:/home/mubii/panda_ws/install/franka_example_controllers/lib:/home/mubii/panda_ws/install/franka_gazebo_hardware/lib:/home/mubii/panda_ws/install/franka_spine_msgs/lib:/home/mubii/panda_ws/install/franka_gripper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_mobile -- -j12 -l12
+[19.319s] Invoking command in '/home/mubii/panda_ws/build/franka_mobile': CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/panda_ws/install/franka_example_controllers:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:/home/mubii/panda_ws/install/franka_example_controllers/lib:/home/mubii/panda_ws/install/franka_gazebo_hardware/lib:/home/mubii/panda_ws/install/franka_spine_msgs/lib:/home/mubii/panda_ws/install/franka_gripper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/mubii/panda_ws/build/franka_mobile
+[19.327s] -- Install configuration: ""
+[19.328s] -- Execute custom install script
+[19.328s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile//controllers.xml
+[19.339s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/include/franka_mobile/swerve_drive_controller_parameters.hpp
+[19.350s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/pythonpath.sh
+[19.361s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/pythonpath.dsv
+[19.372s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile-2.7.1-py3.10.egg-info/PKG-INFO
+[19.382s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile-2.7.1-py3.10.egg-info/SOURCES.txt
+[19.393s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile-2.7.1-py3.10.egg-info/dependency_links.txt
+[19.404s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile-2.7.1-py3.10.egg-info/top_level.txt
+[19.416s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/__init__.py
+[19.427s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/battery_api_client.py
+[19.438s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/battery_controller.py
+[19.448s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/battery_server.py
+[19.467s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/lib/libfranka_mobile.so
+[19.479s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/lib/franka_mobile/battery_server_node.py
+[19.490s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile//launch/battery.launch.py
+[19.501s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile//config/franka_battery_node.yaml
+[19.512s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile//config/swerve_drive_controller_parameters.yaml
+[19.524s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/library_path.sh
+[19.535s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/library_path.dsv
+[19.546s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/ament_index/resource_index/package_run_dependencies/franka_mobile
+[19.557s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/ament_index/resource_index/parent_prefix_path/franka_mobile
+[19.568s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/ament_prefix_path.sh
+[19.578s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/ament_prefix_path.dsv
+[19.588s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/path.sh
+[19.599s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/path.dsv
+[19.609s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/local_setup.bash
+[19.621s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/local_setup.sh
+[19.633s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/local_setup.zsh
+[19.644s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/local_setup.dsv
+[19.654s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/package.dsv
+[19.665s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/ament_index/resource_index/packages/franka_mobile
+[19.676s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_mobile
+[19.686s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.697s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/cmake/ament_cmake_export_libraries-extras.cmake
+[19.708s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/cmake/franka_mobileConfig.cmake
+[19.720s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/cmake/franka_mobileConfig-version.cmake
+[19.731s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/package.xml
+[19.785s] Listing '/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile'...
+[19.785s] Compiling '/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/__init__.py'...
+[19.785s] Compiling '/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/battery_api_client.py'...
+[19.786s] Compiling '/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/battery_controller.py'...
+[19.786s] Compiling '/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/battery_server.py'...
+[19.793s] Invoked command in '/home/mubii/panda_ws/build/franka_mobile' returned '0': CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/panda_ws/install/franka_example_controllers:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:/home/mubii/panda_ws/install/franka_example_controllers/lib:/home/mubii/panda_ws/install/franka_gazebo_hardware/lib:/home/mubii/panda_ws/install/franka_spine_msgs/lib:/home/mubii/panda_ws/install/franka_gripper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/mubii/panda_ws/build/franka_mobile

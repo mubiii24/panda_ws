@@ -1,0 +1,111 @@
+[0.024s] Invoking command in '/home/mubii/panda_ws/build/franka_mobile_sensors': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake /home/mubii/panda_ws/src/franka_ros2/franka_mobile_sensors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/franka_mobile_sensors
+[0.243s] -- The C compiler identification is GNU 11.4.0
+[0.365s] -- The CXX compiler identification is GNU 11.4.0
+[0.377s] -- Detecting C compiler ABI info
+[0.517s] -- Detecting C compiler ABI info - done
+[0.542s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.542s] -- Detecting C compile features
+[0.542s] -- Detecting C compile features - done
+[0.555s] -- Detecting CXX compiler ABI info
+[0.716s] -- Detecting CXX compiler ABI info - done
+[0.729s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.729s] -- Detecting CXX compile features
+[0.730s] -- Detecting CXX compile features - done
+[0.736s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.004s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.121s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.401s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.685s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.687s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.693s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.697s] -- Added test 'lint_cmake' to check CMake code style
+[1.698s] -- Added test 'xmllint' to check XML markup files
+[1.709s] -- Configuring done
+[1.718s] -- Generating done
+[1.726s] -- Build files have been written to: /home/mubii/panda_ws/build/franka_mobile_sensors
+[1.753s] Invoked command in '/home/mubii/panda_ws/build/franka_mobile_sensors' returned '0': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake /home/mubii/panda_ws/src/franka_ros2/franka_mobile_sensors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/franka_mobile_sensors
+[1.766s] Invoking command in '/home/mubii/panda_ws/build/franka_mobile_sensors': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_mobile_sensors -- -j12 -l12
+[1.927s] Built target ament_cmake_python_symlink_franka_mobile_sensors
+[2.770s] running egg_info
+[2.772s] creating franka_mobile_sensors.egg-info
+[2.773s] writing franka_mobile_sensors.egg-info/PKG-INFO
+[2.774s] writing dependency_links to franka_mobile_sensors.egg-info/dependency_links.txt
+[2.775s] writing top-level names to franka_mobile_sensors.egg-info/top_level.txt
+[2.775s] writing manifest file 'franka_mobile_sensors.egg-info/SOURCES.txt'
+[2.784s] reading manifest file 'franka_mobile_sensors.egg-info/SOURCES.txt'
+[2.785s] writing manifest file 'franka_mobile_sensors.egg-info/SOURCES.txt'
+[2.978s] Built target ament_cmake_python_build_franka_mobile_sensors_egg
+[3.034s] Invoked command in '/home/mubii/panda_ws/build/franka_mobile_sensors' returned '0': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_mobile_sensors -- -j12 -l12
+[3.052s] Invoking command in '/home/mubii/panda_ws/build/franka_mobile_sensors': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mubii/panda_ws/build/franka_mobile_sensors
+[3.091s] -- Install configuration: ""
+[3.091s] -- Execute custom install script
+[3.092s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/environment/pythonpath.sh
+[3.153s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/environment/pythonpath.dsv
+[3.223s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors-2.7.1-py3.10.egg-info/PKG-INFO
+[3.301s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors-2.7.1-py3.10.egg-info/SOURCES.txt
+[3.363s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors-2.7.1-py3.10.egg-info/dependency_links.txt
+[3.412s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors-2.7.1-py3.10.egg-info/top_level.txt
+[3.457s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/__init__.py
+[3.508s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/cameras/__init__.py
+[3.538s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/cameras/camera_configs.py
+[3.568s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/cameras/realsense_cameras.launch.py
+[3.611s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/franka_mobile_sensors.launch.py
+[3.656s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/lidars/__init__.py
+[3.701s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/lidars/lidar_configs.py
+[3.747s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/lidars/safety_scanners.launch.py
+[3.781s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/utils/__init__.py
+[3.814s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/utils/config_loader.py
+[3.878s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/visualization/rviz.launch.py
+[3.922s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/__init__.py
+[3.963s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/cameras/__init__.py
+[3.998s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/cameras/camera_configs.py
+[4.067s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/cameras/realsense_cameras.launch.py
+[4.098s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/franka_mobile_sensors.launch.py
+[4.130s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/lidars/__init__.py
+[4.180s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/lidars/lidar_configs.py
+[4.227s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/lidars/safety_scanners.launch.py
+[4.274s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/utils/__init__.py
+[4.326s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/utils/config_loader.py
+[4.378s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/visualization/rviz.launch.py
+[4.427s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/config/cameras/franka_mobile_d455.yaml
+[4.474s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/config/default_sensor_suite.yaml
+[4.527s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/config/lidars/sick_nanoscan2.yaml
+[4.576s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/rviz/tmr_sensors.rviz
+[4.618s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/robots/nanoscan3/nanoscan3.xacro
+[4.663s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/robots/nanoscan3/nanoscan3/nanoscan3_macro.xacro
+[4.693s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/robots/sensor_suite.xacro
+[4.715s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/robots/tmrv0_2_with_sensors.urdf.xacro
+[4.754s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/robots/tmrv0_2_with_sensors.xacro
+[4.778s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/doc/index.rst
+[4.801s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/ament_index/resource_index/package_run_dependencies/franka_mobile_sensors
+[4.823s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/ament_index/resource_index/parent_prefix_path/franka_mobile_sensors
+[4.878s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/environment/ament_prefix_path.sh
+[4.916s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/environment/ament_prefix_path.dsv
+[4.959s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/environment/path.sh
+[5.002s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/environment/path.dsv
+[5.042s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/local_setup.bash
+[5.084s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/local_setup.sh
+[5.125s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/local_setup.zsh
+[5.168s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/local_setup.dsv
+[5.212s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/package.dsv
+[5.250s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/ament_index/resource_index/packages/franka_mobile_sensors
+[5.292s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/cmake/franka_mobile_sensorsConfig.cmake
+[5.328s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/cmake/franka_mobile_sensorsConfig-version.cmake
+[5.371s] -- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/package.xml
+[5.593s] Listing '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors'...
+[5.593s] Compiling '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/__init__.py'...
+[5.593s] Listing '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/cameras'...
+[5.593s] Compiling '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/cameras/__init__.py'...
+[5.593s] Compiling '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/cameras/camera_configs.py'...
+[5.593s] Compiling '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/cameras/realsense_cameras.launch.py'...
+[5.593s] Compiling '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/franka_mobile_sensors.launch.py'...
+[5.593s] Listing '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/lidars'...
+[5.593s] Compiling '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/lidars/__init__.py'...
+[5.594s] Compiling '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/lidars/lidar_configs.py'...
+[5.594s] Compiling '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/lidars/safety_scanners.launch.py'...
+[5.594s] Listing '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/utils'...
+[5.594s] Compiling '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/utils/__init__.py'...
+[5.594s] Compiling '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/utils/config_loader.py'...
+[5.594s] Listing '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/visualization'...
+[5.594s] Compiling '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/visualization/rviz.launch.py'...
+[5.650s] Invoked command in '/home/mubii/panda_ws/build/franka_mobile_sensors' returned '0': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mubii/panda_ws/build/franka_mobile_sensors

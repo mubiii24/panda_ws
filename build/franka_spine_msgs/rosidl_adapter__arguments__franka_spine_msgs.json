@@ -1,0 +1,15 @@
+{
+  "package_name": "franka_spine_msgs",
+  "non_idl_tuples": [
+    "/home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_msgs:action/MoveAbsolute.action",
+    "/home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_msgs:msg/UserLimits.msg",
+    "/home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_msgs:msg/SpineParameters.msg",
+    "/home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_msgs:srv/GetSpineState.srv",
+    "/home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_msgs:srv/GetPosition.srv",
+    "/home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_msgs:srv/FaultReset.srv",
+    "/home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_msgs:srv/SwitchOn.srv",
+    "/home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_msgs:srv/SwitchOff.srv",
+    "/home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_msgs:srv/Halt.srv",
+    "/home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_msgs:srv/GetParameters.srv"
+  ]
+}

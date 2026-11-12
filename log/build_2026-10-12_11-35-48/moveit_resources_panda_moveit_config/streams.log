@@ -1,0 +1,68 @@
+[0.012s] Invoking command in '/home/mubii/panda_ws/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake /home/mubii/panda_ws/src/moveit_resources/panda_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.191s] -- The CXX compiler identification is GNU 11.4.0
+[0.201s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.324s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.324s] -- Detecting C compile features
+[0.324s] -- Detecting C compile features - done
+[0.328s] -- Detecting CXX compiler ABI info
+[0.454s] -- Detecting CXX compiler ABI info - done
+[0.462s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.462s] -- Detecting CXX compile features
+[0.462s] -- Detecting CXX compile features - done
+[0.467s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.673s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.796s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.956s] -- Configuring done
+[0.964s] -- Generating done
+[0.968s] -- Build files have been written to: /home/mubii/panda_ws/build/moveit_resources_panda_moveit_config
+[0.978s] Invoked command in '/home/mubii/panda_ws/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake /home/mubii/panda_ws/src/moveit_resources/panda_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config
+[0.981s] Invoking command in '/home/mubii/panda_ws/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mubii/panda_ws/build/moveit_resources_panda_moveit_config -- -j12 -l12
+[1.029s] Invoked command in '/home/mubii/panda_ws/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mubii/panda_ws/build/moveit_resources_panda_moveit_config -- -j12 -l12
+[1.031s] Invoking command in '/home/mubii/panda_ws/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mubii/panda_ws/build/moveit_resources_panda_moveit_config
+[1.041s] -- Install configuration: ""
+[1.041s] -- Execute custom install script
+[1.042s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_moveit_config
+[1.054s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_moveit_config
+[1.065s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/ament_prefix_path.sh
+[1.076s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/ament_prefix_path.dsv
+[1.087s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/path.sh
+[1.098s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/path.dsv
+[1.112s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.bash
+[1.124s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.sh
+[1.137s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.zsh
+[1.149s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.dsv
+[1.161s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.dsv
+[1.173s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/packages/moveit_resources_panda_moveit_config
+[1.187s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake/moveit_resources_panda_moveit_configConfig.cmake
+[1.201s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake/moveit_resources_panda_moveit_configConfig-version.cmake
+[1.215s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.xml
+[1.228s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/demo.launch.py
+[1.245s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit.rviz
+[1.259s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit_empty.rviz
+[1.277s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit_rviz.launch.py
+[1.295s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/chomp_planning.yaml
+[1.308s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/gripper_moveit_controllers.yaml
+[1.326s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/hand.xacro
+[1.340s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/initial_positions.yaml
+[1.356s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/joint_limits.yaml
+[1.373s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/kinematics.yaml
+[1.391s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/lerp_planning.yaml
+[1.410s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/moveit_controllers.yaml
+[1.427s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/ompl_planning.yaml
+[1.444s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.ros2_control.xacro
+[1.462s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.srdf
+[1.475s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.urdf.xacro
+[1.490s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm.srdf.xacro
+[1.507s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm.xacro
+[1.523s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm_hand.srdf.xacro
+[1.538s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_hand.ros2_control.xacro
+[1.559s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/pilz_cartesian_limits.yaml
+[1.577s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[1.594s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/ros2_controllers.yaml
+[1.611s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/sensors_kinect_depthmap.yaml
+[1.626s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/sensors_kinect_pointcloud.yaml
+[1.647s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/trajopt_planning.yaml
+[1.665s] -- Symlinking: /home/mubii/panda_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/.setup_assistant
+[1.687s] Invoked command in '/home/mubii/panda_ws/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mubii/panda_ws/build/moveit_resources_panda_moveit_config

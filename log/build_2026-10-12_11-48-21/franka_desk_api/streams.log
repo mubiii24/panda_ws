@@ -1,0 +1,39 @@
+[0.018s] Invoking command in '/home/mubii/panda_ws/build/franka_desk_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_desk_api -- -j12 -l12
+[0.087s] Built target ament_cmake_python_symlink_franka_desk_api
+[0.324s] running egg_info
+[0.325s] writing franka_desk_api.egg-info/PKG-INFO
+[0.325s] writing dependency_links to franka_desk_api.egg-info/dependency_links.txt
+[0.325s] writing top-level names to franka_desk_api.egg-info/top_level.txt
+[0.328s] reading manifest file 'franka_desk_api.egg-info/SOURCES.txt'
+[0.328s] writing manifest file 'franka_desk_api.egg-info/SOURCES.txt'
+[0.362s] Built target ament_cmake_python_build_franka_desk_api_egg
+[0.377s] Invoked command in '/home/mubii/panda_ws/build/franka_desk_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_desk_api -- -j12 -l12
+[0.390s] Invoking command in '/home/mubii/panda_ws/build/franka_desk_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mubii/panda_ws/build/franka_desk_api
+[0.399s] -- Install configuration: ""
+[0.399s] -- Execute custom install script
+[0.399s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/environment/pythonpath.sh
+[0.399s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/environment/pythonpath.dsv
+[0.400s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages/franka_desk_api-3.4.1-py3.10.egg-info/PKG-INFO
+[0.400s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages/franka_desk_api-3.4.1-py3.10.egg-info/SOURCES.txt
+[0.400s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages/franka_desk_api-3.4.1-py3.10.egg-info/dependency_links.txt
+[0.401s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages/franka_desk_api-3.4.1-py3.10.egg-info/top_level.txt
+[0.401s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages/franka_desk_api/__init__.py
+[0.401s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages/franka_desk_api/_rest_client.py
+[0.402s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api//README.md
+[0.402s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/ament_index/resource_index/package_run_dependencies/franka_desk_api
+[0.402s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/ament_index/resource_index/parent_prefix_path/franka_desk_api
+[0.403s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/environment/ament_prefix_path.sh
+[0.403s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/environment/ament_prefix_path.dsv
+[0.403s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/environment/path.sh
+[0.403s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/environment/path.dsv
+[0.403s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/local_setup.bash
+[0.404s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/local_setup.sh
+[0.404s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/local_setup.zsh
+[0.404s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/local_setup.dsv
+[0.404s] -- Symlinking: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/package.dsv
+[0.416s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/ament_index/resource_index/packages/franka_desk_api
+[0.416s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/cmake/franka_desk_apiConfig.cmake
+[0.416s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/cmake/franka_desk_apiConfig-version.cmake
+[0.416s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/package.xml
+[0.449s] Listing '/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages/franka_desk_api'...
+[0.457s] Invoked command in '/home/mubii/panda_ws/build/franka_desk_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mubii/panda_ws/build/franka_desk_api

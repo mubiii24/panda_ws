@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_bringup/launch/gazebo_mobile_robot.launch.py

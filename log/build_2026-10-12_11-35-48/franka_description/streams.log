@@ -1,0 +1,222 @@
+[0.046s] Invoking command in '/home/mubii/panda_ws/build/franka_description': CMAKE_PREFIX_PATH=/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake /home/mubii/panda_ws/src/franka_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/franka_description
+[0.211s] -- The C compiler identification is GNU 11.4.0
+[0.321s] -- The CXX compiler identification is GNU 11.4.0
+[0.333s] -- Detecting C compiler ABI info
+[0.449s] -- Detecting C compiler ABI info - done
+[0.457s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.457s] -- Detecting C compile features
+[0.457s] -- Detecting C compile features - done
+[0.460s] -- Detecting CXX compiler ABI info
+[0.589s] -- Detecting CXX compiler ABI info - done
+[0.600s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.600s] -- Detecting CXX compile features
+[0.601s] -- Detecting CXX compile features - done
+[0.606s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.851s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.961s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.015s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.058s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.113s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.119s] -- Added test 'lint_cmake' to check CMake code style
+[2.122s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.144s] -- Added test 'xmllint' to check XML markup files
+[2.146s] -- Configuring done
+[2.150s] -- Generating done
+[2.152s] -- Build files have been written to: /home/mubii/panda_ws/build/franka_description
+[2.160s] Invoked command in '/home/mubii/panda_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake /home/mubii/panda_ws/src/franka_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/franka_description
+[2.163s] Invoking command in '/home/mubii/panda_ws/build/franka_description': CMAKE_PREFIX_PATH=/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_description -- -j12 -l12
+[2.223s] Invoked command in '/home/mubii/panda_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_description -- -j12 -l12
+[2.225s] Invoking command in '/home/mubii/panda_ws/build/franka_description': CMAKE_PREFIX_PATH=/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mubii/panda_ws/build/franka_description
+[2.235s] -- Install configuration: ""
+[2.235s] -- Execute custom install script
+[2.236s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//accessories/fr3_duo_mount_v0_3/fr3_duo_mount.xacro
+[2.248s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//accessories/fr3_duo_mount_v0_3/inertials.yaml
+[2.260s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//accessories/fr3_duo_mount_v0_3/kinematics.yaml
+[2.273s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//accessories/franka_head_v0_2/franka_head.xacro
+[2.286s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//accessories/franka_head_v0_2/inertials.yaml
+[2.299s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//accessories/franka_head_v0_2/kinematics.yaml
+[2.313s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//accessories/franka_spine_v0_1/franka_spine.xacro
+[2.327s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//accessories/franka_spine_v0_1/inertials.yaml
+[2.342s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//accessories/franka_spine_v0_1/kinematics.yaml
+[2.355s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+[2.368s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/common/franka_arm.srdf.xacro
+[2.382s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/common/franka_arm.xacro
+[2.398s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/common/franka_robot.xacro
+[2.413s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/common/group_definition.xacro
+[2.427s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/common/utils.xacro
+[2.446s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fer/accelerometers.yaml
+[2.458s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fer/dynamics.yaml
+[2.471s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fer/fer.srdf.xacro
+[2.483s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fer/fer.urdf.xacro
+[2.495s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fer/inertials.yaml
+[2.510s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fer/joint_limits.yaml
+[2.524s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fer/kinematics.yaml
+[2.537s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fp3/accelerometers.yaml
+[2.552s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fp3/dynamics.yaml
+[2.564s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fp3/fp3.srdf.xacro
+[2.578s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fp3/fp3.urdf.xacro
+[2.591s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fp3/inertials.yaml
+[2.603s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fp3/joint_limits.yaml
+[2.614s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fp3/kinematics.yaml
+[2.627s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3/accelerometers.yaml
+[2.646s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3/dynamics.yaml
+[2.663s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3/fr3.srdf.xacro
+[2.677s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3/fr3.urdf.xacro
+[2.693s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3/inertials.yaml
+[2.714s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3/joint_limits.yaml
+[2.727s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3/kinematics.yaml
+[2.739s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo.srdf.xacro
+[2.750s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo.urdf.xacro
+[2.762s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo.xacro
+[2.774s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3v2/accelerometers.yaml
+[2.787s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3v2/dynamics.yaml
+[2.799s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3v2/fr3v2.srdf.xacro
+[2.811s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3v2/fr3v2.urdf.xacro
+[2.823s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3v2/inertials.yaml
+[2.834s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3v2/joint_limits.yaml
+[2.846s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3v2/kinematics.yaml
+[2.857s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1/accelerometers.yaml
+[2.870s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1/dynamics.yaml
+[2.881s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1/fr3v2_1.srdf.xacro
+[2.893s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1/fr3v2_1.urdf.xacro
+[2.905s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1/inertials.yaml
+[2.918s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1/joint_limits.yaml
+[2.930s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/fr3v2_1/kinematics.yaml
+[2.944s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/mobile_fr3_duo_v0_2/mobile_fr3_duo_v0_2.srdf.xacro
+[2.956s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/mobile_fr3_duo_v0_2/mobile_fr3_duo_v0_2.urdf.xacro
+[2.968s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/mobile_fr3_duo_v0_2/mobile_fr3_duo_v0_2.xacro
+[2.983s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/tmrv0_2/argo_drive.xacro
+[2.999s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/tmrv0_2/caster_wheel.xacro
+[3.017s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/tmrv0_2/inertia.xacro
+[3.031s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/tmrv0_2/rocker_arm.xacro
+[3.044s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/tmrv0_2/tmrv0_2.urdf.xacro
+[3.059s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//robots/tmrv0_2/tmrv0_2.xacro
+[3.073s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump.srdf.xacro
+[3.090s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump.urdf.xacro
+[3.107s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump_arguments.xacro
+[3.120s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/inertials.yaml
+[3.136s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//end_effectors/common/ee_with_one_link.xacro
+[3.155s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//end_effectors/common/franka_hand.xacro
+[3.170s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//end_effectors/common/utils.xacro
+[3.184s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand.srdf.xacro
+[3.199s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand.urdf.xacro
+[3.213s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand_arguments.xacro
+[3.228s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/inertials.yaml
+[3.246s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount_v0_3/collision/fr3_duo_cover.stl
+[3.261s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount_v0_3/collision/fr3_duo_mount.stl
+[3.274s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount_v0_3/visual/fr3_duo_cover.dae
+[3.293s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount_v0_3/visual/fr3_duo_mount.dae
+[3.321s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/accessories/franka_head_v0_2/collision/franka_head.stl
+[3.339s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/accessories/franka_head_v0_2/visual/franka_head.dae
+[3.360s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/accessories/franka_spine_v0_1/collision/franka_spine.stl
+[3.376s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/accessories/franka_spine_v0_1/visual/franka_spine.dae
+[3.396s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision/cobot_pump.stl
+[3.418s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual/cobot_pump.dae
+[3.436s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision/hand.stl
+[3.453s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/finger.dae
+[3.468s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/hand.dae
+[3.485s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision/hand.stl
+[3.497s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/finger.dae
+[3.514s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/hand.dae
+[3.527s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/hand.stl
+[3.545s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link0.stl
+[3.560s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link1.stl
+[3.577s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link2.stl
+[3.594s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link3.stl
+[3.613s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link4.stl
+[3.633s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link5.stl
+[3.657s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link6.stl
+[3.670s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/collision/link7.stl
+[3.685s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/finger.dae
+[3.699s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/hand.dae
+[3.712s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link0.dae
+[3.730s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link1.dae
+[3.745s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link2.dae
+[3.761s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link3.dae
+[3.777s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link4.dae
+[3.788s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link5.dae
+[3.804s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link6.dae
+[3.818s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fer/visual/link7.dae
+[3.831s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link0.stl
+[3.847s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link1.stl
+[3.862s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link2.stl
+[3.877s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link3.stl
+[3.892s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link4.stl
+[3.906s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link5.stl
+[3.920s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link6.stl
+[3.932s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/collision/link7.stl
+[3.947s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link0.dae
+[3.961s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link1.dae
+[3.977s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link2.dae
+[3.989s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link3.dae
+[4.000s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link4.dae
+[4.013s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link5.dae
+[4.025s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link6.dae
+[4.038s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fp3/visual/link7.dae
+[4.054s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link0.stl
+[4.070s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link1.stl
+[4.088s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link2.stl
+[4.103s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link3.stl
+[4.116s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link4.stl
+[4.128s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link5.stl
+[4.138s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link6.stl
+[4.150s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/collision/link7.stl
+[4.161s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link0.dae
+[4.172s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link1.dae
+[4.182s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link2.dae
+[4.194s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link3.dae
+[4.206s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link4.dae
+[4.217s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link5.dae
+[4.228s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link6.dae
+[4.239s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3/visual/link7.dae
+[4.250s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link0.stl
+[4.261s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link1.stl
+[4.273s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link2.stl
+[4.284s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link3.stl
+[4.296s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link4.stl
+[4.307s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link5.stl
+[4.318s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link6.stl
+[4.329s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/collision/link7.stl
+[4.341s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link0.dae
+[4.352s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link1.dae
+[4.364s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link2.dae
+[4.375s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link3.dae
+[4.387s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link4.dae
+[4.399s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link5.dae
+[4.412s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link6.dae
+[4.423s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2/visual/link7.dae
+[4.434s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link0.stl
+[4.445s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link1.stl
+[4.457s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link2.stl
+[4.468s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link3.stl
+[4.481s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link4.stl
+[4.492s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link5.stl
+[4.503s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link6.stl
+[4.514s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/collision/link7.stl
+[4.527s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link0.dae
+[4.542s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link1.dae
+[4.556s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link2.dae
+[4.570s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link3.dae
+[4.584s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link4.dae
+[4.599s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link5.dae
+[4.614s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link6.dae
+[4.630s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/fr3v2_1/visual/link7.dae
+[4.653s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/tmrv0_2/collision/tmrv0_2.stl
+[4.675s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//meshes/robots/tmrv0_2/visual/tmrv0_2.dae
+[4.693s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+[4.721s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+[4.755s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+[4.766s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+[4.777s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+[4.789s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description/environment/path.sh
+[4.805s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description/environment/path.dsv
+[4.821s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description/local_setup.bash
+[4.836s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description/local_setup.sh
+[4.854s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description/local_setup.zsh
+[4.870s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description/local_setup.dsv
+[4.887s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description/package.dsv
+[4.905s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/ament_index/resource_index/packages/franka_description
+[4.924s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+[4.948s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+[4.967s] -- Symlinking: /home/mubii/panda_ws/install/franka_description/share/franka_description/package.xml
+[5.002s] Invoked command in '/home/mubii/panda_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mubii/panda_ws/build/franka_description

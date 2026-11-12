@@ -1,0 +1,115 @@
+[0.021s] Invoking command in '/home/mubii/panda_ws/build/franka_example_controllers': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mubii/panda_ws/src/franka_ros2/franka_example_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/franka_example_controllers
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.164s] -- The CXX compiler identification is GNU 11.4.0
+[0.173s] -- Detecting C compiler ABI info
+[0.263s] -- Detecting C compiler ABI info - done
+[0.269s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.269s] -- Detecting C compile features
+[0.270s] -- Detecting C compile features - done
+[0.273s] -- Detecting CXX compiler ABI info
+[0.375s] -- Detecting CXX compiler ABI info - done
+[0.387s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.387s] -- Detecting CXX compile features
+[0.387s] -- Detecting CXX compile features - done
+[0.393s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.578s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.659s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.714s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.717s] -- Found controller_interface: 2.54.2 (/opt/ros/humble/share/controller_interface/cmake)
+[0.777s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.785s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.797s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.812s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.834s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.071s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.075s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.108s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.186s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.190s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.211s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.214s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.223s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.238s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.251s] -- Looking for pthread.h
+[1.345s] -- Looking for pthread.h - found
+[1.345s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.441s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.442s] -- Found Threads: TRUE  
+[1.493s] -- Found franka_msgs: 2.7.1 (/home/mubii/panda_ws/install/franka_msgs/share/franka_msgs/cmake)
+[1.513s] -- Found franka_semantic_components: 2.7.1 (/home/mubii/panda_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+[1.541s] -- Found moveit_core: 2.5.10 (/opt/ros/humble/share/moveit_core/cmake)
+[1.602s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.672s] -- Found tcb_span: 1.3.2 (/opt/ros/humble/share/tcb_span/cmake)
+[1.680s] -- Found parameter_traits: 0.7.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.859s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.921s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.921s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.227s] -- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization 
+[2.230s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[2.294s] -- Checking for NumPy
+[2.751s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[3.006s] --   NUMPY_VERSION=1.21.5
+[3.772s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy 
+[3.774s] -- PythonLibraryDirs: 
+[3.774s] -- PythonLibVersionString: 3.10.12
+[3.828s] -- Python site lib: lib/python3.10/site-packages
+[3.828s] -- Python include dirs: /usr/include/python3.10
+[3.939s] -- Checking for NumPy
+[4.232s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[4.624s] --   NUMPY_VERSION=1.21.5
+[4.624s] -- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[4.637s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[4.638s]   No header defined for python310; skipping header check (note: header-only
+[4.638s]   libraries have no designated component)
+[4.638s] Call Stack (most recent call first):
+[4.638s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:146 (find_package)
+[4.638s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:172 (SEARCH_FOR_BOOST_PYTHON)
+[4.638s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[4.638s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:184 (find_dependency)
+[4.638s]   CMakeLists.txt:25 (find_package)
+[4.638s] 
+[4.638s] [0m
+[4.653s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[5.535s] -- Default C++ standard: 201703
+[5.536s] -- Minimal C++ standard upgraded to 11
+[5.538s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[5.543s] -- coal FOUND. coal at /opt/ros/humble/lib/x86_64-linux-gnu/libcoal.so
+[5.562s] -- Found Boost: /usr/include (found version "1.74.0") found components: serialization filesystem 
+[5.568s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[5.570s] -- Minimal C++ standard upgraded to 17
+[5.571s] -- C++ standard sufficient: Minimal required 17, currently defined: 17
+[5.587s] -- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)
+[5.664s] -- Found ament_cmake_clang_format: 0.12.15 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[5.671s] -- Found ament_cmake_copyright: 0.12.15 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+[5.679s] -- Found ament_cmake_cppcheck: 0.12.15 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[5.688s] -- Found ament_cmake_flake8: 0.12.15 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[5.692s] -- Found ament_cmake_lint_cmake: 0.12.15 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[5.701s] -- Found ament_cmake_pep257: 0.12.15 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[5.705s] -- Found ament_cmake_xmllint: 0.12.15 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+[5.712s] -- Found ament_cmake_gmock: 1.3.14 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[5.719s] -- Found controller_manager: 2.54.2 (/opt/ros/humble/share/controller_manager/cmake)
+[5.772s] -- Found ros2_control_test_assets: 2.54.2 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[5.785s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[5.800s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.802s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.012s] -- Configuring done
+[6.218s] -- Generating done
+[6.275s] -- Build files have been written to: /home/mubii/panda_ws/build/franka_example_controllers
+[6.338s] Invoked command in '/home/mubii/panda_ws/build/franka_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mubii/panda_ws/src/franka_ros2/franka_example_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/franka_example_controllers
+[6.342s] Invoking command in '/home/mubii/panda_ws/build/franka_example_controllers': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_example_controllers -- -j12 -l12
+[6.475s] [  3%] [32mBuilding CXX object CMakeFiles/ptp_motion_example_node.dir/src/async_motions/ptp_motion_example_node.cpp.o[0m
+[6.485s] [  7%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_orientation_example_controller.cpp.o[0m
+[6.485s] [ 10%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_elbow_example_controller.cpp.o[0m
+[6.490s] [ 14%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/elbow_example_controller.cpp.o[0m
+[6.490s] [ 17%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_pose_example_controller.cpp.o[0m
+[6.494s] [ 21%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[6.494s] [ 25%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_velocity_example_controller.cpp.o[0m
+[6.505s] [ 28%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[6.511s] [ 35%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[6.520s] [ 39%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/gripper_example_controller.cpp.o[0m
+[6.520s] [ 35%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/gravity_compensation_example_controller.cpp.o[0m
+[6.521s] [ 42%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/joint_impedance_example_controller.cpp.o[0m
+[12.961s] [ 46%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[13.390s] [ 46%] Built target gmock_main
+[13.442s] [ 50%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/joint_impedance_with_ik_example_controller.cpp.o[0m
+[15.071s] [ 53%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/joint_position_example_controller.cpp.o[0m

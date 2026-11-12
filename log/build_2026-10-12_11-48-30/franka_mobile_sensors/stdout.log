@@ -1,0 +1,68 @@
+Built target ament_cmake_python_symlink_franka_mobile_sensors
+running egg_info
+writing franka_mobile_sensors.egg-info/PKG-INFO
+writing dependency_links to franka_mobile_sensors.egg-info/dependency_links.txt
+writing top-level names to franka_mobile_sensors.egg-info/top_level.txt
+reading manifest file 'franka_mobile_sensors.egg-info/SOURCES.txt'
+writing manifest file 'franka_mobile_sensors.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_franka_mobile_sensors_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/environment/pythonpath.sh
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors-2.7.1-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors-2.7.1-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors-2.7.1-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors-2.7.1-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/__init__.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/cameras/__init__.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/cameras/camera_configs.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/cameras/realsense_cameras.launch.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/franka_mobile_sensors.launch.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/lidars/__init__.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/lidars/lidar_configs.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/lidars/safety_scanners.launch.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/utils/__init__.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/utils/config_loader.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/visualization/rviz.launch.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/__init__.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/cameras/__init__.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/cameras/camera_configs.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/cameras/realsense_cameras.launch.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/franka_mobile_sensors.launch.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/lidars/__init__.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/lidars/lidar_configs.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/lidars/safety_scanners.launch.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/utils/__init__.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/utils/config_loader.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/launch/visualization/rviz.launch.py
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/config/cameras/franka_mobile_d455.yaml
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/config/default_sensor_suite.yaml
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/config/lidars/sick_nanoscan2.yaml
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/rviz/tmr_sensors.rviz
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/robots/nanoscan3/nanoscan3.xacro
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/robots/nanoscan3/nanoscan3/nanoscan3_macro.xacro
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/robots/sensor_suite.xacro
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/robots/tmrv0_2_with_sensors.urdf.xacro
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/robots/tmrv0_2_with_sensors.xacro
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/doc/index.rst
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/ament_index/resource_index/package_run_dependencies/franka_mobile_sensors
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/ament_index/resource_index/parent_prefix_path/franka_mobile_sensors
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/environment/path.sh
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/environment/path.dsv
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/local_setup.bash
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/local_setup.sh
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/local_setup.zsh
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/local_setup.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/package.dsv
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/ament_index/resource_index/packages/franka_mobile_sensors
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/cmake/franka_mobile_sensorsConfig.cmake
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/cmake/franka_mobile_sensorsConfig-version.cmake
+-- Up-to-date symlink: /home/mubii/panda_ws/install/franka_mobile_sensors/share/franka_mobile_sensors/package.xml
+Listing '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors'...
+Listing '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/cameras'...
+Listing '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/lidars'...
+Listing '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/utils'...
+Listing '/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages/franka_mobile_sensors/visualization'...

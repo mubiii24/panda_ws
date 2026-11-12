@@ -1,0 +1,433 @@
+[0.000000] (-) TimerEvent: {}
+[0.000212] (-) JobUnselected: {'identifier': 'franka_bringup'}
+[0.000235] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.000249] (-) JobUnselected: {'identifier': 'franka_desk_api'}
+[0.000261] (-) JobUnselected: {'identifier': 'franka_example_controllers'}
+[0.000273] (-) JobUnselected: {'identifier': 'franka_fr3_moveit_config'}
+[0.000285] (-) JobUnselected: {'identifier': 'franka_gazebo_bringup'}
+[0.000296] (-) JobUnselected: {'identifier': 'franka_gripper'}
+[0.000308] (-) JobUnselected: {'identifier': 'franka_hardware'}
+[0.000319] (-) JobUnselected: {'identifier': 'franka_mobile'}
+[0.000331] (-) JobUnselected: {'identifier': 'franka_mobile_sensors'}
+[0.000342] (-) JobUnselected: {'identifier': 'franka_msgs'}
+[0.000354] (-) JobUnselected: {'identifier': 'franka_robot_state_broadcaster'}
+[0.000365] (-) JobUnselected: {'identifier': 'franka_ros2'}
+[0.000469] (-) JobUnselected: {'identifier': 'franka_semantic_components'}
+[0.000482] (-) JobUnselected: {'identifier': 'franka_spine_examples'}
+[0.000494] (-) JobUnselected: {'identifier': 'franka_spine_msgs'}
+[0.000506] (-) JobUnselected: {'identifier': 'franka_spine_server'}
+[0.000518] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000529] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000542] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000554] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000566] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000577] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000592] (franka_gazebo_hardware) JobQueued: {'identifier': 'franka_gazebo_hardware', 'dependencies': OrderedDict([('franka_description', '/home/mubii/panda_ws/install/franka_description'), ('franka_msgs', '/home/mubii/panda_ws/install/franka_msgs'), ('franka_hardware', '/home/mubii/panda_ws/install/franka_hardware')])}
+[0.000853] (franka_gazebo_hardware) JobStarted: {'identifier': 'franka_gazebo_hardware'}
+[0.019300] (franka_gazebo_hardware) JobProgress: {'identifier': 'franka_gazebo_hardware', 'progress': 'cmake'}
+[0.020483] (franka_gazebo_hardware) JobProgress: {'identifier': 'franka_gazebo_hardware', 'progress': 'build'}
+[0.021091] (franka_gazebo_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mubii/panda_ws/build/franka_gazebo_hardware', '--', '-j12', '-l12'], 'cwd': '/home/mubii/panda_ws/build/franka_gazebo_hardware', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mubii'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:/home/mubii/panda_ws/install/franka_spine_msgs/lib:/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_gripper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mubii'), ('OLDPWD', '/home/mubii/panda_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1624'), ('SYSTEMD_EXEC_PID', '1801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3195'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mubii/panda_ws/install:/home/mubii/robot_ws/install:/home/mubii/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mubii'), ('JOURNAL_STREAM', '8:16634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mubii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zoro:@/tmp/.ICE-unix/1764,unix/zoro:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9f82dc82002842db9fe1ebec0d5cf271'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T2EYW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ba8347c7-7d67-454c-b4cd-e7212cfb8c0f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mubii/panda_ws/build/franka_gazebo_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:/home/mubii/robot_ws/build/robot_description:/home/mubii/robot_ws/install/robot_description/lib/python3.10/site-packages:/home/mubii/ros2_ws/install/my_beginner_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble')]), 'shell': False}
+[0.094679] (franka_gazebo_hardware) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock_main\x1b[0m\n'}
+[0.097003] (franka_gazebo_hardware) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock\x1b[0m\n'}
+[0.099699] (-) TimerEvent: {}
+[0.107433] (franka_gazebo_hardware) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/franka_gz_hardware_plugins.dir/src/franka_gazebo_hardware_interface.cpp.o\x1b[0m\n'}
+[0.107670] (franka_gazebo_hardware) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/franka_gz_hardware_plugins.dir/src/gravity_compensation_model.cpp.o\x1b[0m\n'}
+[0.111178] (franka_gazebo_hardware) StdoutLine: {'line': b'[ 40%] Built target gmock_main\n'}
+[0.115154] (franka_gazebo_hardware) StdoutLine: {'line': b'[ 70%] Built target gmock\n'}
+[0.199989] (-) TimerEvent: {}
+[0.300529] (-) TimerEvent: {}
+[0.401057] (-) TimerEvent: {}
+[0.501443] (-) TimerEvent: {}
+[0.601821] (-) TimerEvent: {}
+[0.702363] (-) TimerEvent: {}
+[0.802933] (-) TimerEvent: {}
+[0.903318] (-) TimerEvent: {}
+[1.003911] (-) TimerEvent: {}
+[1.104444] (-) TimerEvent: {}
+[1.204852] (-) TimerEvent: {}
+[1.305486] (-) TimerEvent: {}
+[1.405874] (-) TimerEvent: {}
+[1.506249] (-) TimerEvent: {}
+[1.606607] (-) TimerEvent: {}
+[1.706968] (-) TimerEvent: {}
+[1.807444] (-) TimerEvent: {}
+[1.907778] (-) TimerEvent: {}
+[2.008156] (-) TimerEvent: {}
+[2.108588] (-) TimerEvent: {}
+[2.208908] (-) TimerEvent: {}
+[2.309244] (-) TimerEvent: {}
+[2.409585] (-) TimerEvent: {}
+[2.509914] (-) TimerEvent: {}
+[2.610280] (-) TimerEvent: {}
+[2.710590] (-) TimerEvent: {}
+[2.810863] (-) TimerEvent: {}
+[2.911139] (-) TimerEvent: {}
+[3.011434] (-) TimerEvent: {}
+[3.111737] (-) TimerEvent: {}
+[3.212082] (-) TimerEvent: {}
+[3.312416] (-) TimerEvent: {}
+[3.412749] (-) TimerEvent: {}
+[3.513106] (-) TimerEvent: {}
+[3.613442] (-) TimerEvent: {}
+[3.713768] (-) TimerEvent: {}
+[3.814089] (-) TimerEvent: {}
+[3.914438] (-) TimerEvent: {}
+[4.014781] (-) TimerEvent: {}
+[4.115108] (-) TimerEvent: {}
+[4.215450] (-) TimerEvent: {}
+[4.315798] (-) TimerEvent: {}
+[4.416129] (-) TimerEvent: {}
+[4.516474] (-) TimerEvent: {}
+[4.616824] (-) TimerEvent: {}
+[4.717161] (-) TimerEvent: {}
+[4.817487] (-) TimerEvent: {}
+[4.917817] (-) TimerEvent: {}
+[5.018160] (-) TimerEvent: {}
+[5.118518] (-) TimerEvent: {}
+[5.218905] (-) TimerEvent: {}
+[5.319270] (-) TimerEvent: {}
+[5.419653] (-) TimerEvent: {}
+[5.520006] (-) TimerEvent: {}
+[5.620364] (-) TimerEvent: {}
+[5.720793] (-) TimerEvent: {}
+[5.821193] (-) TimerEvent: {}
+[5.921602] (-) TimerEvent: {}
+[6.021961] (-) TimerEvent: {}
+[6.122312] (-) TimerEvent: {}
+[6.222724] (-) TimerEvent: {}
+[6.323095] (-) TimerEvent: {}
+[6.423459] (-) TimerEvent: {}
+[6.481581] (franka_gazebo_hardware) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware/include/franka_gazebo_hardware/franka_gazebo_hardware_interface.hpp:24\x1b[m\x1b[K,\n'}
+[6.481884] (franka_gazebo_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware/src/franka_gazebo_hardware_interface.cpp:28\x1b[m\x1b[K:\n'}
+[6.481972] (franka_gazebo_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::array<double, 7> franka_hardware::Model::coriolis(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.482053] (franka_gazebo_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:141:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::array<double, 7> franka::Model::coriolis(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.482132] (franka_gazebo_hardware) StderrLine: {'line': b'  141 |     return \x1b[01;35m\x1b[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)\x1b[m\x1b[K;\n'}
+[6.482204] (franka_gazebo_hardware) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.482270] (franka_gazebo_hardware) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware/include/franka_gazebo_hardware/franka_gazebo_hardware_interface.hpp:17\x1b[m\x1b[K,\n'}
+[6.482334] (franka_gazebo_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware/src/franka_gazebo_hardware_interface.cpp:28\x1b[m\x1b[K:\n'}
+[6.482420] (franka_gazebo_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/franka/model.h:247:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.482492] (franka_gazebo_hardware) StderrLine: {'line': b'  247 |   \x1b[01;36m\x1b[Kcoriolis\x1b[m\x1b[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)\n'}
+[6.482565] (franka_gazebo_hardware) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.523590] (-) TimerEvent: {}
+[6.623931] (-) TimerEvent: {}
+[6.724290] (-) TimerEvent: {}
+[6.824672] (-) TimerEvent: {}
+[6.925003] (-) TimerEvent: {}
+[7.025394] (-) TimerEvent: {}
+[7.125764] (-) TimerEvent: {}
+[7.226141] (-) TimerEvent: {}
+[7.326505] (-) TimerEvent: {}
+[7.426874] (-) TimerEvent: {}
+[7.527218] (-) TimerEvent: {}
+[7.627591] (-) TimerEvent: {}
+[7.727975] (-) TimerEvent: {}
+[7.828337] (-) TimerEvent: {}
+[7.928706] (-) TimerEvent: {}
+[8.029042] (-) TimerEvent: {}
+[8.129422] (-) TimerEvent: {}
+[8.229790] (-) TimerEvent: {}
+[8.330175] (-) TimerEvent: {}
+[8.430604] (-) TimerEvent: {}
+[8.531024] (-) TimerEvent: {}
+[8.631397] (-) TimerEvent: {}
+[8.731740] (-) TimerEvent: {}
+[8.832092] (-) TimerEvent: {}
+[8.932459] (-) TimerEvent: {}
+[9.032822] (-) TimerEvent: {}
+[9.133172] (-) TimerEvent: {}
+[9.233537] (-) TimerEvent: {}
+[9.333879] (-) TimerEvent: {}
+[9.434214] (-) TimerEvent: {}
+[9.534582] (-) TimerEvent: {}
+[9.634940] (-) TimerEvent: {}
+[9.735289] (-) TimerEvent: {}
+[9.835668] (-) TimerEvent: {}
+[9.936004] (-) TimerEvent: {}
+[10.036333] (-) TimerEvent: {}
+[10.136699] (-) TimerEvent: {}
+[10.237040] (-) TimerEvent: {}
+[10.337419] (-) TimerEvent: {}
+[10.437769] (-) TimerEvent: {}
+[10.538144] (-) TimerEvent: {}
+[10.638492] (-) TimerEvent: {}
+[10.738834] (-) TimerEvent: {}
+[10.839182] (-) TimerEvent: {}
+[10.939543] (-) TimerEvent: {}
+[11.039882] (-) TimerEvent: {}
+[11.140235] (-) TimerEvent: {}
+[11.240609] (-) TimerEvent: {}
+[11.340975] (-) TimerEvent: {}
+[11.441328] (-) TimerEvent: {}
+[11.541676] (-) TimerEvent: {}
+[11.641992] (-) TimerEvent: {}
+[11.742300] (-) TimerEvent: {}
+[11.842640] (-) TimerEvent: {}
+[11.942960] (-) TimerEvent: {}
+[12.043297] (-) TimerEvent: {}
+[12.143654] (-) TimerEvent: {}
+[12.244002] (-) TimerEvent: {}
+[12.344336] (-) TimerEvent: {}
+[12.444678] (-) TimerEvent: {}
+[12.545035] (-) TimerEvent: {}
+[12.645397] (-) TimerEvent: {}
+[12.745744] (-) TimerEvent: {}
+[12.846084] (-) TimerEvent: {}
+[12.946450] (-) TimerEvent: {}
+[13.047262] (-) TimerEvent: {}
+[13.147639] (-) TimerEvent: {}
+[13.247954] (-) TimerEvent: {}
+[13.348263] (-) TimerEvent: {}
+[13.448603] (-) TimerEvent: {}
+[13.548948] (-) TimerEvent: {}
+[13.649268] (-) TimerEvent: {}
+[13.749637] (-) TimerEvent: {}
+[13.850064] (-) TimerEvent: {}
+[13.950483] (-) TimerEvent: {}
+[14.050908] (-) TimerEvent: {}
+[14.151329] (-) TimerEvent: {}
+[14.251781] (-) TimerEvent: {}
+[14.352212] (-) TimerEvent: {}
+[14.452670] (-) TimerEvent: {}
+[14.553098] (-) TimerEvent: {}
+[14.653532] (-) TimerEvent: {}
+[14.753962] (-) TimerEvent: {}
+[14.854391] (-) TimerEvent: {}
+[14.954851] (-) TimerEvent: {}
+[15.055317] (-) TimerEvent: {}
+[15.155773] (-) TimerEvent: {}
+[15.256232] (-) TimerEvent: {}
+[15.356670] (-) TimerEvent: {}
+[15.457045] (-) TimerEvent: {}
+[15.557455] (-) TimerEvent: {}
+[15.657884] (-) TimerEvent: {}
+[15.758301] (-) TimerEvent: {}
+[15.858732] (-) TimerEvent: {}
+[15.959138] (-) TimerEvent: {}
+[16.059620] (-) TimerEvent: {}
+[16.160045] (-) TimerEvent: {}
+[16.260467] (-) TimerEvent: {}
+[16.360880] (-) TimerEvent: {}
+[16.461348] (-) TimerEvent: {}
+[16.561794] (-) TimerEvent: {}
+[16.662260] (-) TimerEvent: {}
+[16.762706] (-) TimerEvent: {}
+[16.863137] (-) TimerEvent: {}
+[16.963608] (-) TimerEvent: {}
+[17.064067] (-) TimerEvent: {}
+[17.164492] (-) TimerEvent: {}
+[17.264921] (-) TimerEvent: {}
+[17.365408] (-) TimerEvent: {}
+[17.465847] (-) TimerEvent: {}
+[17.566283] (-) TimerEvent: {}
+[17.666728] (-) TimerEvent: {}
+[17.767188] (-) TimerEvent: {}
+[17.867636] (-) TimerEvent: {}
+[17.968054] (-) TimerEvent: {}
+[18.068472] (-) TimerEvent: {}
+[18.168892] (-) TimerEvent: {}
+[18.269314] (-) TimerEvent: {}
+[18.370048] (-) TimerEvent: {}
+[18.470470] (-) TimerEvent: {}
+[18.570881] (-) TimerEvent: {}
+[18.671288] (-) TimerEvent: {}
+[18.771709] (-) TimerEvent: {}
+[18.872285] (-) TimerEvent: {}
+[18.972708] (-) TimerEvent: {}
+[19.073101] (-) TimerEvent: {}
+[19.173511] (-) TimerEvent: {}
+[19.273940] (-) TimerEvent: {}
+[19.374346] (-) TimerEvent: {}
+[19.474767] (-) TimerEvent: {}
+[19.575127] (-) TimerEvent: {}
+[19.675565] (-) TimerEvent: {}
+[19.775978] (-) TimerEvent: {}
+[19.876415] (-) TimerEvent: {}
+[19.976839] (-) TimerEvent: {}
+[20.077199] (-) TimerEvent: {}
+[20.177513] (-) TimerEvent: {}
+[20.277931] (-) TimerEvent: {}
+[20.378389] (-) TimerEvent: {}
+[20.478818] (-) TimerEvent: {}
+[20.579231] (-) TimerEvent: {}
+[20.679630] (-) TimerEvent: {}
+[20.780001] (-) TimerEvent: {}
+[20.880476] (-) TimerEvent: {}
+[20.980929] (-) TimerEvent: {}
+[21.081348] (-) TimerEvent: {}
+[21.181825] (-) TimerEvent: {}
+[21.282246] (-) TimerEvent: {}
+[21.382656] (-) TimerEvent: {}
+[21.483073] (-) TimerEvent: {}
+[21.583498] (-) TimerEvent: {}
+[21.683929] (-) TimerEvent: {}
+[21.784346] (-) TimerEvent: {}
+[21.884773] (-) TimerEvent: {}
+[21.985139] (-) TimerEvent: {}
+[22.085579] (-) TimerEvent: {}
+[22.186057] (-) TimerEvent: {}
+[22.286497] (-) TimerEvent: {}
+[22.386980] (-) TimerEvent: {}
+[22.447996] (franka_gazebo_hardware) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libfranka_gz_hardware_plugins.so\x1b[0m\n'}
+[22.487127] (-) TimerEvent: {}
+[22.587627] (-) TimerEvent: {}
+[22.688032] (-) TimerEvent: {}
+[22.788488] (-) TimerEvent: {}
+[22.889058] (-) TimerEvent: {}
+[22.989652] (-) TimerEvent: {}
+[23.090154] (-) TimerEvent: {}
+[23.190770] (-) TimerEvent: {}
+[23.291249] (-) TimerEvent: {}
+[23.391732] (-) TimerEvent: {}
+[23.492211] (-) TimerEvent: {}
+[23.592758] (-) TimerEvent: {}
+[23.693285] (-) TimerEvent: {}
+[23.793814] (-) TimerEvent: {}
+[23.894304] (-) TimerEvent: {}
+[23.994847] (-) TimerEvent: {}
+[24.095301] (-) TimerEvent: {}
+[24.195778] (-) TimerEvent: {}
+[24.296254] (-) TimerEvent: {}
+[24.396749] (-) TimerEvent: {}
+[24.497193] (-) TimerEvent: {}
+[24.597524] (-) TimerEvent: {}
+[24.697946] (-) TimerEvent: {}
+[24.798360] (-) TimerEvent: {}
+[24.898814] (-) TimerEvent: {}
+[24.947285] (franka_gazebo_hardware) StdoutLine: {'line': b'[ 80%] Built target franka_gz_hardware_plugins\n'}
+[24.978006] (franka_gazebo_hardware) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/gravity_compensation_model_test.dir/test/gravity_compensation_model_test.cpp.o\x1b[0m\n'}
+[24.998945] (-) TimerEvent: {}
+[25.099290] (-) TimerEvent: {}
+[25.199682] (-) TimerEvent: {}
+[25.300021] (-) TimerEvent: {}
+[25.400441] (-) TimerEvent: {}
+[25.500775] (-) TimerEvent: {}
+[25.601165] (-) TimerEvent: {}
+[25.701525] (-) TimerEvent: {}
+[25.801880] (-) TimerEvent: {}
+[25.902234] (-) TimerEvent: {}
+[26.002640] (-) TimerEvent: {}
+[26.103041] (-) TimerEvent: {}
+[26.203527] (-) TimerEvent: {}
+[26.304040] (-) TimerEvent: {}
+[26.404448] (-) TimerEvent: {}
+[26.504813] (-) TimerEvent: {}
+[26.605177] (-) TimerEvent: {}
+[26.705538] (-) TimerEvent: {}
+[26.805927] (-) TimerEvent: {}
+[26.906324] (-) TimerEvent: {}
+[27.006724] (-) TimerEvent: {}
+[27.107077] (-) TimerEvent: {}
+[27.207453] (-) TimerEvent: {}
+[27.307963] (-) TimerEvent: {}
+[27.408730] (-) TimerEvent: {}
+[27.509085] (-) TimerEvent: {}
+[27.609438] (-) TimerEvent: {}
+[27.709783] (-) TimerEvent: {}
+[27.810144] (-) TimerEvent: {}
+[27.910532] (-) TimerEvent: {}
+[28.010912] (-) TimerEvent: {}
+[28.111278] (-) TimerEvent: {}
+[28.211714] (-) TimerEvent: {}
+[28.312098] (-) TimerEvent: {}
+[28.412497] (-) TimerEvent: {}
+[28.512874] (-) TimerEvent: {}
+[28.613227] (-) TimerEvent: {}
+[28.713573] (-) TimerEvent: {}
+[28.813971] (-) TimerEvent: {}
+[28.914398] (-) TimerEvent: {}
+[29.014772] (-) TimerEvent: {}
+[29.115150] (-) TimerEvent: {}
+[29.215771] (-) TimerEvent: {}
+[29.316189] (-) TimerEvent: {}
+[29.416613] (-) TimerEvent: {}
+[29.517008] (-) TimerEvent: {}
+[29.617412] (-) TimerEvent: {}
+[29.717791] (-) TimerEvent: {}
+[29.818213] (-) TimerEvent: {}
+[29.918767] (-) TimerEvent: {}
+[30.019190] (-) TimerEvent: {}
+[30.119579] (-) TimerEvent: {}
+[30.219908] (-) TimerEvent: {}
+[30.320205] (-) TimerEvent: {}
+[30.420604] (-) TimerEvent: {}
+[30.520987] (-) TimerEvent: {}
+[30.621589] (-) TimerEvent: {}
+[30.721976] (-) TimerEvent: {}
+[30.822345] (-) TimerEvent: {}
+[30.922741] (-) TimerEvent: {}
+[31.023115] (-) TimerEvent: {}
+[31.123486] (-) TimerEvent: {}
+[31.223843] (-) TimerEvent: {}
+[31.324215] (-) TimerEvent: {}
+[31.424595] (-) TimerEvent: {}
+[31.524966] (-) TimerEvent: {}
+[31.625363] (-) TimerEvent: {}
+[31.725795] (-) TimerEvent: {}
+[31.826173] (-) TimerEvent: {}
+[31.926540] (-) TimerEvent: {}
+[32.026861] (-) TimerEvent: {}
+[32.127267] (-) TimerEvent: {}
+[32.227793] (-) TimerEvent: {}
+[32.328159] (-) TimerEvent: {}
+[32.428521] (-) TimerEvent: {}
+[32.528845] (-) TimerEvent: {}
+[32.629136] (-) TimerEvent: {}
+[32.729508] (-) TimerEvent: {}
+[32.829936] (-) TimerEvent: {}
+[32.930328] (-) TimerEvent: {}
+[33.030709] (-) TimerEvent: {}
+[33.131066] (-) TimerEvent: {}
+[33.231444] (-) TimerEvent: {}
+[33.244993] (franka_gazebo_hardware) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gravity_compensation_model_test\x1b[0m\n'}
+[33.331637] (-) TimerEvent: {}
+[33.432120] (-) TimerEvent: {}
+[33.532576] (-) TimerEvent: {}
+[33.633032] (-) TimerEvent: {}
+[33.733476] (-) TimerEvent: {}
+[33.833857] (-) TimerEvent: {}
+[33.934345] (-) TimerEvent: {}
+[34.034864] (-) TimerEvent: {}
+[34.135489] (-) TimerEvent: {}
+[34.236031] (-) TimerEvent: {}
+[34.336656] (-) TimerEvent: {}
+[34.437200] (-) TimerEvent: {}
+[34.537637] (-) TimerEvent: {}
+[34.638035] (-) TimerEvent: {}
+[34.738460] (-) TimerEvent: {}
+[34.838838] (-) TimerEvent: {}
+[34.939243] (-) TimerEvent: {}
+[35.039608] (-) TimerEvent: {}
+[35.139901] (-) TimerEvent: {}
+[35.240269] (-) TimerEvent: {}
+[35.273668] (franka_gazebo_hardware) StdoutLine: {'line': b'[100%] Built target gravity_compensation_model_test\n'}
+[35.289034] (franka_gazebo_hardware) CommandEnded: {'returncode': 0}
+[35.290703] (franka_gazebo_hardware) JobProgress: {'identifier': 'franka_gazebo_hardware', 'progress': 'install'}
+[35.301823] (franka_gazebo_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mubii/panda_ws/build/franka_gazebo_hardware'], 'cwd': '/home/mubii/panda_ws/build/franka_gazebo_hardware', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mubii'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:/home/mubii/panda_ws/install/franka_spine_msgs/lib:/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_gripper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mubii'), ('OLDPWD', '/home/mubii/panda_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1624'), ('SYSTEMD_EXEC_PID', '1801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3195'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mubii/panda_ws/install:/home/mubii/robot_ws/install:/home/mubii/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mubii'), ('JOURNAL_STREAM', '8:16634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mubii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zoro:@/tmp/.ICE-unix/1764,unix/zoro:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9f82dc82002842db9fe1ebec0d5cf271'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T2EYW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ba8347c7-7d67-454c-b4cd-e7212cfb8c0f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mubii/panda_ws/build/franka_gazebo_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:/home/mubii/robot_ws/build/robot_description:/home/mubii/robot_ws/install/robot_description/lib/python3.10/site-packages:/home/mubii/ros2_ws/install/my_beginner_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble')]), 'shell': False}
+[35.310113] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.310725] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[35.311001] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware//franka_gz_hardware_plugins.xml\n'}
+[35.322570] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/lib/libfranka_gz_hardware_plugins.so\n'}
+[35.333953] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/include/franka_gazebo_hardware/franka_gazebo_hardware_interface.hpp\n'}
+[35.340415] (-) TimerEvent: {}
+[35.345192] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/include/franka_gazebo_hardware/gravity_compensation_model.hpp\n'}
+[35.355968] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/ament_index/resource_index/package_run_dependencies/franka_gazebo_hardware\n'}
+[35.367420] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/ament_index/resource_index/parent_prefix_path/franka_gazebo_hardware\n'}
+[35.378916] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/environment/ament_prefix_path.sh\n'}
+[35.389708] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/environment/ament_prefix_path.dsv\n'}
+[35.400401] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/environment/path.sh\n'}
+[35.411661] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/environment/path.dsv\n'}
+[35.421526] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/local_setup.bash\n'}
+[35.431760] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/local_setup.sh\n'}
+[35.440533] (-) TimerEvent: {}
+[35.442925] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/local_setup.zsh\n'}
+[35.454103] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/local_setup.dsv\n'}
+[35.465171] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/package.dsv\n'}
+[35.477438] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/ament_index/resource_index/packages/franka_gazebo_hardware\n'}
+[35.489051] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/franka_gazebo_hardware\n'}
+[35.500345] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/cmake/franka_gazebo_hardwareConfig.cmake\n'}
+[35.511283] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/cmake/franka_gazebo_hardwareConfig-version.cmake\n'}
+[35.522923] (franka_gazebo_hardware) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/package.xml\n'}
+[35.540891] (-) TimerEvent: {}
+[35.544767] (franka_gazebo_hardware) CommandEnded: {'returncode': 0}
+[35.561492] (franka_gazebo_hardware) JobEnded: {'identifier': 'franka_gazebo_hardware', 'rc': 0}
+[35.562435] (-) EventReactorShutdown: {}

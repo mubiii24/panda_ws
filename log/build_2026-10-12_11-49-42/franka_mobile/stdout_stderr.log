@@ -1,0 +1,69 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 12%] Built target swerve_drive_controller_parameters
+[ 37%] Built target gtest_main
+[ 37%] Built target gtest
+[ 37%] Built target ament_cmake_python_symlink_franka_mobile
+[35m[1mConsolidate compiler generated dependencies of target franka_mobile[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/franka_mobile.dir/src/swerve_kinematics.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/franka_mobile.dir/src/swerve_drive_controller.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/franka_mobile.dir/src/swerve_ik_controller.cpp.o[0m
+running egg_info
+writing franka_mobile.egg-info/PKG-INFO
+writing dependency_links to franka_mobile.egg-info/dependency_links.txt
+writing top-level names to franka_mobile.egg-info/top_level.txt
+reading manifest file 'franka_mobile.egg-info/SOURCES.txt'
+writing manifest file 'franka_mobile.egg-info/SOURCES.txt'
+[ 56%] Built target ament_cmake_python_build_franka_mobile_egg
+[ 62%] [32m[1mLinking CXX shared library libfranka_mobile.so[0m
+[ 75%] Built target franka_mobile
+[ 87%] [32mBuilding CXX object CMakeFiles/test_swerve_kinematics.dir/test/test_swerve_kinematics.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/test_odometry.dir/test/test_odometry.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable test_swerve_kinematics[0m
+[100%] [32m[1mLinking CXX executable test_odometry[0m
+[100%] Built target test_swerve_kinematics
+[100%] Built target test_odometry
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile//controllers.xml
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/include/franka_mobile/swerve_drive_controller_parameters.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/pythonpath.sh
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/pythonpath.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile-2.7.1-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile-2.7.1-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile-2.7.1-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile-2.7.1-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/__init__.py
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/battery_api_client.py
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/battery_controller.py
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/battery_server.py
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/lib/libfranka_mobile.so
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/lib/franka_mobile/battery_server_node.py
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile//launch/battery.launch.py
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile//config/franka_battery_node.yaml
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile//config/swerve_drive_controller_parameters.yaml
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/library_path.sh
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/library_path.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/ament_index/resource_index/package_run_dependencies/franka_mobile
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/ament_index/resource_index/parent_prefix_path/franka_mobile
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/ament_prefix_path.sh
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/path.sh
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/environment/path.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/local_setup.bash
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/local_setup.sh
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/local_setup.zsh
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/local_setup.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/package.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/ament_index/resource_index/packages/franka_mobile
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_mobile
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/cmake/franka_mobileConfig.cmake
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/cmake/franka_mobileConfig-version.cmake
+-- Symlinking: /home/mubii/panda_ws/install/franka_mobile/share/franka_mobile/package.xml
+Listing '/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile'...
+Compiling '/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/__init__.py'...
+Compiling '/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/battery_api_client.py'...
+Compiling '/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/battery_controller.py'...
+Compiling '/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages/franka_mobile/battery_server.py'...

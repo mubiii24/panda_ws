@@ -1,0 +1,106 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target franka_example_controllers[0m
+[ 10%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/ptp_motion_example_node.dir/src/async_motions/ptp_motion_example_node.cpp.o[0m
+[ 10%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 17%] Built target gmock_main
+[ 32%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/elbow_example_controller.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_pose_example_controller.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_orientation_example_controller.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_velocity_example_controller.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_elbow_example_controller.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/joint_impedance_example_controller.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/gripper_example_controller.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/joint_impedance_with_ik_example_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/joint_position_example_controller.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/joint_velocity_example_controller.cpp.o[0m
+[ 57%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 57%] Built target gmock
+[ 60%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/model_example_controller.cpp.o[0m
+In file included from [01m[K/home/mubii/panda_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp:23[m[K,
+                 from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/fr3/joint_impedance_with_ik_example_controller.hpp:25[m[K,
+                 from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/src/fr3/joint_impedance_with_ik_example_controller.cpp:16[m[K:
+[01m[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::coriolis(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::coriolis(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:19[m[K,
+                 from [01m[K/home/mubii/panda_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp:23[m[K,
+                 from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/fr3/joint_impedance_with_ik_example_controller.hpp:25[m[K,
+                 from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/src/fr3/joint_impedance_with_ik_example_controller.cpp:16[m[K:
+[01m[K/opt/ros/humble/include/franka/model.h:247:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  247 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+[ 64%] [32m[1mLinking CXX executable ptp_motion_example_node[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_test_load_all.dir/test/test_load_all_example_controllers.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/move_to_start_example_controller.cpp.o[0m
+[ 75%] Built target ptp_motion_example_node
+In file included from [01m[K/home/mubii/panda_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp:23[m[K,
+                 from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/fr3/model_example_controller.hpp:22[m[K,
+                 from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/src/fr3/model_example_controller.cpp:15[m[K:
+[01m[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::coriolis(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::coriolis(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:19[m[K,
+                 from [01m[K/home/mubii/panda_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp:23[m[K,
+                 from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/fr3/model_example_controller.hpp:22[m[K,
+                 from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/src/fr3/model_example_controller.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/franka/model.h:247:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  247 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+[ 78%] [32m[1mLinking CXX shared library libfranka_example_controllers.so[0m
+[ 82%] [32m[1mLinking CXX executable franka_example_controllers_test_load_all[0m
+[ 82%] Built target franka_example_controllers_test_load_all
+[ 85%] Built target franka_example_controllers
+[ 89%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_gravity_test.dir/test/test_gravity_compensation_example.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable franka_example_controllers_gravity_test[0m
+[100%] [32m[1mLinking CXX executable franka_example_controllers_move_to_start_test[0m
+[100%] Built target franka_example_controllers_gravity_test
+[100%] Built target franka_example_controllers_move_to_start_test
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers//franka_example_controllers.xml
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/lib/libfranka_example_controllers.so
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/async_motions/ptp_motion_example_node.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/default_robot_behavior_utils.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/cartesian_elbow_example_controller.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/cartesian_orientation_example_controller.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/cartesian_pose_example_controller.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/cartesian_velocity_example_controller.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/elbow_example_controller.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/gravity_compensation_example_controller.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/gripper_example_controller.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/joint_impedance_example_controller.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/joint_impedance_with_ik_example_controller.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/joint_position_example_controller.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/joint_velocity_example_controller.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/model_example_controller.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/move_to_start_example_controller.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/motion_generator.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/robot_utils.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/visibility_control.h
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/lib/franka_example_controllers/ptp_motion_example_node
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.sh
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/ament_index/resource_index/package_run_dependencies/franka_example_controllers
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/ament_index/resource_index/parent_prefix_path/franka_example_controllers
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.sh
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.sh
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.bash
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.sh
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.zsh
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/package.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/ament_index/resource_index/packages/franka_example_controllers
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_example_controllers
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig.cmake
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig-version.cmake
+-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/package.xml

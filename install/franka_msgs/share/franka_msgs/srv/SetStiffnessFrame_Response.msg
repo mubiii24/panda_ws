@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/build/franka_msgs/rosidl_cmake/srv/SetStiffnessFrame_Response.msg

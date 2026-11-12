@@ -1,0 +1,214 @@
+[0.000000] (-) TimerEvent: {}
+[0.000704] (-) JobUnselected: {'identifier': 'franka_bringup'}
+[0.000928] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.000946] (-) JobUnselected: {'identifier': 'franka_desk_api'}
+[0.000959] (-) JobUnselected: {'identifier': 'franka_example_controllers'}
+[0.000971] (-) JobUnselected: {'identifier': 'franka_fr3_moveit_config'}
+[0.000983] (-) JobUnselected: {'identifier': 'franka_gazebo_bringup'}
+[0.000994] (-) JobUnselected: {'identifier': 'franka_gazebo_hardware'}
+[0.001006] (-) JobUnselected: {'identifier': 'franka_gripper'}
+[0.001017] (-) JobUnselected: {'identifier': 'franka_hardware'}
+[0.001028] (-) JobUnselected: {'identifier': 'franka_mobile'}
+[0.001040] (-) JobUnselected: {'identifier': 'franka_mobile_sensors'}
+[0.001051] (-) JobUnselected: {'identifier': 'franka_msgs'}
+[0.001062] (-) JobUnselected: {'identifier': 'franka_robot_state_broadcaster'}
+[0.001073] (-) JobUnselected: {'identifier': 'franka_ros2'}
+[0.001084] (-) JobUnselected: {'identifier': 'franka_semantic_components'}
+[0.001096] (-) JobUnselected: {'identifier': 'franka_spine_examples'}
+[0.001107] (-) JobUnselected: {'identifier': 'franka_spine_msgs'}
+[0.001118] (-) JobUnselected: {'identifier': 'franka_spine_server'}
+[0.001129] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.001141] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.001153] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.001164] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.001176] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.001187] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.001198] (-) JobUnselected: {'identifier': 'panda_control'}
+[0.001213] (panda_planning) JobQueued: {'identifier': 'panda_planning', 'dependencies': OrderedDict()}
+[0.001228] (panda_planning) JobStarted: {'identifier': 'panda_planning'}
+[0.012323] (panda_planning) JobProgress: {'identifier': 'panda_planning', 'progress': 'cmake'}
+[0.012783] (panda_planning) Command: {'cmd': ['/usr/bin/cmake', '/home/mubii/panda_ws/src/panda_planning', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/panda_planning'], 'cwd': '/home/mubii/panda_ws/build/panda_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mubii'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mubii/panda_ws/install/franka_spine_msgs/lib:/home/mubii/panda_ws/install/franka_robot_state_broadcaster/lib:/home/mubii/panda_ws/install/franka_mobile/lib:/home/mubii/panda_ws/install/franka_example_controllers/lib:/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_gazebo_hardware/lib:/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_gripper/lib:/home/mubii/panda_ws/install/franka_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mubii'), ('OLDPWD', '/home/mubii/panda_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1624'), ('SYSTEMD_EXEC_PID', '1801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3195'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mubii/panda_ws/install:/home/mubii/robot_ws/install:/home/mubii/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mubii'), ('JOURNAL_STREAM', '8:16634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mubii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zoro:@/tmp/.ICE-unix/1764,unix/zoro:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9f82dc82002842db9fe1ebec0d5cf271'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T2EYW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mubii/panda_ws/install/panda_control:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_ros2:/home/mubii/panda_ws/install/franka_fr3_moveit_config:/home/mubii/panda_ws/install/franka_bringup:/home/mubii/panda_ws/install/franka_robot_state_broadcaster:/home/mubii/panda_ws/install/franka_gazebo_bringup:/home/mubii/panda_ws/install/franka_mobile:/home/mubii/panda_ws/install/franka_example_controllers:/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3435fe31-8dcf-4278-a357-1eaaa10b6da6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mubii/panda_ws/build/panda_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mubii/panda_ws/build/panda_control:/home/mubii/panda_ws/install/panda_control/lib/python3.10/site-packages:/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_bringup/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:/home/mubii/robot_ws/build/robot_description:/home/mubii/robot_ws/install/robot_description/lib/python3.10/site-packages:/home/mubii/ros2_ws/install/my_beginner_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_ros2:/home/mubii/panda_ws/install/franka_fr3_moveit_config:/home/mubii/panda_ws/install/franka_bringup:/home/mubii/panda_ws/install/franka_robot_state_broadcaster:/home/mubii/panda_ws/install/franka_gazebo_bringup:/home/mubii/panda_ws/install/franka_mobile:/home/mubii/panda_ws/install/franka_example_controllers:/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/panda_ws/install/panda_control:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble')]), 'shell': False}
+[0.094452] (panda_planning) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099692] (-) TimerEvent: {}
+[0.158912] (panda_planning) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.167939] (panda_planning) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199834] (-) TimerEvent: {}
+[0.256475] (panda_planning) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.263016] (panda_planning) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.263367] (panda_planning) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.263672] (panda_planning) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.266227] (panda_planning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299976] (-) TimerEvent: {}
+[0.367209] (panda_planning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.374875] (panda_planning) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.375145] (panda_planning) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.375570] (panda_planning) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.381679] (panda_planning) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400102] (-) TimerEvent: {}
+[0.500587] (-) TimerEvent: {}
+[0.556751] (panda_planning) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600711] (-) TimerEvent: {}
+[0.625947] (panda_planning) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.700866] (-) TimerEvent: {}
+[0.701847] (panda_planning) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.780830] (panda_planning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.792380] (panda_planning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.801008] (-) TimerEvent: {}
+[0.807132] (panda_planning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.826815] (panda_planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.852886] (panda_planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901227] (-) TimerEvent: {}
+[0.928771] (panda_planning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.935165] (panda_planning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.001329] (-) TimerEvent: {}
+[1.084788] (panda_planning) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.101436] (-) TimerEvent: {}
+[1.123782] (panda_planning) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.182009] (panda_planning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.200165] (panda_planning) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201583] (-) TimerEvent: {}
+[1.291846] (panda_planning) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.292231] (panda_planning) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.301661] (-) TimerEvent: {}
+[1.383658] (panda_planning) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.384622] (panda_planning) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.401816] (-) TimerEvent: {}
+[1.455398] (panda_planning) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.10 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[1.502007] (-) TimerEvent: {}
+[1.505978] (panda_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.602128] (-) TimerEvent: {}
+[1.702558] (-) TimerEvent: {}
+[1.718338] (panda_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[1.802675] (panda_planning) StdoutLine: {'line': b'-- Found tcb_span: 1.3.2 (/opt/ros/humble/share/tcb_span/cmake)\n'}
+[1.802983] (-) TimerEvent: {}
+[1.813866] (panda_planning) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.842958] (panda_planning) StdoutLine: {'line': b'-- Found parameter_traits: 0.7.6 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.903381] (-) TimerEvent: {}
+[2.003880] (-) TimerEvent: {}
+[2.021488] (panda_planning) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[2.065694] (panda_planning) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.066089] (panda_planning) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.103983] (-) TimerEvent: {}
+[2.204368] (-) TimerEvent: {}
+[2.285243] (panda_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[2.304525] (-) TimerEvent: {}
+[2.329806] (panda_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[2.361063] (panda_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[2.404647] (-) TimerEvent: {}
+[2.471021] (panda_planning) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.504822] (-) TimerEvent: {}
+[2.507063] (panda_planning) StdoutLine: {'line': b'-- Generating done\n'}
+[2.514767] (panda_planning) StdoutLine: {'line': b'-- Build files have been written to: /home/mubii/panda_ws/build/panda_planning\n'}
+[2.532901] (panda_planning) CommandEnded: {'returncode': 0}
+[2.533795] (panda_planning) JobProgress: {'identifier': 'panda_planning', 'progress': 'build'}
+[2.534440] (panda_planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mubii/panda_ws/build/panda_planning', '--', '-j12', '-l12'], 'cwd': '/home/mubii/panda_ws/build/panda_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mubii'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mubii/panda_ws/install/franka_spine_msgs/lib:/home/mubii/panda_ws/install/franka_robot_state_broadcaster/lib:/home/mubii/panda_ws/install/franka_mobile/lib:/home/mubii/panda_ws/install/franka_example_controllers/lib:/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_gazebo_hardware/lib:/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_gripper/lib:/home/mubii/panda_ws/install/franka_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mubii'), ('OLDPWD', '/home/mubii/panda_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1624'), ('SYSTEMD_EXEC_PID', '1801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3195'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mubii/panda_ws/install:/home/mubii/robot_ws/install:/home/mubii/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mubii'), ('JOURNAL_STREAM', '8:16634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mubii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zoro:@/tmp/.ICE-unix/1764,unix/zoro:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9f82dc82002842db9fe1ebec0d5cf271'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T2EYW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mubii/panda_ws/install/panda_control:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_ros2:/home/mubii/panda_ws/install/franka_fr3_moveit_config:/home/mubii/panda_ws/install/franka_bringup:/home/mubii/panda_ws/install/franka_robot_state_broadcaster:/home/mubii/panda_ws/install/franka_gazebo_bringup:/home/mubii/panda_ws/install/franka_mobile:/home/mubii/panda_ws/install/franka_example_controllers:/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3435fe31-8dcf-4278-a357-1eaaa10b6da6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mubii/panda_ws/build/panda_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mubii/panda_ws/build/panda_control:/home/mubii/panda_ws/install/panda_control/lib/python3.10/site-packages:/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_bringup/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:/home/mubii/robot_ws/build/robot_description:/home/mubii/robot_ws/install/robot_description/lib/python3.10/site-packages:/home/mubii/ros2_ws/install/my_beginner_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_ros2:/home/mubii/panda_ws/install/franka_fr3_moveit_config:/home/mubii/panda_ws/install/franka_bringup:/home/mubii/panda_ws/install/franka_robot_state_broadcaster:/home/mubii/panda_ws/install/franka_gazebo_bringup:/home/mubii/panda_ws/install/franka_mobile:/home/mubii/panda_ws/install/franka_example_controllers:/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/panda_ws/install/panda_control:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble')]), 'shell': False}
+[2.604330] (panda_planning) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/plan_demo.dir/src/plan_demo.cpp.o\x1b[0m\n'}
+[2.604886] (-) TimerEvent: {}
+[2.705249] (-) TimerEvent: {}
+[2.805880] (-) TimerEvent: {}
+[2.906290] (-) TimerEvent: {}
+[3.006695] (-) TimerEvent: {}
+[3.107027] (-) TimerEvent: {}
+[3.207453] (-) TimerEvent: {}
+[3.307918] (-) TimerEvent: {}
+[3.408332] (-) TimerEvent: {}
+[3.508984] (-) TimerEvent: {}
+[3.609401] (-) TimerEvent: {}
+[3.709867] (-) TimerEvent: {}
+[3.810223] (-) TimerEvent: {}
+[3.910662] (-) TimerEvent: {}
+[4.011098] (-) TimerEvent: {}
+[4.111543] (-) TimerEvent: {}
+[4.211953] (-) TimerEvent: {}
+[4.312323] (-) TimerEvent: {}
+[4.412727] (-) TimerEvent: {}
+[4.513139] (-) TimerEvent: {}
+[4.613623] (-) TimerEvent: {}
+[4.714024] (-) TimerEvent: {}
+[4.814431] (-) TimerEvent: {}
+[4.914928] (-) TimerEvent: {}
+[5.015406] (-) TimerEvent: {}
+[5.115784] (-) TimerEvent: {}
+[5.216176] (-) TimerEvent: {}
+[5.316688] (-) TimerEvent: {}
+[5.417165] (-) TimerEvent: {}
+[5.517701] (-) TimerEvent: {}
+[5.618128] (-) TimerEvent: {}
+[5.718816] (-) TimerEvent: {}
+[5.819301] (-) TimerEvent: {}
+[5.920044] (-) TimerEvent: {}
+[6.020423] (-) TimerEvent: {}
+[6.120744] (-) TimerEvent: {}
+[6.221127] (-) TimerEvent: {}
+[6.321532] (-) TimerEvent: {}
+[6.422099] (-) TimerEvent: {}
+[6.522489] (-) TimerEvent: {}
+[6.622905] (-) TimerEvent: {}
+[6.723265] (-) TimerEvent: {}
+[6.823714] (-) TimerEvent: {}
+[6.924109] (-) TimerEvent: {}
+[7.024402] (-) TimerEvent: {}
+[7.124875] (-) TimerEvent: {}
+[7.225357] (-) TimerEvent: {}
+[7.325670] (-) TimerEvent: {}
+[7.425993] (-) TimerEvent: {}
+[7.526406] (-) TimerEvent: {}
+[7.626890] (-) TimerEvent: {}
+[7.727288] (-) TimerEvent: {}
+[7.827796] (-) TimerEvent: {}
+[7.928328] (-) TimerEvent: {}
+[8.028720] (-) TimerEvent: {}
+[8.129029] (-) TimerEvent: {}
+[8.229403] (-) TimerEvent: {}
+[8.329752] (-) TimerEvent: {}
+[8.430109] (-) TimerEvent: {}
+[8.530569] (-) TimerEvent: {}
+[8.631180] (-) TimerEvent: {}
+[8.731574] (-) TimerEvent: {}
+[8.831901] (-) TimerEvent: {}
+[8.932301] (-) TimerEvent: {}
+[9.032611] (-) TimerEvent: {}
+[9.132972] (-) TimerEvent: {}
+[9.233423] (-) TimerEvent: {}
+[9.334106] (-) TimerEvent: {}
+[9.434693] (-) TimerEvent: {}
+[9.535100] (-) TimerEvent: {}
+[9.635401] (-) TimerEvent: {}
+[9.735849] (-) TimerEvent: {}
+[9.836275] (-) TimerEvent: {}
+[9.936750] (-) TimerEvent: {}
+[10.037234] (-) TimerEvent: {}
+[10.137648] (-) TimerEvent: {}
+[10.172684] (panda_planning) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable plan_demo\x1b[0m\n'}
+[10.237790] (-) TimerEvent: {}
+[10.338185] (-) TimerEvent: {}
+[10.438549] (-) TimerEvent: {}
+[10.539005] (-) TimerEvent: {}
+[10.546516] (panda_planning) StdoutLine: {'line': b'[100%] Built target plan_demo\n'}
+[10.562551] (panda_planning) CommandEnded: {'returncode': 0}
+[10.563137] (panda_planning) JobProgress: {'identifier': 'panda_planning', 'progress': 'install'}
+[10.574799] (panda_planning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mubii/panda_ws/build/panda_planning'], 'cwd': '/home/mubii/panda_ws/build/panda_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mubii'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mubii/panda_ws/install/franka_spine_msgs/lib:/home/mubii/panda_ws/install/franka_robot_state_broadcaster/lib:/home/mubii/panda_ws/install/franka_mobile/lib:/home/mubii/panda_ws/install/franka_example_controllers/lib:/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_gazebo_hardware/lib:/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_gripper/lib:/home/mubii/panda_ws/install/franka_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mubii'), ('OLDPWD', '/home/mubii/panda_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1624'), ('SYSTEMD_EXEC_PID', '1801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3195'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mubii/panda_ws/install:/home/mubii/robot_ws/install:/home/mubii/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mubii'), ('JOURNAL_STREAM', '8:16634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mubii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zoro:@/tmp/.ICE-unix/1764,unix/zoro:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9f82dc82002842db9fe1ebec0d5cf271'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T2EYW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mubii/panda_ws/install/panda_control:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_ros2:/home/mubii/panda_ws/install/franka_fr3_moveit_config:/home/mubii/panda_ws/install/franka_bringup:/home/mubii/panda_ws/install/franka_robot_state_broadcaster:/home/mubii/panda_ws/install/franka_gazebo_bringup:/home/mubii/panda_ws/install/franka_mobile:/home/mubii/panda_ws/install/franka_example_controllers:/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3435fe31-8dcf-4278-a357-1eaaa10b6da6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mubii/panda_ws/build/panda_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mubii/panda_ws/build/panda_control:/home/mubii/panda_ws/install/panda_control/lib/python3.10/site-packages:/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_bringup/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:/home/mubii/robot_ws/build/robot_description:/home/mubii/robot_ws/install/robot_description/lib/python3.10/site-packages:/home/mubii/ros2_ws/install/my_beginner_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_ros2:/home/mubii/panda_ws/install/franka_fr3_moveit_config:/home/mubii/panda_ws/install/franka_bringup:/home/mubii/panda_ws/install/franka_robot_state_broadcaster:/home/mubii/panda_ws/install/franka_gazebo_bringup:/home/mubii/panda_ws/install/franka_mobile:/home/mubii/panda_ws/install/franka_example_controllers:/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/panda_ws/install/panda_control:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble')]), 'shell': False}
+[10.585699] (panda_planning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.586107] (panda_planning) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.586402] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/lib/panda_planning/plan_demo\n'}
+[10.598066] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/panda_planning/launch/plan_demo.launch.py\n'}
+[10.610718] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/ament_index/resource_index/package_run_dependencies/panda_planning\n'}
+[10.622880] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/ament_index/resource_index/parent_prefix_path/panda_planning\n'}
+[10.634691] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/panda_planning/environment/ament_prefix_path.sh\n'}
+[10.639111] (-) TimerEvent: {}
+[10.647689] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/panda_planning/environment/ament_prefix_path.dsv\n'}
+[10.659095] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/panda_planning/environment/path.sh\n'}
+[10.671058] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/panda_planning/environment/path.dsv\n'}
+[10.684145] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/panda_planning/local_setup.bash\n'}
+[10.695386] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/panda_planning/local_setup.sh\n'}
+[10.707529] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/panda_planning/local_setup.zsh\n'}
+[10.719641] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/panda_planning/local_setup.dsv\n'}
+[10.732953] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/panda_planning/package.dsv\n'}
+[10.739237] (-) TimerEvent: {}
+[10.745912] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/ament_index/resource_index/packages/panda_planning\n'}
+[10.757882] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/panda_planning/cmake/panda_planningConfig.cmake\n'}
+[10.771932] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/panda_planning/cmake/panda_planningConfig-version.cmake\n'}
+[10.783179] (panda_planning) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/panda_planning/share/panda_planning/package.xml\n'}
+[10.797254] (panda_planning) CommandEnded: {'returncode': 0}
+[10.812246] (panda_planning) JobEnded: {'identifier': 'panda_planning', 'rc': 0}
+[10.813118] (-) EventReactorShutdown: {}

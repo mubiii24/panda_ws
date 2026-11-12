@@ -1,0 +1,72 @@
+[0.017s] Invoking command in '/home/mubii/panda_ws/build/franka_spine_examples': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_desk_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_spine_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/franka_spine_examples
+[0.080s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.151s] -- Detecting C compiler ABI info
+[0.233s] -- Detecting C compiler ABI info - done
+[0.240s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.240s] -- Detecting C compile features
+[0.241s] -- Detecting C compile features - done
+[0.244s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.341s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.341s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.345s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.502s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.612s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.682s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.873s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.885s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.906s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.932s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.962s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.060s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.067s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.207s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.245s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.300s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.316s] -- Looking for pthread.h
+[1.409s] -- Looking for pthread.h - found
+[1.409s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.504s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.505s] -- Found Threads: TRUE  
+[1.585s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.624s] -- Found franka_spine_msgs: 2.7.1 (/home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake)
+[1.643s] -- Found ament_cmake_clang_format: 0.12.15 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[1.647s] -- Found ament_cmake_copyright: 0.12.15 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+[1.650s] -- Found ament_cmake_cppcheck: 0.12.15 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.652s] -- Found ament_cmake_flake8: 0.12.15 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.655s] -- Found ament_cmake_lint_cmake: 0.12.15 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[1.658s] -- Found ament_cmake_pep257: 0.12.15 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.661s] -- Found ament_cmake_xmllint: 0.12.15 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+[1.733s] -- Configuring done
+[1.745s] -- Generating done
+[1.749s] -- Build files have been written to: /home/mubii/panda_ws/build/franka_spine_examples
+[1.765s] Invoked command in '/home/mubii/panda_ws/build/franka_spine_examples' returned '0': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_desk_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_spine_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/franka_spine_examples
+[1.767s] Invoking command in '/home/mubii/panda_ws/build/franka_spine_examples': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_desk_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_spine_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_spine_examples -- -j12 -l12
+[1.822s] [ 50%] [32mBuilding CXX object CMakeFiles/spine_client_example_cpp.dir/src/spine_client_example.cpp.o[0m
+[9.995s] [100%] [32m[1mLinking CXX executable spine_client_example_cpp[0m
+[11.645s] [100%] Built target spine_client_example_cpp
+[11.693s] Invoked command in '/home/mubii/panda_ws/build/franka_spine_examples' returned '0': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_desk_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_spine_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_spine_examples -- -j12 -l12
+[11.694s] Invoking command in '/home/mubii/panda_ws/build/franka_spine_examples': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_desk_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_spine_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mubii/panda_ws/build/franka_spine_examples
+[11.720s] -- Install configuration: ""
+[11.724s] -- Execute custom install script
+[11.725s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/lib/franka_spine_examples/spine_client_example_cpp
+[11.760s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/include/franka_spine_examples/spine_client_example.hpp
+[11.806s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/lib/franka_spine_examples/spine_client_example.py
+[11.858s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/ament_index/resource_index/package_run_dependencies/franka_spine_examples
+[11.877s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/ament_index/resource_index/parent_prefix_path/franka_spine_examples
+[11.901s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/franka_spine_examples/environment/ament_prefix_path.sh
+[11.919s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/franka_spine_examples/environment/ament_prefix_path.dsv
+[11.941s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/franka_spine_examples/environment/path.sh
+[11.966s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/franka_spine_examples/environment/path.dsv
+[11.992s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/franka_spine_examples/local_setup.bash
+[12.014s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/franka_spine_examples/local_setup.sh
+[12.033s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/franka_spine_examples/local_setup.zsh
+[12.057s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/franka_spine_examples/local_setup.dsv
+[12.072s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/franka_spine_examples/package.dsv
+[12.096s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/ament_index/resource_index/packages/franka_spine_examples
+[12.115s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/franka_spine_examples/cmake/franka_spine_examplesConfig.cmake
+[12.136s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/franka_spine_examples/cmake/franka_spine_examplesConfig-version.cmake
+[12.169s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_examples/share/franka_spine_examples/package.xml
+[12.209s] Invoked command in '/home/mubii/panda_ws/build/franka_spine_examples' returned '0': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_desk_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_spine_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mubii/panda_ws/build/franka_spine_examples

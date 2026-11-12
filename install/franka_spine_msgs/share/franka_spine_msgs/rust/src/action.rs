@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_generator_rs/franka_spine_msgs/rust/src/action.rs

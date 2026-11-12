@@ -1,0 +1,10 @@
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:action/MoveAbsolute.idl
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:msg/UserLimits.idl
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:msg/SpineParameters.idl
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:srv/GetSpineState.idl
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:srv/GetPosition.idl
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:srv/FaultReset.idl
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:srv/SwitchOn.idl
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:srv/SwitchOff.idl
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:srv/Halt.idl
+/home/mubii/panda_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:srv/GetParameters.idl

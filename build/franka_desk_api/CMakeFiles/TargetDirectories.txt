@@ -1,0 +1,11 @@
+/home/mubii/panda_ws/build/franka_desk_api/CMakeFiles/uninstall.dir
+/home/mubii/panda_ws/build/franka_desk_api/CMakeFiles/franka_desk_api_uninstall.dir
+/home/mubii/panda_ws/build/franka_desk_api/CMakeFiles/ament_cmake_python_symlink_franka_desk_api.dir
+/home/mubii/panda_ws/build/franka_desk_api/CMakeFiles/ament_cmake_python_build_franka_desk_api_egg.dir
+/home/mubii/panda_ws/build/franka_desk_api/CMakeFiles/test.dir
+/home/mubii/panda_ws/build/franka_desk_api/CMakeFiles/edit_cache.dir
+/home/mubii/panda_ws/build/franka_desk_api/CMakeFiles/rebuild_cache.dir
+/home/mubii/panda_ws/build/franka_desk_api/CMakeFiles/list_install_components.dir
+/home/mubii/panda_ws/build/franka_desk_api/CMakeFiles/install.dir
+/home/mubii/panda_ws/build/franka_desk_api/CMakeFiles/install/local.dir
+/home/mubii/panda_ws/build/franka_desk_api/CMakeFiles/install/strip.dir

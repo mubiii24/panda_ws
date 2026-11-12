@@ -1,0 +1,221 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-78f499f02fb034ea01a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						9
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-test-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "gmock",
+					"jsonFile" : "directory-gmock-3370d118e31866b3418b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gmock_vendor",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "franka_hardware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_hardware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_hardware-25d4c5da34e7a0aa8921.json",
+					"name" : "franka_hardware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "franka_hardware_command_interface_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-franka_hardware_command_interface_test-9c08d915b9dc9270262a.json",
+					"name" : "franka_hardware_command_interface_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "franka_hardware_robot_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-franka_hardware_robot_test-1ffacbe98be62175d6ac.json",
+					"name" : "franka_hardware_robot_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "franka_hardware_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-franka_hardware_test-87e47618939aa0f99365.json",
+					"name" : "franka_hardware_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_hardware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_hardware_uninstall-dbc7ef7a7cd159e1110d.json",
+					"name" : "franka_hardware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock-cdb93934e6092f85e85c.json",
+					"name" : "gmock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock_main-70e3f78d1abd447f09f6.json",
+					"name" : "gmock_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-0f3b072c6b55c8265a76.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-406db741ba1ae748de14.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3494ec7f9e7afc0bb739.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mubii/panda_ws/build/franka_hardware",
+		"source" : "/home/mubii/panda_ws/src/franka_ros2/franka_hardware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

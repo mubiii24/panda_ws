@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mubii/panda_ws/build/franka_mobile/libfranka_mobile.so" "TARGETS" "franka_mobile" "RUNTIME_DESTINATION" "bin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")

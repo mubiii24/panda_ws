@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/src/franka_ros2/franka_mobile/franka_mobile/battery_server.py

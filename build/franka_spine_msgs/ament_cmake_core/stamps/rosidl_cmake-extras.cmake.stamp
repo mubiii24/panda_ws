@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(franka_spine_msgs_IDL_FILES "action/MoveAbsolute.idl;msg/UserLimits.idl;msg/SpineParameters.idl;srv/GetSpineState.idl;srv/GetPosition.idl;srv/FaultReset.idl;srv/SwitchOn.idl;srv/SwitchOff.idl;srv/Halt.idl;srv/GetParameters.idl")
+set(franka_spine_msgs_INTERFACE_FILES "action/MoveAbsolute.action;msg/UserLimits.msg;msg/SpineParameters.msg;srv/GetSpineState.srv;srv/GetSpineState_Request.msg;srv/GetSpineState_Response.msg;srv/GetPosition.srv;srv/GetPosition_Request.msg;srv/GetPosition_Response.msg;srv/FaultReset.srv;srv/FaultReset_Request.msg;srv/FaultReset_Response.msg;srv/SwitchOn.srv;srv/SwitchOn_Request.msg;srv/SwitchOn_Response.msg;srv/SwitchOff.srv;srv/SwitchOff_Request.msg;srv/SwitchOff_Response.msg;srv/Halt.srv;srv/Halt_Request.msg;srv/Halt_Response.msg;srv/GetParameters.srv;srv/GetParameters_Request.msg;srv/GetParameters_Response.msg")

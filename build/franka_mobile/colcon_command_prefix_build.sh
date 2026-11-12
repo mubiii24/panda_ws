@@ -1,0 +1,6 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/mubii/panda_ws/install/franka_description/share/franka_description/package.sh"
+. "/home/mubii/panda_ws/install/franka_desk_api/share/franka_desk_api/package.sh"
+. "/home/mubii/panda_ws/install/franka_msgs/share/franka_msgs/package.sh"
+. "/home/mubii/panda_ws/install/franka_hardware/share/franka_hardware/package.sh"
+. "/home/mubii/panda_ws/install/franka_semantic_components/share/franka_semantic_components/package.sh"

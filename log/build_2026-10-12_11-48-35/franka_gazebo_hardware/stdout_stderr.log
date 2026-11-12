@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/franka_gz_hardware_plugins.dir/src/franka_gazebo_hardware_interface.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/franka_gz_hardware_plugins.dir/src/gravity_compensation_model.cpp.o[0m
+[ 40%] Built target gmock_main
+[ 70%] Built target gmock
+In file included from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware/include/franka_gazebo_hardware/franka_gazebo_hardware_interface.hpp:24[m[K,
+                 from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware/src/franka_gazebo_hardware_interface.cpp:28[m[K:
+[01m[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::coriolis(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::coriolis(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware/include/franka_gazebo_hardware/franka_gazebo_hardware_interface.hpp:17[m[K,
+                 from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware/src/franka_gazebo_hardware_interface.cpp:28[m[K:
+[01m[K/opt/ros/humble/include/franka/model.h:247:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  247 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+[ 80%] [32m[1mLinking CXX shared library libfranka_gz_hardware_plugins.so[0m
+[ 80%] Built target franka_gz_hardware_plugins
+[ 90%] [32mBuilding CXX object CMakeFiles/gravity_compensation_model_test.dir/test/gravity_compensation_model_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable gravity_compensation_model_test[0m
+[100%] Built target gravity_compensation_model_test
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware//franka_gz_hardware_plugins.xml
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/lib/libfranka_gz_hardware_plugins.so
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/include/franka_gazebo_hardware/franka_gazebo_hardware_interface.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/include/franka_gazebo_hardware/gravity_compensation_model.hpp
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/ament_index/resource_index/package_run_dependencies/franka_gazebo_hardware
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/ament_index/resource_index/parent_prefix_path/franka_gazebo_hardware
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/environment/ament_prefix_path.sh
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/environment/path.sh
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/environment/path.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/local_setup.bash
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/local_setup.sh
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/local_setup.zsh
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/local_setup.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/package.dsv
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/ament_index/resource_index/packages/franka_gazebo_hardware
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/franka_gazebo_hardware
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/cmake/franka_gazebo_hardwareConfig.cmake
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/cmake/franka_gazebo_hardwareConfig-version.cmake
+-- Symlinking: /home/mubii/panda_ws/install/franka_gazebo_hardware/share/franka_gazebo_hardware/package.xml

@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/build/franka_msgs/rosidl_generator_py/franka_msgs/msg/_target_status.py

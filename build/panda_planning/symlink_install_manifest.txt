@@ -1,0 +1,17 @@
+/home/mubii/panda_ws/install/panda_planning/lib/panda_planning/plan_demo
+/home/mubii/panda_ws/install/panda_planning/share/panda_planning/launch/plan_demo.launch.py
+/home/mubii/panda_ws/install/panda_planning/share/ament_index/resource_index/package_run_dependencies/panda_planning
+/home/mubii/panda_ws/install/panda_planning/share/ament_index/resource_index/parent_prefix_path/panda_planning
+/home/mubii/panda_ws/install/panda_planning/share/panda_planning/environment/ament_prefix_path.sh
+/home/mubii/panda_ws/install/panda_planning/share/panda_planning/environment/ament_prefix_path.dsv
+/home/mubii/panda_ws/install/panda_planning/share/panda_planning/environment/path.sh
+/home/mubii/panda_ws/install/panda_planning/share/panda_planning/environment/path.dsv
+/home/mubii/panda_ws/install/panda_planning/share/panda_planning/local_setup.bash
+/home/mubii/panda_ws/install/panda_planning/share/panda_planning/local_setup.sh
+/home/mubii/panda_ws/install/panda_planning/share/panda_planning/local_setup.zsh
+/home/mubii/panda_ws/install/panda_planning/share/panda_planning/local_setup.dsv
+/home/mubii/panda_ws/install/panda_planning/share/panda_planning/package.dsv
+/home/mubii/panda_ws/install/panda_planning/share/ament_index/resource_index/packages/panda_planning
+/home/mubii/panda_ws/install/panda_planning/share/panda_planning/cmake/panda_planningConfig.cmake
+/home/mubii/panda_ws/install/panda_planning/share/panda_planning/cmake/panda_planningConfig-version.cmake
+/home/mubii/panda_ws/install/panda_planning/share/panda_planning/package.xml

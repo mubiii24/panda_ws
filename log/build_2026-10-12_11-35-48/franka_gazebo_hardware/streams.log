@@ -1,0 +1,298 @@
+[0.016s] Invoking command in '/home/mubii/panda_ws/build/franka_gazebo_hardware': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/franka_gazebo_hardware
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.136s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.328s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.329s] -- Detecting CXX compile features
+[0.329s] -- Detecting CXX compile features - done
+[0.333s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.480s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.540s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.584s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.595s] -- Looking for pthread.h
+[0.678s] -- Looking for pthread.h - found
+[0.678s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.763s] -- Found Threads: TRUE  
+[0.767s] -- Found franka_hardware: 2.7.1 (/home/mubii/panda_ws/install/franka_hardware/share/franka_hardware/cmake)
+[0.824s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.831s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.841s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.872s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.107s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.110s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.139s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.215s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.217s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.243s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.246s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.256s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.268s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.329s] -- Found gz_ros2_control: 0.7.21 (/opt/ros/humble/share/gz_ros2_control/cmake)
+[1.335s] -- Looking for ignition-gazebo6 -- found version 6.18.0
+[1.346s] -- Searching for dependencies of ignition-gazebo6
+[1.351s] -- Looking for sdformat12 -- found version 12.9.0
+[1.351s] -- Searching for dependencies of sdformat12
+[1.359s] -- Checking for module 'tinyxml2'
+[1.375s] --   Found tinyxml2, version 9.0.0
+[1.423s] -- Looking for ignition-math6 -- found version 6.16.0
+[1.424s] -- Searching for dependencies of ignition-math6
+[1.429s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.430s] -- Searching for dependencies of ignition-utils1
+[1.436s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.436s] -- Searching for dependencies of ignition-plugin1
+[1.437s] -- Searching for <ignition-plugin1> component [loader]
+[1.440s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[1.441s] -- Searching for dependencies of ignition-plugin1-loader
+[1.442s] -- Searching for <ignition-plugin1> component [register]
+[1.445s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[1.446s] -- Searching for dependencies of ignition-plugin1-register
+[1.450s] -- Looking for ignition-transport11 -- found version 11.4.2
+[1.450s] -- Searching for dependencies of ignition-transport11
+[1.486s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.500s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.507s] -- Checking for module 'libzmq >= 4'
+[1.529s] --   Found libzmq , version 4.3.4
+[1.578s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.586s] -- Checking for module 'uuid'
+[1.608s] --   Found uuid, version 2.37.2
+[1.661s] -- Found UUID: TRUE  
+[1.661s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.662s] -- Searching for dependencies of ignition-utils1
+[1.662s] -- Searching for <ignition-utils1> component [cli]
+[1.667s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[1.668s] -- Searching for dependencies of ignition-utils1-cli
+[1.675s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[1.675s] -- Searching for dependencies of ignition-msgs8
+[1.703s] -- Looking for ignition-math6 -- found version 6.16.0
+[1.720s] -- Searching for <ignition-transport11> component [log]
+[1.723s] -- Looking for ignition-transport11-log -- found version 11.4.2
+[1.724s] -- Searching for dependencies of ignition-transport11-log
+[1.725s] -- Searching for <ignition-transport11> component [parameters]
+[1.731s] -- Looking for ignition-transport11-parameters -- found version 11.4.2
+[1.731s] -- Searching for dependencies of ignition-transport11-parameters
+[1.733s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[1.738s] -- Looking for ignition-common4 -- found version 4.8.1
+[1.739s] -- Searching for dependencies of ignition-common4
+[1.740s] -- Looking for dlfcn.h - found
+[1.742s] -- Looking for libdl - found
+[1.744s] -- Found DL: TRUE  
+[1.760s] -- Searching for <ignition-common4> component [profiler]
+[1.764s] -- Looking for ignition-common4-profiler -- found version 4.8.1
+[1.765s] -- Searching for dependencies of ignition-common4-profiler
+[1.766s] -- Searching for <ignition-common4> component [events]
+[1.771s] -- Looking for ignition-common4-events -- found version 4.8.1
+[1.771s] -- Searching for dependencies of ignition-common4-events
+[1.772s] -- Looking for ignition-math6 -- found version 6.16.0
+[1.773s] -- Searching for <ignition-common4> component [av]
+[1.777s] -- Looking for ignition-common4-av -- found version 4.8.1
+[1.778s] -- Searching for dependencies of ignition-common4-av
+[1.787s] -- Checking for module 'libswscale'
+[1.817s] --   Found libswscale, version 5.9.100
+[1.902s] -- Found SWSCALE: TRUE  
+[1.914s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.945s] --   Found libavdevice , version 58.13.100
+[2.039s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[2.050s] -- Checking for module 'libavformat'
+[2.085s] --   Found libavformat, version 58.76.100
+[2.187s] -- Found AVFORMAT: TRUE  
+[2.201s] -- Checking for module 'libavcodec'
+[2.241s] --   Found libavcodec, version 58.134.100
+[2.346s] -- Found AVCODEC: TRUE  
+[2.365s] -- Checking for module 'libavutil'
+[2.401s] --   Found libavutil, version 56.70.100
+[2.508s] -- Found AVUTIL: TRUE  
+[2.550s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[2.551s] -- Searching for dependencies of ignition-fuel_tools7
+[2.808s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.832s] -- Checking for module 'jsoncpp'
+[2.870s] --   Found jsoncpp, version 1.9.5
+[2.972s] -- Found JSONCPP: TRUE  
+[2.992s] -- Checking for module 'libzip'
+[3.031s] --   Found libzip, version 1.7.3
+[3.135s] -- Found ZIP: TRUE  
+[3.135s] -- Looking for ignition-common4 -- found version 4.8.1
+[3.135s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.136s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[3.152s] -- Looking for ignition-gui6 -- found version 6.9.0
+[3.153s] -- Searching for dependencies of ignition-gui6
+[3.207s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.208s] -- Looking for ignition-common4 -- found version 4.8.1
+[3.209s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.209s] -- Looking for ignition-transport11 -- found version 11.4.2
+[3.217s] -- Looking for ignition-rendering6 -- found version 6.6.4
+[3.218s] -- Searching for dependencies of ignition-rendering6
+[3.219s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.220s] -- Searching for dependencies of ignition-math6
+[3.220s] -- Searching for <ignition-math6> component [eigen3]
+[3.226s] -- Looking for ignition-math6-eigen3 -- found version 6.16.0
+[3.227s] -- Searching for dependencies of ignition-math6-eigen3
+[3.242s] -- Looking for ignition-common4 -- found version 4.8.1
+[3.243s] -- Searching for dependencies of ignition-common4
+[3.243s] -- Looking for dlfcn.h - found
+[3.243s] -- Looking for libdl - found
+[3.264s] -- Searching for <ignition-common4> component [graphics]
+[3.270s] -- Looking for ignition-common4-graphics -- found version 4.8.1
+[3.271s] -- Searching for dependencies of ignition-common4-graphics
+[3.271s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.272s] -- Looking for ignition-utils1 -- found version 1.5.1
+[3.274s] -- Searching for <ignition-common4> component [events]
+[3.276s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.277s] -- Searching for dependencies of ignition-plugin1
+[3.277s] -- Searching for <ignition-plugin1> component [all]
+[3.283s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[3.284s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.290s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[3.385s] -- Looking for ignition-physics5 -- found version 5.4.0
+[3.386s] -- Searching for dependencies of ignition-physics5
+[3.386s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.386s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.387s] -- Looking for ignition-utils1 -- found version 1.5.1
+[3.389s] -- Searching for <ignition-physics5> component [heightmap]
+[3.393s] -- Looking for ignition-physics5-heightmap -- found version 5.4.0
+[3.393s] -- Searching for dependencies of ignition-physics5-heightmap
+[3.394s] -- Looking for ignition-common4 -- found version 4.8.1
+[3.395s] -- Searching for <ignition-physics5> component [mesh]
+[3.399s] -- Looking for ignition-physics5-mesh -- found version 5.4.0
+[3.400s] -- Searching for dependencies of ignition-physics5-mesh
+[3.400s] -- Looking for ignition-common4 -- found version 4.8.1
+[3.401s] -- Searching for <ignition-physics5> component [sdf]
+[3.405s] -- Looking for ignition-physics5-sdf -- found version 5.4.0
+[3.406s] -- Searching for dependencies of ignition-physics5-sdf
+[3.406s] -- Looking for sdformat12 -- found version 12.9.0
+[3.414s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[3.414s] -- Searching for dependencies of ignition-sensors6
+[3.443s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.444s] -- Looking for ignition-common4 -- found version 4.8.1
+[3.444s] -- Looking for ignition-transport11 -- found version 11.4.2
+[3.444s] -- Looking for ignition-rendering6 -- found version 6.6.4
+[3.445s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[3.445s] -- Looking for sdformat12 -- found version 12.9.0
+[3.447s] -- Searching for <ignition-sensors6> component [air_pressure]
+[3.451s] -- Looking for ignition-sensors6-air_pressure -- found version 6.9.0
+[3.452s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[3.453s] -- Searching for <ignition-sensors6> component [altimeter]
+[3.458s] -- Looking for ignition-sensors6-altimeter -- found version 6.9.0
+[3.458s] -- Searching for dependencies of ignition-sensors6-altimeter
+[3.460s] -- Searching for <ignition-sensors6> component [imu]
+[3.464s] -- Looking for ignition-sensors6-imu -- found version 6.9.0
+[3.464s] -- Searching for dependencies of ignition-sensors6-imu
+[3.466s] -- Searching for <ignition-sensors6> component [force_torque]
+[3.470s] -- Looking for ignition-sensors6-force_torque -- found version 6.9.0
+[3.471s] -- Searching for dependencies of ignition-sensors6-force_torque
+[3.473s] -- Searching for <ignition-sensors6> component [logical_camera]
+[3.477s] -- Looking for ignition-sensors6-logical_camera -- found version 6.9.0
+[3.478s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[3.479s] -- Searching for <ignition-sensors6> component [magnetometer]
+[3.483s] -- Looking for ignition-sensors6-magnetometer -- found version 6.9.0
+[3.484s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[3.485s] -- Searching for <ignition-sensors6> component [navsat]
+[3.490s] -- Looking for ignition-sensors6-navsat -- found version 6.9.0
+[3.491s] -- Searching for dependencies of ignition-sensors6-navsat
+[3.492s] -- Searching for <ignition-sensors6> component [rendering]
+[3.497s] -- Looking for ignition-sensors6-rendering -- found version 6.9.0
+[3.497s] -- Searching for dependencies of ignition-sensors6-rendering
+[3.499s] -- Searching for <ignition-sensors6> component [lidar]
+[3.503s] -- Looking for ignition-sensors6-lidar -- found version 6.9.0
+[3.504s] -- Searching for dependencies of ignition-sensors6-lidar
+[3.504s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[3.506s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[3.510s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.9.0
+[3.510s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[3.511s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[3.512s] -- Searching for <ignition-sensors6> component [camera]
+[3.516s] -- Looking for ignition-sensors6-camera -- found version 6.9.0
+[3.516s] -- Searching for dependencies of ignition-sensors6-camera
+[3.517s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[3.518s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[3.523s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.9.0
+[3.524s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[3.525s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[3.529s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.9.0
+[3.529s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[3.531s] -- Searching for <ignition-sensors6> component [depth_camera]
+[3.535s] -- Looking for ignition-sensors6-depth_camera -- found version 6.9.0
+[3.535s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[3.536s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[3.537s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[3.541s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.9.0
+[3.542s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[3.542s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[3.544s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[3.548s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.9.0
+[3.548s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[3.549s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[3.551s] -- Looking for ignition-rendering6 -- found version 6.6.4
+[3.551s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.556s] -- Looking for ignition-utils1 -- found version 1.5.1
+[3.695s] -- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization 
+[3.700s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[3.761s] -- Checking for NumPy
+[4.215s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[4.378s] --   NUMPY_VERSION=1.21.5
+[4.808s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy 
+[4.809s] -- PythonLibraryDirs: 
+[4.809s] -- PythonLibVersionString: 3.10.12
+[4.837s] -- Python site lib: lib/python3.10/site-packages
+[4.837s] -- Python include dirs: /usr/include/python3.10
+[4.893s] -- Checking for NumPy
+[5.059s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[5.200s] --   NUMPY_VERSION=1.21.5
+[5.200s] -- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[5.204s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[5.204s]   No header defined for python310; skipping header check (note: header-only
+[5.204s]   libraries have no designated component)
+[5.204s] Call Stack (most recent call first):
+[5.204s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:146 (find_package)
+[5.205s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:172 (SEARCH_FOR_BOOST_PYTHON)
+[5.205s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[5.205s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:184 (find_dependency)
+[5.205s]   CMakeLists.txt:25 (find_package)
+[5.205s] 
+[5.205s] [0m
+[5.209s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[5.531s] -- Default C++ standard: 201703
+[5.531s] -- Minimal C++ standard upgraded to 11
+[5.531s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[5.534s] -- coal FOUND. coal at /opt/ros/humble/lib/x86_64-linux-gnu/libcoal.so
+[5.540s] -- Found Boost: /usr/include (found version "1.74.0") found components: serialization filesystem 
+[5.544s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[5.546s] -- Minimal C++ standard upgraded to 17
+[5.546s] -- C++ standard sufficient: Minimal required 17, currently defined: 17
+[5.550s] -- Found realtime_tools: 2.15.1 (/opt/ros/humble/share/realtime_tools/cmake)
+[5.572s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.637s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[5.646s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.647s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.656s] -- Configuring done
+[5.720s] -- Generating done
+[5.731s] -- Build files have been written to: /home/mubii/panda_ws/build/franka_gazebo_hardware
+[5.754s] Invoked command in '/home/mubii/panda_ws/build/franka_gazebo_hardware' returned '0': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/franka_gazebo_hardware
+[5.757s] Invoking command in '/home/mubii/panda_ws/build/franka_gazebo_hardware': AMENT_PREFIX_PATH=/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_gazebo_hardware -- -j12 -l12
+[5.825s] [ 50%] [32mBuilding CXX object CMakeFiles/franka_gz_hardware_plugins.dir/src/franka_gazebo_hardware_interface.cpp.o[0m
+[5.825s] [ 50%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[5.826s] [ 50%] [32mBuilding CXX object CMakeFiles/franka_gz_hardware_plugins.dir/src/gravity_compensation_model.cpp.o[0m
+[5.826s] [ 50%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[5.826s] [ 50%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[8.053s] [ 60%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[8.217s] [ 60%] Built target gmock_main
+[10.794s] [ 70%] [32m[1mLinking CXX static library libgmock.a[0m
+[11.052s] [ 70%] Built target gmock
+[16.775s] In file included from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware/include/franka_gazebo_hardware/franka_gazebo_hardware_interface.hpp:24[m[K,
+[16.775s]                  from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware/src/franka_gazebo_hardware_interface.cpp:28[m[K:
+[16.775s] [01m[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::coriolis(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[16.776s] [01m[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::coriolis(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[16.776s]   141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+[16.776s]       |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.776s] In file included from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware/include/franka_gazebo_hardware/franka_gazebo_hardware_interface.hpp:17[m[K,
+[16.776s]                  from [01m[K/home/mubii/panda_ws/src/franka_ros2/franka_gazebo/franka_gazebo_hardware/src/franka_gazebo_hardware_interface.cpp:28[m[K:
+[16.776s] [01m[K/opt/ros/humble/include/franka/model.h:247:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[16.776s]   247 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+[16.776s]       |   [01;36m[K^~~~~~~~[m[K

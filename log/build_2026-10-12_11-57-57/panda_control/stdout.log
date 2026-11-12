@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing panda_control.egg-info/PKG-INFO
+writing dependency_links to panda_control.egg-info/dependency_links.txt
+writing entry points to panda_control.egg-info/entry_points.txt
+writing requirements to panda_control.egg-info/requires.txt
+writing top-level names to panda_control.egg-info/top_level.txt
+reading manifest file 'panda_control.egg-info/SOURCES.txt'
+writing manifest file 'panda_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mubii/panda_ws/install/panda_control/lib/python3.10/site-packages/panda-control.egg-link (link to .)
+Installing move_arm script to /home/mubii/panda_ws/install/panda_control/lib/panda_control
+Installing pick_place script to /home/mubii/panda_ws/install/panda_control/lib/panda_control
+
+Installed /home/mubii/panda_ws/build/panda_control
+running symlink_data

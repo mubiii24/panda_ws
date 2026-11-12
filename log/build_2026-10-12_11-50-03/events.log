@@ -1,0 +1,214 @@
+[0.000000] (-) TimerEvent: {}
+[0.000506] (-) JobUnselected: {'identifier': 'franka_bringup'}
+[0.000713] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.000728] (-) JobUnselected: {'identifier': 'franka_desk_api'}
+[0.000740] (-) JobUnselected: {'identifier': 'franka_example_controllers'}
+[0.000751] (-) JobUnselected: {'identifier': 'franka_fr3_moveit_config'}
+[0.000763] (-) JobUnselected: {'identifier': 'franka_gazebo_bringup'}
+[0.000774] (-) JobUnselected: {'identifier': 'franka_gazebo_hardware'}
+[0.000785] (-) JobUnselected: {'identifier': 'franka_gripper'}
+[0.000796] (-) JobUnselected: {'identifier': 'franka_hardware'}
+[0.000807] (-) JobUnselected: {'identifier': 'franka_mobile'}
+[0.000818] (-) JobUnselected: {'identifier': 'franka_mobile_sensors'}
+[0.000829] (-) JobUnselected: {'identifier': 'franka_msgs'}
+[0.000840] (-) JobUnselected: {'identifier': 'franka_ros2'}
+[0.000851] (-) JobUnselected: {'identifier': 'franka_semantic_components'}
+[0.000862] (-) JobUnselected: {'identifier': 'franka_spine_examples'}
+[0.000873] (-) JobUnselected: {'identifier': 'franka_spine_msgs'}
+[0.000884] (-) JobUnselected: {'identifier': 'franka_spine_server'}
+[0.000895] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000906] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000918] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000930] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000941] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000952] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000966] (franka_robot_state_broadcaster) JobQueued: {'identifier': 'franka_robot_state_broadcaster', 'dependencies': OrderedDict([('franka_description', '/home/mubii/panda_ws/install/franka_description'), ('franka_msgs', '/home/mubii/panda_ws/install/franka_msgs'), ('franka_hardware', '/home/mubii/panda_ws/install/franka_hardware'), ('franka_semantic_components', '/home/mubii/panda_ws/install/franka_semantic_components')])}
+[0.000987] (franka_robot_state_broadcaster) JobStarted: {'identifier': 'franka_robot_state_broadcaster'}
+[0.022994] (franka_robot_state_broadcaster) JobProgress: {'identifier': 'franka_robot_state_broadcaster', 'progress': 'cmake'}
+[0.023845] (franka_robot_state_broadcaster) JobProgress: {'identifier': 'franka_robot_state_broadcaster', 'progress': 'build'}
+[0.024482] (franka_robot_state_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mubii/panda_ws/build/franka_robot_state_broadcaster', '--', '-j12', '-l12'], 'cwd': '/home/mubii/panda_ws/build/franka_robot_state_broadcaster', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mubii'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:/home/mubii/panda_ws/install/franka_mobile/lib:/home/mubii/panda_ws/install/franka_example_controllers/lib:/home/mubii/panda_ws/install/franka_gazebo_hardware/lib:/home/mubii/panda_ws/install/franka_spine_msgs/lib:/home/mubii/panda_ws/install/franka_gripper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mubii'), ('OLDPWD', '/home/mubii/panda_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1624'), ('SYSTEMD_EXEC_PID', '1801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3195'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mubii/panda_ws/install:/home/mubii/robot_ws/install:/home/mubii/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mubii'), ('JOURNAL_STREAM', '8:16634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mubii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zoro:@/tmp/.ICE-unix/1764,unix/zoro:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9f82dc82002842db9fe1ebec0d5cf271'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T2EYW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mubii/panda_ws/install/franka_mobile:/home/mubii/panda_ws/install/franka_example_controllers:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ba8347c7-7d67-454c-b4cd-e7212cfb8c0f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mubii/panda_ws/build/franka_robot_state_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:/home/mubii/robot_ws/build/robot_description:/home/mubii/robot_ws/install/robot_description/lib/python3.10/site-packages:/home/mubii/ros2_ws/install/my_beginner_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:/home/mubii/panda_ws/install/franka_mobile:/home/mubii/panda_ws/install/franka_example_controllers:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble')]), 'shell': False}
+[0.084518] (franka_robot_state_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock_main\x1b[0m\n'}
+[0.085505] (franka_robot_state_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock\x1b[0m\n'}
+[0.097879] (franka_robot_state_broadcaster) StdoutLine: {'line': b'[ 15%] Built target franka_robot_state_broadcaster_parameters\n'}
+[0.099641] (-) TimerEvent: {}
+[0.100388] (franka_robot_state_broadcaster) StdoutLine: {'line': b'[ 30%] Built target gmock_main\n'}
+[0.102865] (franka_robot_state_broadcaster) StdoutLine: {'line': b'[ 53%] Built target gmock\n'}
+[0.127005] (franka_robot_state_broadcaster) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/franka_robot_state_broadcaster.dir/src/franka_robot_state_broadcaster.cpp.o\x1b[0m\n'}
+[0.199802] (-) TimerEvent: {}
+[0.300205] (-) TimerEvent: {}
+[0.400620] (-) TimerEvent: {}
+[0.500969] (-) TimerEvent: {}
+[0.601423] (-) TimerEvent: {}
+[0.701838] (-) TimerEvent: {}
+[0.802198] (-) TimerEvent: {}
+[0.902554] (-) TimerEvent: {}
+[1.002938] (-) TimerEvent: {}
+[1.103290] (-) TimerEvent: {}
+[1.203606] (-) TimerEvent: {}
+[1.303961] (-) TimerEvent: {}
+[1.404297] (-) TimerEvent: {}
+[1.504692] (-) TimerEvent: {}
+[1.605000] (-) TimerEvent: {}
+[1.705406] (-) TimerEvent: {}
+[1.805810] (-) TimerEvent: {}
+[1.906162] (-) TimerEvent: {}
+[2.006492] (-) TimerEvent: {}
+[2.106848] (-) TimerEvent: {}
+[2.207151] (-) TimerEvent: {}
+[2.307490] (-) TimerEvent: {}
+[2.407782] (-) TimerEvent: {}
+[2.508075] (-) TimerEvent: {}
+[2.608433] (-) TimerEvent: {}
+[2.709118] (-) TimerEvent: {}
+[2.809546] (-) TimerEvent: {}
+[2.909938] (-) TimerEvent: {}
+[3.010274] (-) TimerEvent: {}
+[3.110692] (-) TimerEvent: {}
+[3.210982] (-) TimerEvent: {}
+[3.311301] (-) TimerEvent: {}
+[3.411721] (-) TimerEvent: {}
+[3.512157] (-) TimerEvent: {}
+[3.612494] (-) TimerEvent: {}
+[3.712883] (-) TimerEvent: {}
+[3.813184] (-) TimerEvent: {}
+[3.913537] (-) TimerEvent: {}
+[4.013932] (-) TimerEvent: {}
+[4.114289] (-) TimerEvent: {}
+[4.214599] (-) TimerEvent: {}
+[4.314894] (-) TimerEvent: {}
+[4.415200] (-) TimerEvent: {}
+[4.515525] (-) TimerEvent: {}
+[4.615850] (-) TimerEvent: {}
+[4.716153] (-) TimerEvent: {}
+[4.816473] (-) TimerEvent: {}
+[4.916890] (-) TimerEvent: {}
+[5.017242] (-) TimerEvent: {}
+[5.117681] (-) TimerEvent: {}
+[5.217958] (-) TimerEvent: {}
+[5.318319] (-) TimerEvent: {}
+[5.418759] (-) TimerEvent: {}
+[5.519183] (-) TimerEvent: {}
+[5.619599] (-) TimerEvent: {}
+[5.719920] (-) TimerEvent: {}
+[5.820238] (-) TimerEvent: {}
+[5.920570] (-) TimerEvent: {}
+[6.020942] (-) TimerEvent: {}
+[6.121283] (-) TimerEvent: {}
+[6.221669] (-) TimerEvent: {}
+[6.281869] (franka_robot_state_broadcaster) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libfranka_robot_state_broadcaster.so\x1b[0m\n'}
+[6.321823] (-) TimerEvent: {}
+[6.422226] (-) TimerEvent: {}
+[6.522748] (-) TimerEvent: {}
+[6.623260] (-) TimerEvent: {}
+[6.723836] (-) TimerEvent: {}
+[6.824370] (-) TimerEvent: {}
+[6.924970] (-) TimerEvent: {}
+[7.025520] (-) TimerEvent: {}
+[7.126042] (-) TimerEvent: {}
+[7.226467] (-) TimerEvent: {}
+[7.315821] (franka_robot_state_broadcaster) StdoutLine: {'line': b'[ 69%] Built target franka_robot_state_broadcaster\n'}
+[7.326596] (-) TimerEvent: {}
+[7.344378] (franka_robot_state_broadcaster) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/test_load_franka_robot_state_broadcaster.dir/test/test_load_franka_robot_state_broadcaster.cpp.o\x1b[0m\n'}
+[7.345579] (franka_robot_state_broadcaster) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/franka_robot_state_broadcaster_test.dir/test/test_franka_robot_state_broadcaster.cpp.o\x1b[0m\n'}
+[7.426929] (-) TimerEvent: {}
+[7.527481] (-) TimerEvent: {}
+[7.628037] (-) TimerEvent: {}
+[7.728666] (-) TimerEvent: {}
+[7.829202] (-) TimerEvent: {}
+[7.929792] (-) TimerEvent: {}
+[8.030192] (-) TimerEvent: {}
+[8.130773] (-) TimerEvent: {}
+[8.231306] (-) TimerEvent: {}
+[8.332089] (-) TimerEvent: {}
+[8.432646] (-) TimerEvent: {}
+[8.533230] (-) TimerEvent: {}
+[8.633830] (-) TimerEvent: {}
+[8.734478] (-) TimerEvent: {}
+[8.835065] (-) TimerEvent: {}
+[8.935637] (-) TimerEvent: {}
+[9.036447] (-) TimerEvent: {}
+[9.137022] (-) TimerEvent: {}
+[9.237795] (-) TimerEvent: {}
+[9.338374] (-) TimerEvent: {}
+[9.438945] (-) TimerEvent: {}
+[9.539525] (-) TimerEvent: {}
+[9.639954] (-) TimerEvent: {}
+[9.740790] (-) TimerEvent: {}
+[9.841431] (-) TimerEvent: {}
+[9.941842] (-) TimerEvent: {}
+[10.042264] (-) TimerEvent: {}
+[10.142728] (-) TimerEvent: {}
+[10.243294] (-) TimerEvent: {}
+[10.343955] (-) TimerEvent: {}
+[10.444516] (-) TimerEvent: {}
+[10.545114] (-) TimerEvent: {}
+[10.645622] (-) TimerEvent: {}
+[10.746215] (-) TimerEvent: {}
+[10.846933] (-) TimerEvent: {}
+[10.947407] (-) TimerEvent: {}
+[11.047832] (-) TimerEvent: {}
+[11.148235] (-) TimerEvent: {}
+[11.248658] (-) TimerEvent: {}
+[11.349226] (-) TimerEvent: {}
+[11.449659] (-) TimerEvent: {}
+[11.550066] (-) TimerEvent: {}
+[11.650628] (-) TimerEvent: {}
+[11.751042] (-) TimerEvent: {}
+[11.851619] (-) TimerEvent: {}
+[11.952264] (-) TimerEvent: {}
+[12.051741] (franka_robot_state_broadcaster) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable franka_robot_state_broadcaster_test\x1b[0m\n'}
+[12.052308] (-) TimerEvent: {}
+[12.064688] (franka_robot_state_broadcaster) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_load_franka_robot_state_broadcaster\x1b[0m\n'}
+[12.152655] (-) TimerEvent: {}
+[12.253437] (-) TimerEvent: {}
+[12.354195] (-) TimerEvent: {}
+[12.455121] (-) TimerEvent: {}
+[12.555894] (-) TimerEvent: {}
+[12.656688] (-) TimerEvent: {}
+[12.757715] (-) TimerEvent: {}
+[12.858582] (-) TimerEvent: {}
+[12.959134] (-) TimerEvent: {}
+[13.059924] (-) TimerEvent: {}
+[13.155554] (franka_robot_state_broadcaster) StdoutLine: {'line': b'[100%] Built target test_load_franka_robot_state_broadcaster\n'}
+[13.160026] (-) TimerEvent: {}
+[13.260387] (-) TimerEvent: {}
+[13.360699] (-) TimerEvent: {}
+[13.461002] (-) TimerEvent: {}
+[13.493329] (franka_robot_state_broadcaster) StdoutLine: {'line': b'[100%] Built target franka_robot_state_broadcaster_test\n'}
+[13.506643] (franka_robot_state_broadcaster) CommandEnded: {'returncode': 0}
+[13.508217] (franka_robot_state_broadcaster) JobProgress: {'identifier': 'franka_robot_state_broadcaster', 'progress': 'install'}
+[13.519919] (franka_robot_state_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mubii/panda_ws/build/franka_robot_state_broadcaster'], 'cwd': '/home/mubii/panda_ws/build/franka_robot_state_broadcaster', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mubii'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:/home/mubii/panda_ws/install/franka_mobile/lib:/home/mubii/panda_ws/install/franka_example_controllers/lib:/home/mubii/panda_ws/install/franka_gazebo_hardware/lib:/home/mubii/panda_ws/install/franka_spine_msgs/lib:/home/mubii/panda_ws/install/franka_gripper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mubii'), ('OLDPWD', '/home/mubii/panda_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1624'), ('SYSTEMD_EXEC_PID', '1801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3195'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mubii/panda_ws/install:/home/mubii/robot_ws/install:/home/mubii/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mubii'), ('JOURNAL_STREAM', '8:16634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mubii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zoro:@/tmp/.ICE-unix/1764,unix/zoro:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9f82dc82002842db9fe1ebec0d5cf271'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T2EYW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mubii/panda_ws/install/franka_mobile:/home/mubii/panda_ws/install/franka_example_controllers:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ba8347c7-7d67-454c-b4cd-e7212cfb8c0f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mubii/panda_ws/build/franka_robot_state_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mubii/panda_ws/install/franka_mobile/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:/home/mubii/robot_ws/build/robot_description:/home/mubii/robot_ws/install/robot_description/lib/python3.10/site-packages:/home/mubii/ros2_ws/install/my_beginner_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:/home/mubii/panda_ws/install/franka_mobile:/home/mubii/panda_ws/install/franka_example_controllers:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble')]), 'shell': False}
+[13.529704] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.530302] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.530707] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/franka_robot_state_broadcaster_parameters.hpp\n'}
+[13.541374] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster//franka_robot_state_broadcaster.xml\n'}
+[13.553133] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/lib/libfranka_robot_state_broadcaster.so\n'}
+[13.561150] (-) TimerEvent: {}
+[13.563628] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/async_buffer.hpp\n'}
+[13.574251] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/franka_robot_state_broadcaster.hpp\n'}
+[13.585086] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/library_path.sh\n'}
+[13.596780] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/library_path.dsv\n'}
+[13.608321] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/franka_robot_state_broadcaster\n'}
+[13.620205] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/franka_robot_state_broadcaster\n'}
+[13.631484] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/ament_prefix_path.sh\n'}
+[13.643423] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/ament_prefix_path.dsv\n'}
+[13.654825] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/path.sh\n'}
+[13.661285] (-) TimerEvent: {}
+[13.665601] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/path.dsv\n'}
+[13.675906] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.bash\n'}
+[13.687024] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.sh\n'}
+[13.697736] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.zsh\n'}
+[13.708903] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.dsv\n'}
+[13.719661] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.dsv\n'}
+[13.730919] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/packages/franka_robot_state_broadcaster\n'}
+[13.742144] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_robot_state_broadcaster\n'}
+[13.753972] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.761446] (-) TimerEvent: {}
+[13.765661] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.777082] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.788418] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/franka_robot_state_broadcasterConfig.cmake\n'}
+[13.799276] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/franka_robot_state_broadcasterConfig-version.cmake\n'}
+[13.810035] (franka_robot_state_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.xml\n'}
+[13.831581] (franka_robot_state_broadcaster) CommandEnded: {'returncode': 0}
+[13.847372] (franka_robot_state_broadcaster) JobEnded: {'identifier': 'franka_robot_state_broadcaster', 'rc': 0}
+[13.848110] (-) EventReactorShutdown: {}

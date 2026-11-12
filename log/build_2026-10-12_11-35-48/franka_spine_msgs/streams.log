@@ -1,0 +1,470 @@
+[0.030s] Invoking command in '/home/mubii/panda_ws/build/franka_spine_msgs': CMAKE_PREFIX_PATH=/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake /home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/franka_spine_msgs
+[0.178s] -- The C compiler identification is GNU 11.4.0
+[0.307s] -- The CXX compiler identification is GNU 11.4.0
+[0.314s] -- Detecting C compiler ABI info
+[0.423s] -- Detecting C compiler ABI info - done
+[0.430s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.430s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.434s] -- Detecting CXX compiler ABI info
+[0.554s] -- Detecting CXX compiler ABI info - done
+[0.562s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.562s] -- Detecting CXX compile features
+[0.562s] -- Detecting CXX compile features - done
+[0.570s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.822s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.936s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.991s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.998s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.014s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.091s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.164s] -- Found std_msgs: 4.9.2 (/opt/ros/humble/share/std_msgs/cmake)
+[1.717s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.070s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.466s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.498s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.501s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.540s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.540s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.540s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.540s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.574s] -- Found PythonExtra: .so  
+[2.754s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.799s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.803s] -- Added test 'lint_cmake' to check CMake code style
+[2.805s] -- Added test 'xmllint' to check XML markup files
+[2.811s] -- Configuring done
+[2.881s] -- Generating done
+[2.899s] -- Build files have been written to: /home/mubii/panda_ws/build/franka_spine_msgs
+[2.927s] Invoked command in '/home/mubii/panda_ws/build/franka_spine_msgs' returned '0': CMAKE_PREFIX_PATH=/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake /home/mubii/panda_ws/src/franka_ros2/franka_spine/franka_spine_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mubii/panda_ws/install/franka_spine_msgs
+[2.929s] Invoking command in '/home/mubii/panda_ws/build/franka_spine_msgs': CMAKE_PREFIX_PATH=/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_spine_msgs -- -j12 -l12
+[2.998s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.017s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.017s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[3.032s] [  2%] Built target ament_cmake_python_symlink_franka_spine_msgs
+[3.362s] running egg_info
+[3.362s] creating franka_spine_msgs.egg-info
+[3.362s] writing franka_spine_msgs.egg-info/PKG-INFO
+[3.363s] writing dependency_links to franka_spine_msgs.egg-info/dependency_links.txt
+[3.363s] writing top-level names to franka_spine_msgs.egg-info/top_level.txt
+[3.363s] writing manifest file 'franka_spine_msgs.egg-info/SOURCES.txt'
+[3.366s] reading manifest file 'franka_spine_msgs.egg-info/SOURCES.txt'
+[3.366s] writing manifest file 'franka_spine_msgs.egg-info/SOURCES.txt'
+[3.455s] [  2%] Built target ament_cmake_python_build_franka_spine_msgs_egg
+[4.081s] [  2%] Built target franka_spine_msgs__rs
+[4.748s] [  2%] Built target franka_spine_msgs__cpp
+[4.764s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.765s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.766s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.171s] [  6%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_spine_msgs/msg/detail/spine_parameters__functions.c.o[0m
+[5.172s] [  8%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_spine_msgs/srv/detail/fault_reset__functions.c.o[0m
+[5.172s] [  8%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_spine_msgs/msg/detail/user_limits__functions.c.o[0m
+[5.172s] [  9%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_spine_msgs/srv/detail/halt__functions.c.o[0m
+[5.174s] [ 10%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_spine_msgs/action/detail/move_absolute__functions.c.o[0m
+[5.179s] [ 11%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_spine_msgs/srv/detail/get_spine_state__functions.c.o[0m
+[5.184s] [ 12%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_spine_msgs/srv/detail/get_position__functions.c.o[0m
+[5.189s] [ 13%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_spine_msgs/srv/detail/switch_on__functions.c.o[0m
+[5.215s] [ 14%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_spine_msgs/srv/detail/switch_off__functions.c.o[0m
+[5.342s] [ 15%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_spine_msgs/srv/detail/get_parameters__functions.c.o[0m
+[5.500s] [ 16%] [32m[1mLinking C shared library libfranka_spine_msgs__rosidl_generator_c.so[0m
+[5.581s] [ 16%] Built target franka_spine_msgs__rosidl_generator_c
+[5.601s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.601s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.603s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.299s] [ 20%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_spine_msgs/action/move_absolute__type_support.cpp.o[0m
+[6.304s] [ 21%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_spine_msgs/srv/get_spine_state__type_support.cpp.o[0m
+[6.304s] [ 22%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_spine_msgs/msg/spine_parameters__type_support.cpp.o[0m
+[6.312s] [ 23%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_spine_msgs/srv/get_position__type_support.cpp.o[0m
+[6.324s] [ 24%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_spine_msgs/msg/user_limits__type_support.cpp.o[0m
+[6.324s] [ 26%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_spine_msgs/srv/fault_reset__type_support.cpp.o[0m
+[6.324s] [ 26%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_spine_msgs/srv/switch_on__type_support.cpp.o[0m
+[7.008s] [ 27%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_spine_msgs/srv/switch_off__type_support.cpp.o[0m
+[7.014s] [ 28%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_spine_msgs/srv/halt__type_support.cpp.o[0m
+[7.087s] [ 29%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_spine_msgs/srv/get_parameters__type_support.cpp.o[0m
+[7.252s] [ 30%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_spine_msgs/action/detail/move_absolute__type_support.cpp.o[0m
+[7.280s] [ 31%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_spine_msgs/msg/detail/user_limits__type_support.cpp.o[0m
+[7.342s] [ 32%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_spine_msgs/msg/detail/spine_parameters__type_support.cpp.o[0m
+[7.361s] [ 33%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_spine_msgs/action/detail/dds_fastrtps/move_absolute__type_support.cpp.o[0m
+[7.397s] [ 34%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_spine_msgs/msg/detail/dds_fastrtps/user_limits__type_support.cpp.o[0m
+[7.483s] [ 34%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_spine_msgs/action/move_absolute__type_support.cpp.o[0m
+[7.557s] [ 35%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_spine_msgs/srv/detail/get_spine_state__type_support.cpp.o[0m
+[7.580s] [ 36%] [32m[1mLinking CXX shared library libfranka_spine_msgs__rosidl_typesupport_cpp.so[0m
+[7.591s] [ 37%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_spine_msgs/msg/detail/dds_fastrtps/spine_parameters__type_support.cpp.o[0m
+[7.593s] [ 38%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_spine_msgs/srv/detail/get_position__type_support.cpp.o[0m
+[7.704s] [ 39%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_spine_msgs/msg/user_limits__type_support.cpp.o[0m
+[7.809s] [ 39%] Built target franka_spine_msgs__rosidl_typesupport_cpp
+[7.848s] [ 40%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_spine_msgs/msg/spine_parameters__type_support.cpp.o[0m
+[7.883s] [ 41%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_spine_msgs/srv/get_spine_state__type_support.cpp.o[0m
+[7.988s] [ 42%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_spine_msgs/srv/detail/fault_reset__type_support.cpp.o[0m
+[8.047s] [ 43%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_spine_msgs/srv/get_position__type_support.cpp.o[0m
+[8.164s] [ 44%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_spine_msgs/srv/fault_reset__type_support.cpp.o[0m
+[8.368s] [ 45%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_spine_msgs/srv/switch_on__type_support.cpp.o[0m
+[8.489s] [ 46%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_spine_msgs/srv/switch_off__type_support.cpp.o[0m
+[8.540s] [ 47%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_spine_msgs/srv/halt__type_support.cpp.o[0m
+[8.624s] [ 48%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_spine_msgs/srv/get_parameters__type_support.cpp.o[0m
+[8.627s] [ 48%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_spine_msgs/action/detail/move_absolute__type_support.c.o[0m
+[8.636s] [ 49%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_spine_msgs/srv/detail/dds_fastrtps/get_spine_state__type_support.cpp.o[0m
+[8.718s] [ 50%] [32m[1mLinking CXX shared library libfranka_spine_msgs__rosidl_typesupport_c.so[0m
+[8.864s] [ 51%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_spine_msgs/srv/detail/switch_on__type_support.cpp.o[0m
+[8.890s] [ 52%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_spine_msgs/msg/detail/user_limits__type_support.c.o[0m
+[8.919s] [ 53%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_spine_msgs/srv/detail/switch_off__type_support.cpp.o[0m
+[8.936s] [ 53%] Built target franka_spine_msgs__rosidl_typesupport_c
+[8.940s] [ 53%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_spine_msgs/action/detail/move_absolute__type_support_c.cpp.o[0m
+[8.978s] [ 54%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_spine_msgs/srv/detail/dds_fastrtps/get_position__type_support.cpp.o[0m
+[8.979s] [ 55%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_spine_msgs/srv/detail/dds_fastrtps/fault_reset__type_support.cpp.o[0m
+[8.992s] [ 56%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_spine_msgs/srv/detail/halt__type_support.cpp.o[0m
+[8.996s] [ 57%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_spine_msgs/msg/detail/user_limits__type_support_c.cpp.o[0m
+[9.005s] [ 58%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_spine_msgs/srv/detail/get_parameters__type_support.cpp.o[0m
+[9.079s] [ 59%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_spine_msgs/msg/detail/spine_parameters__type_support.c.o[0m
+[9.232s] [ 60%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_spine_msgs/srv/detail/get_spine_state__type_support.c.o[0m
+[9.334s] [ 61%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_spine_msgs/srv/detail/dds_fastrtps/switch_on__type_support.cpp.o[0m
+[9.421s] [ 62%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_spine_msgs/srv/detail/get_position__type_support.c.o[0m
+[9.589s] [ 63%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_spine_msgs/srv/detail/fault_reset__type_support.c.o[0m
+[9.599s] [ 64%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_spine_msgs/srv/detail/dds_fastrtps/switch_off__type_support.cpp.o[0m
+[9.685s] [ 65%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_spine_msgs/srv/detail/switch_on__type_support.c.o[0m
+[9.758s] [ 66%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_spine_msgs/msg/detail/spine_parameters__type_support_c.cpp.o[0m
+[9.799s] [ 67%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_spine_msgs/srv/detail/switch_off__type_support.c.o[0m
+[9.840s] [ 68%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_spine_msgs/srv/detail/get_spine_state__type_support_c.cpp.o[0m
+[9.951s] [ 69%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_spine_msgs/srv/detail/dds_fastrtps/halt__type_support.cpp.o[0m
+[9.961s] [ 70%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_spine_msgs/srv/detail/dds_fastrtps/get_parameters__type_support.cpp.o[0m
+[9.961s] [ 71%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_spine_msgs/srv/detail/halt__type_support.c.o[0m
+[10.020s] [ 72%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_spine_msgs/srv/detail/get_parameters__type_support.c.o[0m
+[10.113s] [ 73%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_spine_msgs/srv/detail/get_position__type_support_c.cpp.o[0m
+[10.178s] [ 74%] [32m[1mLinking C shared library libfranka_spine_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.233s] [ 75%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_spine_msgs/srv/detail/fault_reset__type_support_c.cpp.o[0m
+[10.269s] [ 76%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_spine_msgs/srv/detail/switch_on__type_support_c.cpp.o[0m
+[10.376s] [ 76%] Built target franka_spine_msgs__rosidl_typesupport_introspection_c
+[10.377s] [ 77%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_spine_msgs/srv/detail/switch_off__type_support_c.cpp.o[0m
+[10.381s] [ 78%] [32m[1mLinking CXX shared library libfranka_spine_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.422s] [ 79%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_spine_msgs/srv/detail/halt__type_support_c.cpp.o[0m
+[10.464s] [ 80%] [32mBuilding CXX object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_spine_msgs/srv/detail/get_parameters__type_support_c.cpp.o[0m
+[10.724s] [ 80%] Built target franka_spine_msgs__rosidl_typesupport_introspection_cpp
+[11.084s] [ 81%] [32m[1mLinking CXX shared library libfranka_spine_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.226s] [ 82%] [32m[1mLinking CXX shared library libfranka_spine_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.279s] [ 82%] Built target franka_spine_msgs__rosidl_typesupport_fastrtps_cpp
+[11.353s] [ 82%] Built target franka_spine_msgs__rosidl_typesupport_fastrtps_c
+[11.382s] [ 82%] Built target franka_spine_msgs
+[11.412s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.472s] [ 83%] Built target franka_spine_msgs__py
+[16.577s] [ 84%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_spine_msgs/msg/_user_limits_s.c.o[0m
+[16.578s] [ 85%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_spine_msgs/srv/_switch_on_s.c.o[0m
+[16.578s] [ 87%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_spine_msgs/msg/_spine_parameters_s.c.o[0m
+[16.580s] [ 86%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_spine_msgs/action/_move_absolute_s.c.o[0m
+[16.587s] [ 88%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_spine_msgs/srv/_get_spine_state_s.c.o[0m
+[16.594s] [ 90%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_spine_msgs/srv/_get_position_s.c.o[0m
+[16.595s] [ 90%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_spine_msgs/srv/_fault_reset_s.c.o[0m
+[16.612s] [ 92%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_spine_msgs/srv/_switch_off_s.c.o[0m
+[16.613s] [ 93%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_spine_msgs/srv/_halt_s.c.o[0m
+[16.613s] [ 92%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_spine_msgs/srv/_get_parameters_s.c.o[0m
+[17.275s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/franka_spine_msgs/libfranka_spine_msgs__rosidl_generator_py.so[0m
+[17.585s] [ 94%] Built target franka_spine_msgs__rosidl_generator_py
+[17.650s] [ 95%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/franka_spine_msgs/_franka_spine_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[17.664s] [ 96%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/franka_spine_msgs/_franka_spine_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.671s] [ 97%] [32mBuilding C object CMakeFiles/franka_spine_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/franka_spine_msgs/_franka_spine_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.158s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.187s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.368s] [ 99%] Built target franka_spine_msgs__rosidl_typesupport_fastrtps_c__pyext
+[18.386s] [ 99%] Built target franka_spine_msgs__rosidl_typesupport_c__pyext
+[18.409s] [100%] [32m[1mLinking C shared library rosidl_generator_py/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.515s] [100%] Built target franka_spine_msgs__rosidl_typesupport_introspection_c__pyext
+[18.557s] Invoked command in '/home/mubii/panda_ws/build/franka_spine_msgs' returned '0': CMAKE_PREFIX_PATH=/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mubii/panda_ws/build/franka_spine_msgs -- -j12 -l12
+[18.561s] Invoking command in '/home/mubii/panda_ws/build/franka_spine_msgs': CMAKE_PREFIX_PATH=/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mubii/panda_ws/build/franka_spine_msgs
+[18.581s] -- Install configuration: ""
+[18.582s] -- Execute custom install script
+[18.583s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/ament_index/resource_index/rosidl_interfaces/franka_spine_msgs
+[18.603s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__functions.h
+[18.620s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__struct.h
+[18.638s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__type_support.h
+[18.655s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/move_absolute.h
+[18.667s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__functions.h
+[18.679s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__struct.h
+[18.690s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__type_support.h
+[18.702s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__functions.h
+[18.713s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__struct.h
+[18.724s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__type_support.h
+[18.735s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/rosidl_generator_c__visibility_control.h
+[18.746s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/spine_parameters.h
+[18.757s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/user_limits.h
+[18.770s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__functions.h
+[18.781s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__struct.h
+[18.792s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__type_support.h
+[18.803s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__functions.h
+[18.814s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__struct.h
+[18.826s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__type_support.h
+[18.839s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__functions.h
+[18.852s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__struct.h
+[18.865s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__type_support.h
+[18.878s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__functions.h
+[18.889s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__struct.h
+[18.901s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__type_support.h
+[18.912s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__functions.h
+[18.924s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__struct.h
+[18.937s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__type_support.h
+[18.951s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__functions.h
+[18.965s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__struct.h
+[18.976s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__type_support.h
+[18.987s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__functions.h
+[18.999s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__struct.h
+[19.011s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__type_support.h
+[19.021s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/fault_reset.h
+[19.031s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/get_parameters.h
+[19.042s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/get_position.h
+[19.053s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/get_spine_state.h
+[19.063s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/halt.h
+[19.075s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/switch_off.h
+[19.085s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/switch_on.h
+[19.095s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/library_path.sh
+[19.106s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/library_path.dsv
+[19.118s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__rosidl_typesupport_fastrtps_c.h
+[19.128s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__rosidl_typesupport_fastrtps_c.h
+[19.139s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__rosidl_typesupport_fastrtps_c.h
+[19.151s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.162s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__rosidl_typesupport_fastrtps_c.h
+[19.173s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__rosidl_typesupport_fastrtps_c.h
+[19.184s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[19.195s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__rosidl_typesupport_fastrtps_c.h
+[19.205s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__rosidl_typesupport_fastrtps_c.h
+[19.215s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__rosidl_typesupport_fastrtps_c.h
+[19.225s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__rosidl_typesupport_fastrtps_c.h
+[19.235s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__rosidl_typesupport_introspection_c.h
+[19.245s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__rosidl_typesupport_introspection_c.h
+[19.256s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__rosidl_typesupport_introspection_c.h
+[19.266s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.276s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__rosidl_typesupport_introspection_c.h
+[19.287s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__rosidl_typesupport_introspection_c.h
+[19.297s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[19.307s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__rosidl_typesupport_introspection_c.h
+[19.318s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__rosidl_typesupport_introspection_c.h
+[19.328s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__rosidl_typesupport_introspection_c.h
+[19.338s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__rosidl_typesupport_introspection_c.h
+[19.350s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__builder.hpp
+[19.361s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__struct.hpp
+[19.371s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__traits.hpp
+[19.381s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__type_support.hpp
+[19.391s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/move_absolute.hpp
+[19.401s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__builder.hpp
+[19.411s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__struct.hpp
+[19.421s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__traits.hpp
+[19.431s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__type_support.hpp
+[19.441s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__builder.hpp
+[19.451s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__struct.hpp
+[19.462s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__traits.hpp
+[19.472s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__type_support.hpp
+[19.482s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.492s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/spine_parameters.hpp
+[19.504s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/user_limits.hpp
+[19.514s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__builder.hpp
+[19.524s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__struct.hpp
+[19.534s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__traits.hpp
+[19.546s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__type_support.hpp
+[19.556s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__builder.hpp
+[19.567s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__struct.hpp
+[19.577s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__traits.hpp
+[19.588s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__type_support.hpp
+[19.598s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__builder.hpp
+[19.609s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__struct.hpp
+[19.619s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__traits.hpp
+[19.629s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__type_support.hpp
+[19.639s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__builder.hpp
+[19.649s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__struct.hpp
+[19.659s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__traits.hpp
+[19.670s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__type_support.hpp
+[19.680s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__builder.hpp
+[19.690s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__struct.hpp
+[19.700s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__traits.hpp
+[19.710s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__type_support.hpp
+[19.720s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__builder.hpp
+[19.731s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__struct.hpp
+[19.741s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__traits.hpp
+[19.753s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__type_support.hpp
+[19.764s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__builder.hpp
+[19.775s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__struct.hpp
+[19.787s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__traits.hpp
+[19.798s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__type_support.hpp
+[19.808s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/fault_reset.hpp
+[19.818s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/get_parameters.hpp
+[19.828s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/get_position.hpp
+[19.838s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/get_spine_state.hpp
+[19.848s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/halt.hpp
+[19.857s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/switch_off.hpp
+[19.870s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/switch_on.hpp
+[19.882s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[19.892s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[19.902s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__rosidl_typesupport_fastrtps_cpp.hpp
+[19.912s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.923s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__rosidl_typesupport_fastrtps_cpp.hpp
+[19.933s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[19.943s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[19.954s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__rosidl_typesupport_fastrtps_cpp.hpp
+[19.966s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__rosidl_typesupport_fastrtps_cpp.hpp
+[19.976s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__rosidl_typesupport_fastrtps_cpp.hpp
+[19.986s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__rosidl_typesupport_fastrtps_cpp.hpp
+[19.997s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__rosidl_typesupport_introspection_cpp.hpp
+[20.007s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__rosidl_typesupport_introspection_cpp.hpp
+[20.019s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__rosidl_typesupport_introspection_cpp.hpp
+[20.029s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__rosidl_typesupport_introspection_cpp.hpp
+[20.039s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__rosidl_typesupport_introspection_cpp.hpp
+[20.049s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[20.060s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__rosidl_typesupport_introspection_cpp.hpp
+[20.070s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__rosidl_typesupport_introspection_cpp.hpp
+[20.080s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__rosidl_typesupport_introspection_cpp.hpp
+[20.090s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__rosidl_typesupport_introspection_cpp.hpp
+[20.101s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/pythonpath.sh
+[20.112s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/pythonpath.dsv
+[20.123s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs-2.7.1-py3.10.egg-info/PKG-INFO
+[20.133s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs-2.7.1-py3.10.egg-info/SOURCES.txt
+[20.143s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs-2.7.1-py3.10.egg-info/dependency_links.txt
+[20.154s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs-2.7.1-py3.10.egg-info/top_level.txt
+[20.166s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/__init__.py
+[20.176s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/_franka_spine_msgs_s.ep.rosidl_typesupport_c.c
+[20.186s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/_franka_spine_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.196s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/_franka_spine_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[20.206s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/action/__init__.py
+[20.216s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/action/_move_absolute.py
+[20.226s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/action/_move_absolute_s.c
+[20.236s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.246s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.256s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.267s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/libfranka_spine_msgs__rosidl_generator_py.so
+[20.279s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/msg/__init__.py
+[20.289s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/msg/_spine_parameters.py
+[20.299s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/msg/_spine_parameters_s.c
+[20.309s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/msg/_user_limits.py
+[20.320s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/msg/_user_limits_s.c
+[20.329s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/__init__.py
+[20.348s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_fault_reset.py
+[20.350s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_fault_reset_s.c
+[20.360s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_get_parameters.py
+[20.370s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_get_parameters_s.c
+[20.380s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_get_position.py
+[20.391s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_get_position_s.c
+[20.400s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_get_spine_state.py
+[20.410s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_get_spine_state_s.c
+[20.420s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_halt.py
+[20.431s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_halt_s.c
+[20.441s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_switch_off.py
+[20.451s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_switch_off_s.c
+[20.461s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_switch_on.py
+[20.471s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_switch_on_s.c
+[20.482s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.482s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.482s] -- Up-to-date symlink: /home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.482s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/ament_index/resource_index/rust_packages/franka_spine_msgs
+[20.493s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/Cargo.toml
+[20.503s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/build.rs
+[20.513s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/src/action.rs
+[20.524s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/src/action/rmw.rs
+[20.535s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/src/lib.rs
+[20.547s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/src/msg.rs
+[20.557s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/src/msg/rmw.rs
+[20.567s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/src/srv.rs
+[20.578s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/src/srv/rmw.rs
+[20.589s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/action/MoveAbsolute.idl
+[20.599s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/UserLimits.idl
+[20.609s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/SpineParameters.idl
+[20.619s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetSpineState.idl
+[20.630s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetPosition.idl
+[20.640s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/FaultReset.idl
+[20.651s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/SwitchOn.idl
+[20.661s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/SwitchOff.idl
+[20.671s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/Halt.idl
+[20.682s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetParameters.idl
+[20.692s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/action/MoveAbsolute.action
+[20.702s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/UserLimits.msg
+[20.713s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/SpineParameters.msg
+[20.723s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetSpineState.srv
+[20.733s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetSpineState_Request.msg
+[20.744s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetSpineState_Response.msg
+[20.754s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetPosition.srv
+[20.765s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetPosition_Request.msg
+[20.776s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetPosition_Response.msg
+[20.788s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/FaultReset.srv
+[20.798s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/FaultReset_Request.msg
+[20.808s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/FaultReset_Response.msg
+[20.818s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/SwitchOn.srv
+[20.828s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/SwitchOn_Request.msg
+[20.839s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/SwitchOn_Response.msg
+[20.848s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/SwitchOff.srv
+[20.858s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/SwitchOff_Request.msg
+[20.869s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/SwitchOff_Response.msg
+[20.880s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/Halt.srv
+[20.891s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/Halt_Request.msg
+[20.902s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/Halt_Response.msg
+[20.912s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetParameters.srv
+[20.923s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetParameters_Request.msg
+[20.933s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetParameters_Response.msg
+[20.944s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/ament_index/resource_index/package_run_dependencies/franka_spine_msgs
+[20.957s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/ament_index/resource_index/parent_prefix_path/franka_spine_msgs
+[20.969s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/ament_prefix_path.sh
+[20.980s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/ament_prefix_path.dsv
+[20.990s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/path.sh
+[21.001s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/path.dsv
+[21.012s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/local_setup.bash
+[21.022s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/local_setup.sh
+[21.033s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/local_setup.zsh
+[21.044s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/local_setup.dsv
+[21.054s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/package.dsv
+[21.066s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/ament_index/resource_index/packages/franka_spine_msgs
+[21.076s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/rosidl_cmake-extras.cmake
+[21.086s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.096s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.108s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[21.119s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[21.129s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[21.139s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[21.149s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[21.159s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgsConfig.cmake
+[21.170s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgsConfig-version.cmake
+[21.180s] -- Symlinking: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/package.xml
+[21.190s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_generator_c.so
+[21.191s] -- Set runtime path of "/home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_generator_c.so" to ""
+[21.191s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_fastrtps_c.so
+[21.191s] -- Set runtime path of "/home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[21.191s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_introspection_c.so
+[21.192s] -- Set runtime path of "/home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_introspection_c.so" to ""
+[21.192s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_c.so
+[21.192s] -- Set runtime path of "/home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_c.so" to ""
+[21.192s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_fastrtps_cpp.so
+[21.193s] -- Set runtime path of "/home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[21.193s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_introspection_cpp.so
+[21.193s] -- Set runtime path of "/home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[21.193s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_cpp.so
+[21.194s] -- Set runtime path of "/home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_cpp.so" to ""
+[21.242s] Listing '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs'...
+[21.242s] Compiling '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/__init__.py'...
+[21.242s] Listing '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/action'...
+[21.242s] Compiling '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/action/__init__.py'...
+[21.242s] Compiling '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/action/_move_absolute.py'...
+[21.242s] Listing '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/msg'...
+[21.242s] Compiling '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/msg/__init__.py'...
+[21.242s] Compiling '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/msg/_spine_parameters.py'...
+[21.242s] Compiling '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/msg/_user_limits.py'...
+[21.242s] Listing '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv'...
+[21.242s] Compiling '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/__init__.py'...
+[21.242s] Compiling '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_fault_reset.py'...
+[21.242s] Compiling '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_get_parameters.py'...
+[21.242s] Compiling '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_get_position.py'...
+[21.242s] Compiling '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_get_spine_state.py'...
+[21.243s] Compiling '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_halt.py'...
+[21.243s] Compiling '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_switch_off.py'...
+[21.243s] Compiling '/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages/franka_spine_msgs/srv/_switch_on.py'...
+[21.247s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_generator_py.so
+[21.248s] -- Set runtime path of "/home/mubii/panda_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_generator_py.so" to ""
+[21.248s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_generator_cExport.cmake
+[21.248s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_generator_cExport-noconfig.cmake
+[21.249s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[21.249s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[21.249s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_introspection_cExport.cmake
+[21.249s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[21.249s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_cExport.cmake
+[21.249s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[21.250s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_generator_cppExport.cmake
+[21.250s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[21.250s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[21.250s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[21.250s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[21.250s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_cppExport.cmake
+[21.251s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[21.251s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_generator_pyExport.cmake
+[21.251s] -- Installing: /home/mubii/panda_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_generator_pyExport-noconfig.cmake
+[21.254s] Invoked command in '/home/mubii/panda_ws/build/franka_spine_msgs' returned '0': CMAKE_PREFIX_PATH=/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mubii/panda_ws/build/franka_spine_msgs

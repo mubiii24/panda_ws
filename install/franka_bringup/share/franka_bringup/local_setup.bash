@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/build/franka_bringup/ament_cmake_environment_hooks/local_setup.bash

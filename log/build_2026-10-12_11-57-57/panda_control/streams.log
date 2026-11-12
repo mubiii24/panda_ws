@@ -1,0 +1,18 @@
+[0.946s] Invoking command in '/home/mubii/panda_ws/build/panda_control': PYTHONPATH=/home/mubii/panda_ws/build/panda_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mubii/panda_ws/install/panda_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mubii/panda_ws/build/panda_control/build --no-deps symlink_data
+[1.198s] running develop
+[1.372s] running egg_info
+[1.373s] writing panda_control.egg-info/PKG-INFO
+[1.373s] writing dependency_links to panda_control.egg-info/dependency_links.txt
+[1.373s] writing entry points to panda_control.egg-info/entry_points.txt
+[1.373s] writing requirements to panda_control.egg-info/requires.txt
+[1.373s] writing top-level names to panda_control.egg-info/top_level.txt
+[1.374s] reading manifest file 'panda_control.egg-info/SOURCES.txt'
+[1.375s] writing manifest file 'panda_control.egg-info/SOURCES.txt'
+[1.376s] running build_ext
+[1.377s] Creating /home/mubii/panda_ws/install/panda_control/lib/python3.10/site-packages/panda-control.egg-link (link to .)
+[1.377s] Installing move_arm script to /home/mubii/panda_ws/install/panda_control/lib/panda_control
+[1.377s] Installing pick_place script to /home/mubii/panda_ws/install/panda_control/lib/panda_control
+[1.377s] 
+[1.377s] Installed /home/mubii/panda_ws/build/panda_control
+[1.377s] running symlink_data
+[1.418s] Invoked command in '/home/mubii/panda_ws/build/panda_control' returned '0': PYTHONPATH=/home/mubii/panda_ws/build/panda_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mubii/panda_ws/install/panda_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mubii/panda_ws/build/panda_control/build --no-deps symlink_data

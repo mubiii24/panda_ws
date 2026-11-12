@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e3f3645e2947efc5403f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "franka_mobile_sensors",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_franka_mobile_sensors_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_franka_mobile_sensors_egg-1790996a17089959f6c1.json",
+					"name" : "ament_cmake_python_build_franka_mobile_sensors_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_franka_mobile_sensors::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_franka_mobile_sensors-d1dcf09bd2f476817d21.json",
+					"name" : "ament_cmake_python_symlink_franka_mobile_sensors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_mobile_sensors_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_mobile_sensors_uninstall-a10c769f021d89826f66.json",
+					"name" : "franka_mobile_sensors_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3b2507f303a5bd05a510.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mubii/panda_ws/build/franka_mobile_sensors",
+		"source" : "/home/mubii/panda_ws/src/franka_ros2/franka_mobile_sensors"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

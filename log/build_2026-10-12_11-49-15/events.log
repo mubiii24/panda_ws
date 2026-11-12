@@ -1,0 +1,396 @@
+[0.000000] (-) TimerEvent: {}
+[0.000406] (-) JobUnselected: {'identifier': 'franka_bringup'}
+[0.000431] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.000446] (-) JobUnselected: {'identifier': 'franka_desk_api'}
+[0.000459] (-) JobUnselected: {'identifier': 'franka_fr3_moveit_config'}
+[0.000470] (-) JobUnselected: {'identifier': 'franka_gazebo_bringup'}
+[0.000482] (-) JobUnselected: {'identifier': 'franka_gazebo_hardware'}
+[0.000494] (-) JobUnselected: {'identifier': 'franka_gripper'}
+[0.000506] (-) JobUnselected: {'identifier': 'franka_hardware'}
+[0.000518] (-) JobUnselected: {'identifier': 'franka_mobile'}
+[0.000539] (-) JobUnselected: {'identifier': 'franka_mobile_sensors'}
+[0.000663] (-) JobUnselected: {'identifier': 'franka_msgs'}
+[0.000776] (-) JobUnselected: {'identifier': 'franka_robot_state_broadcaster'}
+[0.000789] (-) JobUnselected: {'identifier': 'franka_ros2'}
+[0.000800] (-) JobUnselected: {'identifier': 'franka_semantic_components'}
+[0.000813] (-) JobUnselected: {'identifier': 'franka_spine_examples'}
+[0.000825] (-) JobUnselected: {'identifier': 'franka_spine_msgs'}
+[0.000837] (-) JobUnselected: {'identifier': 'franka_spine_server'}
+[0.000850] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000860] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000873] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000885] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000895] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000907] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000922] (franka_example_controllers) JobQueued: {'identifier': 'franka_example_controllers', 'dependencies': OrderedDict([('franka_description', '/home/mubii/panda_ws/install/franka_description'), ('franka_msgs', '/home/mubii/panda_ws/install/franka_msgs'), ('franka_hardware', '/home/mubii/panda_ws/install/franka_hardware'), ('franka_semantic_components', '/home/mubii/panda_ws/install/franka_semantic_components')])}
+[0.000947] (franka_example_controllers) JobStarted: {'identifier': 'franka_example_controllers'}
+[0.021531] (franka_example_controllers) JobProgress: {'identifier': 'franka_example_controllers', 'progress': 'cmake'}
+[0.023052] (franka_example_controllers) JobProgress: {'identifier': 'franka_example_controllers', 'progress': 'build'}
+[0.023700] (franka_example_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mubii/panda_ws/build/franka_example_controllers', '--', '-j12', '-l12'], 'cwd': '/home/mubii/panda_ws/build/franka_example_controllers', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mubii'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:/home/mubii/panda_ws/install/franka_gazebo_hardware/lib:/home/mubii/panda_ws/install/franka_spine_msgs/lib:/home/mubii/panda_ws/install/franka_gripper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mubii'), ('OLDPWD', '/home/mubii/panda_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1624'), ('SYSTEMD_EXEC_PID', '1801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3195'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mubii/panda_ws/install:/home/mubii/robot_ws/install:/home/mubii/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mubii'), ('JOURNAL_STREAM', '8:16634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mubii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zoro:@/tmp/.ICE-unix/1764,unix/zoro:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9f82dc82002842db9fe1ebec0d5cf271'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T2EYW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ba8347c7-7d67-454c-b4cd-e7212cfb8c0f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mubii/panda_ws/build/franka_example_controllers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:/home/mubii/robot_ws/build/robot_description:/home/mubii/robot_ws/install/robot_description/lib/python3.10/site-packages:/home/mubii/ros2_ws/install/my_beginner_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble')]), 'shell': False}
+[0.096832] (franka_example_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock_main\x1b[0m\n'}
+[0.097232] (franka_example_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target franka_example_controllers\x1b[0m\n'}
+[0.099736] (-) TimerEvent: {}
+[0.110645] (franka_example_controllers) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o\x1b[0m\n'}
+[0.111062] (franka_example_controllers) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/ptp_motion_example_node.dir/src/async_motions/ptp_motion_example_node.cpp.o\x1b[0m\n'}
+[0.111143] (franka_example_controllers) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o\x1b[0m\n'}
+[0.116782] (franka_example_controllers) StdoutLine: {'line': b'[ 17%] Built target gmock_main\n'}
+[0.124939] (franka_example_controllers) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/elbow_example_controller.cpp.o\x1b[0m\n'}
+[0.125602] (franka_example_controllers) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_pose_example_controller.cpp.o\x1b[0m\n'}
+[0.125765] (franka_example_controllers) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_orientation_example_controller.cpp.o\x1b[0m\n'}
+[0.125912] (franka_example_controllers) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_velocity_example_controller.cpp.o\x1b[0m\n'}
+[0.125984] (franka_example_controllers) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_elbow_example_controller.cpp.o\x1b[0m\n'}
+[0.129329] (franka_example_controllers) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/joint_impedance_example_controller.cpp.o\x1b[0m\n'}
+[0.129740] (franka_example_controllers) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/gripper_example_controller.cpp.o\x1b[0m\n'}
+[0.141663] (franka_example_controllers) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/joint_impedance_with_ik_example_controller.cpp.o\x1b[0m\n'}
+[0.145292] (franka_example_controllers) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/joint_position_example_controller.cpp.o\x1b[0m\n'}
+[0.199891] (-) TimerEvent: {}
+[0.300261] (-) TimerEvent: {}
+[0.403761] (-) TimerEvent: {}
+[0.504346] (-) TimerEvent: {}
+[0.604774] (-) TimerEvent: {}
+[0.705286] (-) TimerEvent: {}
+[0.805933] (-) TimerEvent: {}
+[0.906715] (-) TimerEvent: {}
+[1.009695] (-) TimerEvent: {}
+[1.110352] (-) TimerEvent: {}
+[1.211027] (-) TimerEvent: {}
+[1.313717] (-) TimerEvent: {}
+[1.414377] (-) TimerEvent: {}
+[1.515059] (-) TimerEvent: {}
+[1.617720] (-) TimerEvent: {}
+[1.718418] (-) TimerEvent: {}
+[1.819150] (-) TimerEvent: {}
+[1.921723] (-) TimerEvent: {}
+[2.022446] (-) TimerEvent: {}
+[2.123172] (-) TimerEvent: {}
+[2.227010] (-) TimerEvent: {}
+[2.327732] (-) TimerEvent: {}
+[2.428489] (-) TimerEvent: {}
+[2.529221] (-) TimerEvent: {}
+[2.629867] (-) TimerEvent: {}
+[2.733004] (-) TimerEvent: {}
+[2.833952] (-) TimerEvent: {}
+[2.934622] (-) TimerEvent: {}
+[3.038145] (-) TimerEvent: {}
+[3.138971] (-) TimerEvent: {}
+[3.239913] (-) TimerEvent: {}
+[3.342653] (-) TimerEvent: {}
+[3.445066] (-) TimerEvent: {}
+[3.546777] (-) TimerEvent: {}
+[3.647511] (-) TimerEvent: {}
+[3.749997] (-) TimerEvent: {}
+[3.852789] (-) TimerEvent: {}
+[3.953623] (-) TimerEvent: {}
+[4.054217] (-) TimerEvent: {}
+[4.154824] (-) TimerEvent: {}
+[4.258719] (-) TimerEvent: {}
+[4.348659] (franka_example_controllers) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/joint_velocity_example_controller.cpp.o\x1b[0m\n'}
+[4.358932] (-) TimerEvent: {}
+[4.459671] (-) TimerEvent: {}
+[4.561747] (-) TimerEvent: {}
+[4.662381] (-) TimerEvent: {}
+[4.764731] (-) TimerEvent: {}
+[4.868751] (-) TimerEvent: {}
+[4.969411] (-) TimerEvent: {}
+[5.070038] (-) TimerEvent: {}
+[5.170693] (-) TimerEvent: {}
+[5.271269] (-) TimerEvent: {}
+[5.371900] (-) TimerEvent: {}
+[5.475704] (-) TimerEvent: {}
+[5.576333] (-) TimerEvent: {}
+[5.677010] (-) TimerEvent: {}
+[5.777620] (-) TimerEvent: {}
+[5.878223] (-) TimerEvent: {}
+[5.979692] (-) TimerEvent: {}
+[6.080385] (-) TimerEvent: {}
+[6.184015] (-) TimerEvent: {}
+[6.284717] (-) TimerEvent: {}
+[6.385409] (-) TimerEvent: {}
+[6.486379] (-) TimerEvent: {}
+[6.588395] (-) TimerEvent: {}
+[6.692053] (-) TimerEvent: {}
+[6.792721] (-) TimerEvent: {}
+[6.893344] (-) TimerEvent: {}
+[6.895814] (franka_example_controllers) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgmock.a\x1b[0m\n'}
+[6.993606] (-) TimerEvent: {}
+[7.098215] (-) TimerEvent: {}
+[7.200719] (-) TimerEvent: {}
+[7.301570] (-) TimerEvent: {}
+[7.394838] (franka_example_controllers) StdoutLine: {'line': b'[ 57%] Built target gmock\n'}
+[7.401710] (-) TimerEvent: {}
+[7.441829] (franka_example_controllers) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/model_example_controller.cpp.o\x1b[0m\n'}
+[7.501897] (-) TimerEvent: {}
+[7.602561] (-) TimerEvent: {}
+[7.703160] (-) TimerEvent: {}
+[7.807047] (-) TimerEvent: {}
+[7.907736] (-) TimerEvent: {}
+[7.972977] (franka_example_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mubii/panda_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp:23\x1b[m\x1b[K,\n'}
+[7.973471] (franka_example_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/fr3/joint_impedance_with_ik_example_controller.hpp:25\x1b[m\x1b[K,\n'}
+[7.973629] (franka_example_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/src/fr3/joint_impedance_with_ik_example_controller.cpp:16\x1b[m\x1b[K:\n'}
+[7.973715] (franka_example_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::array<double, 7> franka_hardware::Model::coriolis(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.973793] (franka_example_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:141:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::array<double, 7> franka::Model::coriolis(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.973867] (franka_example_controllers) StderrLine: {'line': b'  141 |     return \x1b[01;35m\x1b[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)\x1b[m\x1b[K;\n'}
+[7.973929] (franka_example_controllers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.973988] (franka_example_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:19\x1b[m\x1b[K,\n'}
+[7.974051] (franka_example_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mubii/panda_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp:23\x1b[m\x1b[K,\n'}
+[7.974110] (franka_example_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/fr3/joint_impedance_with_ik_example_controller.hpp:25\x1b[m\x1b[K,\n'}
+[7.974169] (franka_example_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/src/fr3/joint_impedance_with_ik_example_controller.cpp:16\x1b[m\x1b[K:\n'}
+[7.974258] (franka_example_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/franka/model.h:247:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.974323] (franka_example_controllers) StderrLine: {'line': b'  247 |   \x1b[01;36m\x1b[Kcoriolis\x1b[m\x1b[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)\n'}
+[7.974384] (franka_example_controllers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.008720] (-) TimerEvent: {}
+[8.113078] (-) TimerEvent: {}
+[8.213871] (-) TimerEvent: {}
+[8.314662] (-) TimerEvent: {}
+[8.415314] (-) TimerEvent: {}
+[8.516086] (-) TimerEvent: {}
+[8.620134] (-) TimerEvent: {}
+[8.720888] (-) TimerEvent: {}
+[8.821632] (-) TimerEvent: {}
+[8.922377] (-) TimerEvent: {}
+[9.023733] (-) TimerEvent: {}
+[9.128077] (-) TimerEvent: {}
+[9.228834] (-) TimerEvent: {}
+[9.329613] (-) TimerEvent: {}
+[9.430377] (-) TimerEvent: {}
+[9.531183] (-) TimerEvent: {}
+[9.634777] (-) TimerEvent: {}
+[9.647626] (franka_example_controllers) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable ptp_motion_example_node\x1b[0m\n'}
+[9.735007] (-) TimerEvent: {}
+[9.835869] (-) TimerEvent: {}
+[9.939757] (-) TimerEvent: {}
+[10.040645] (-) TimerEvent: {}
+[10.141429] (-) TimerEvent: {}
+[10.219768] (franka_example_controllers) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers_test_load_all.dir/test/test_load_all_example_controllers.cpp.o\x1b[0m\n'}
+[10.242814] (-) TimerEvent: {}
+[10.343596] (-) TimerEvent: {}
+[10.444750] (-) TimerEvent: {}
+[10.547753] (-) TimerEvent: {}
+[10.587415] (franka_example_controllers) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o\x1b[0m\n'}
+[10.591451] (franka_example_controllers) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/fr3/move_to_start_example_controller.cpp.o\x1b[0m\n'}
+[10.647926] (-) TimerEvent: {}
+[10.698701] (franka_example_controllers) StdoutLine: {'line': b'[ 75%] Built target ptp_motion_example_node\n'}
+[10.748076] (-) TimerEvent: {}
+[10.848523] (-) TimerEvent: {}
+[10.949052] (-) TimerEvent: {}
+[11.049990] (-) TimerEvent: {}
+[11.150651] (-) TimerEvent: {}
+[11.251306] (-) TimerEvent: {}
+[11.351959] (-) TimerEvent: {}
+[11.452652] (-) TimerEvent: {}
+[11.553331] (-) TimerEvent: {}
+[11.653906] (-) TimerEvent: {}
+[11.754382] (-) TimerEvent: {}
+[11.854882] (-) TimerEvent: {}
+[11.955384] (-) TimerEvent: {}
+[12.055879] (-) TimerEvent: {}
+[12.156341] (-) TimerEvent: {}
+[12.256863] (-) TimerEvent: {}
+[12.357339] (-) TimerEvent: {}
+[12.457872] (-) TimerEvent: {}
+[12.558364] (-) TimerEvent: {}
+[12.646249] (franka_example_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mubii/panda_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp:23\x1b[m\x1b[K,\n'}
+[12.646570] (franka_example_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/fr3/model_example_controller.hpp:22\x1b[m\x1b[K,\n'}
+[12.646677] (franka_example_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/src/fr3/model_example_controller.cpp:15\x1b[m\x1b[K:\n'}
+[12.646742] (franka_example_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::array<double, 7> franka_hardware::Model::coriolis(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.646811] (franka_example_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:141:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::array<double, 7> franka::Model::coriolis(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.646900] (franka_example_controllers) StderrLine: {'line': b'  141 |     return \x1b[01;35m\x1b[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)\x1b[m\x1b[K;\n'}
+[12.646965] (franka_example_controllers) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.647025] (franka_example_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mubii/panda_ws/install/franka_hardware/include/franka_hardware/model.hpp:19\x1b[m\x1b[K,\n'}
+[12.647091] (franka_example_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mubii/panda_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp:23\x1b[m\x1b[K,\n'}
+[12.647171] (franka_example_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/include/franka_example_controllers/fr3/model_example_controller.hpp:22\x1b[m\x1b[K,\n'}
+[12.647236] (franka_example_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mubii/panda_ws/src/franka_ros2/franka_example_controllers/src/fr3/model_example_controller.cpp:15\x1b[m\x1b[K:\n'}
+[12.647311] (franka_example_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/franka/model.h:247:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.647378] (franka_example_controllers) StderrLine: {'line': b'  247 |   \x1b[01;36m\x1b[Kcoriolis\x1b[m\x1b[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)\n'}
+[12.647443] (franka_example_controllers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.658559] (-) TimerEvent: {}
+[12.759047] (-) TimerEvent: {}
+[12.859602] (-) TimerEvent: {}
+[12.960194] (-) TimerEvent: {}
+[13.060793] (-) TimerEvent: {}
+[13.161313] (-) TimerEvent: {}
+[13.262939] (-) TimerEvent: {}
+[13.364507] (-) TimerEvent: {}
+[13.464985] (-) TimerEvent: {}
+[13.565488] (-) TimerEvent: {}
+[13.665995] (-) TimerEvent: {}
+[13.766422] (-) TimerEvent: {}
+[13.866963] (-) TimerEvent: {}
+[13.967627] (-) TimerEvent: {}
+[14.068038] (-) TimerEvent: {}
+[14.168494] (-) TimerEvent: {}
+[14.268860] (-) TimerEvent: {}
+[14.369216] (-) TimerEvent: {}
+[14.469607] (-) TimerEvent: {}
+[14.569967] (-) TimerEvent: {}
+[14.670316] (-) TimerEvent: {}
+[14.770651] (-) TimerEvent: {}
+[14.871012] (-) TimerEvent: {}
+[14.971402] (-) TimerEvent: {}
+[15.071769] (-) TimerEvent: {}
+[15.172095] (-) TimerEvent: {}
+[15.272417] (-) TimerEvent: {}
+[15.372773] (-) TimerEvent: {}
+[15.473122] (-) TimerEvent: {}
+[15.573469] (-) TimerEvent: {}
+[15.673849] (-) TimerEvent: {}
+[15.774229] (-) TimerEvent: {}
+[15.845803] (franka_example_controllers) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libfranka_example_controllers.so\x1b[0m\n'}
+[15.874413] (-) TimerEvent: {}
+[15.975032] (-) TimerEvent: {}
+[16.075675] (-) TimerEvent: {}
+[16.176371] (-) TimerEvent: {}
+[16.277078] (-) TimerEvent: {}
+[16.377564] (-) TimerEvent: {}
+[16.478092] (-) TimerEvent: {}
+[16.515345] (franka_example_controllers) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable franka_example_controllers_test_load_all\x1b[0m\n'}
+[16.578245] (-) TimerEvent: {}
+[16.678798] (-) TimerEvent: {}
+[16.779449] (-) TimerEvent: {}
+[16.880037] (-) TimerEvent: {}
+[16.980623] (-) TimerEvent: {}
+[17.081167] (-) TimerEvent: {}
+[17.087881] (franka_example_controllers) StdoutLine: {'line': b'[ 82%] Built target franka_example_controllers_test_load_all\n'}
+[17.181397] (-) TimerEvent: {}
+[17.282050] (-) TimerEvent: {}
+[17.382625] (-) TimerEvent: {}
+[17.483121] (-) TimerEvent: {}
+[17.583540] (-) TimerEvent: {}
+[17.683932] (-) TimerEvent: {}
+[17.784451] (-) TimerEvent: {}
+[17.885002] (-) TimerEvent: {}
+[17.985591] (-) TimerEvent: {}
+[18.086097] (-) TimerEvent: {}
+[18.186499] (-) TimerEvent: {}
+[18.286852] (-) TimerEvent: {}
+[18.387145] (-) TimerEvent: {}
+[18.487577] (-) TimerEvent: {}
+[18.573232] (franka_example_controllers) StdoutLine: {'line': b'[ 85%] Built target franka_example_controllers\n'}
+[18.587683] (-) TimerEvent: {}
+[18.602599] (franka_example_controllers) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o\x1b[0m\n'}
+[18.602913] (franka_example_controllers) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/franka_example_controllers_gravity_test.dir/test/test_gravity_compensation_example.cpp.o\x1b[0m\n'}
+[18.688093] (-) TimerEvent: {}
+[18.788483] (-) TimerEvent: {}
+[18.889062] (-) TimerEvent: {}
+[18.989453] (-) TimerEvent: {}
+[19.089902] (-) TimerEvent: {}
+[19.190290] (-) TimerEvent: {}
+[19.290683] (-) TimerEvent: {}
+[19.391017] (-) TimerEvent: {}
+[19.491356] (-) TimerEvent: {}
+[19.591715] (-) TimerEvent: {}
+[19.692053] (-) TimerEvent: {}
+[19.792416] (-) TimerEvent: {}
+[19.892790] (-) TimerEvent: {}
+[19.993147] (-) TimerEvent: {}
+[20.093560] (-) TimerEvent: {}
+[20.194019] (-) TimerEvent: {}
+[20.294439] (-) TimerEvent: {}
+[20.394877] (-) TimerEvent: {}
+[20.495289] (-) TimerEvent: {}
+[20.595748] (-) TimerEvent: {}
+[20.696299] (-) TimerEvent: {}
+[20.796669] (-) TimerEvent: {}
+[20.897099] (-) TimerEvent: {}
+[20.997478] (-) TimerEvent: {}
+[21.098103] (-) TimerEvent: {}
+[21.198509] (-) TimerEvent: {}
+[21.298972] (-) TimerEvent: {}
+[21.399358] (-) TimerEvent: {}
+[21.499953] (-) TimerEvent: {}
+[21.600580] (-) TimerEvent: {}
+[21.701151] (-) TimerEvent: {}
+[21.801721] (-) TimerEvent: {}
+[21.902129] (-) TimerEvent: {}
+[22.002710] (-) TimerEvent: {}
+[22.078058] (franka_example_controllers) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable franka_example_controllers_gravity_test\x1b[0m\n'}
+[22.102844] (-) TimerEvent: {}
+[22.203316] (-) TimerEvent: {}
+[22.303921] (-) TimerEvent: {}
+[22.404618] (-) TimerEvent: {}
+[22.505160] (-) TimerEvent: {}
+[22.605548] (-) TimerEvent: {}
+[22.706065] (-) TimerEvent: {}
+[22.806754] (-) TimerEvent: {}
+[22.907304] (-) TimerEvent: {}
+[23.009107] (-) TimerEvent: {}
+[23.109796] (-) TimerEvent: {}
+[23.210569] (-) TimerEvent: {}
+[23.311035] (-) TimerEvent: {}
+[23.380791] (franka_example_controllers) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable franka_example_controllers_move_to_start_test\x1b[0m\n'}
+[23.411228] (-) TimerEvent: {}
+[23.511959] (-) TimerEvent: {}
+[23.612706] (-) TimerEvent: {}
+[23.713443] (-) TimerEvent: {}
+[23.814050] (-) TimerEvent: {}
+[23.914592] (-) TimerEvent: {}
+[24.015124] (-) TimerEvent: {}
+[24.115966] (-) TimerEvent: {}
+[24.147939] (franka_example_controllers) StdoutLine: {'line': b'[100%] Built target franka_example_controllers_gravity_test\n'}
+[24.216091] (-) TimerEvent: {}
+[24.316468] (-) TimerEvent: {}
+[24.416803] (-) TimerEvent: {}
+[24.517106] (-) TimerEvent: {}
+[24.617395] (-) TimerEvent: {}
+[24.717702] (-) TimerEvent: {}
+[24.817988] (-) TimerEvent: {}
+[24.918275] (-) TimerEvent: {}
+[25.018574] (-) TimerEvent: {}
+[25.118864] (-) TimerEvent: {}
+[25.203448] (franka_example_controllers) StdoutLine: {'line': b'[100%] Built target franka_example_controllers_move_to_start_test\n'}
+[25.219289] (franka_example_controllers) CommandEnded: {'returncode': 0}
+[25.219909] (-) TimerEvent: {}
+[25.220640] (franka_example_controllers) JobProgress: {'identifier': 'franka_example_controllers', 'progress': 'install'}
+[25.232322] (franka_example_controllers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mubii/panda_ws/build/franka_example_controllers'], 'cwd': '/home/mubii/panda_ws/build/franka_example_controllers', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mubii'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mubii/panda_ws/install/franka_semantic_components/lib:/home/mubii/panda_ws/install/franka_hardware/lib:/home/mubii/panda_ws/install/franka_msgs/lib:/home/mubii/panda_ws/install/franka_gazebo_hardware/lib:/home/mubii/panda_ws/install/franka_spine_msgs/lib:/home/mubii/panda_ws/install/franka_gripper/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mubii'), ('OLDPWD', '/home/mubii/panda_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1624'), ('SYSTEMD_EXEC_PID', '1801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3195'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mubii/panda_ws/install:/home/mubii/robot_ws/install:/home/mubii/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mubii'), ('JOURNAL_STREAM', '8:16634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mubii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zoro:@/tmp/.ICE-unix/1764,unix/zoro:/tmp/.ICE-unix/1764'), ('INVOCATION_ID', '9f82dc82002842db9fe1ebec0d5cf271'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T2EYW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/panda_ws/install/franka_description:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ba8347c7-7d67-454c-b4cd-e7212cfb8c0f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mubii/panda_ws/build/franka_example_controllers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mubii/panda_ws/install/franka_spine_server/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_spine_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_mobile_sensors/local/lib/python3.10/dist-packages:/home/mubii/panda_ws/install/franka_desk_api/local/lib/python3.10/dist-packages:/home/mubii/robot_ws/build/robot_description:/home/mubii/robot_ws/install/robot_description/lib/python3.10/site-packages:/home/mubii/ros2_ws/install/my_beginner_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mubii/panda_ws/install/franka_semantic_components:/home/mubii/panda_ws/install/franka_hardware:/home/mubii/panda_ws/install/franka_msgs:/home/mubii/panda_ws/install/franka_description:/home/mubii/panda_ws/install/franka_gazebo_hardware:/home/mubii/panda_ws/install/moveit_resources:/home/mubii/panda_ws/install/moveit_resources_pr2_description:/home/mubii/panda_ws/install/moveit_resources_panda_moveit_config:/home/mubii/panda_ws/install/moveit_resources_panda_description:/home/mubii/panda_ws/install/moveit_resources_fanuc_moveit_config:/home/mubii/panda_ws/install/moveit_resources_fanuc_description:/home/mubii/panda_ws/install/franka_spine_examples:/home/mubii/panda_ws/install/franka_spine_server:/home/mubii/panda_ws/install/franka_spine_msgs:/home/mubii/panda_ws/install/franka_gripper:/home/mubii/panda_ws/install/franka_mobile_sensors:/home/mubii/panda_ws/install/franka_desk_api:/home/mubii/robot_ws/install/robot_description:/home/mubii/ros2_ws/install/my_beginner_pkg:/opt/ros/humble')]), 'shell': False}
+[25.241920] (franka_example_controllers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.242454] (franka_example_controllers) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.243682] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers//franka_example_controllers.xml\n'}
+[25.255817] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/lib/libfranka_example_controllers.so\n'}
+[25.267834] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/async_motions/ptp_motion_example_node.hpp\n'}
+[25.279097] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/default_robot_behavior_utils.hpp\n'}
+[25.289948] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/cartesian_elbow_example_controller.hpp\n'}
+[25.300836] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/cartesian_orientation_example_controller.hpp\n'}
+[25.311956] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/cartesian_pose_example_controller.hpp\n'}
+[25.320073] (-) TimerEvent: {}
+[25.322742] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/cartesian_velocity_example_controller.hpp\n'}
+[25.334112] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/elbow_example_controller.hpp\n'}
+[25.344767] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/gravity_compensation_example_controller.hpp\n'}
+[25.356116] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/gripper_example_controller.hpp\n'}
+[25.367241] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/joint_impedance_example_controller.hpp\n'}
+[25.378461] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/joint_impedance_with_ik_example_controller.hpp\n'}
+[25.389422] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/joint_position_example_controller.hpp\n'}
+[25.400391] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/joint_velocity_example_controller.hpp\n'}
+[25.411455] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/model_example_controller.hpp\n'}
+[25.420383] (-) TimerEvent: {}
+[25.422506] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/move_to_start_example_controller.hpp\n'}
+[25.433355] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/motion_generator.hpp\n'}
+[25.444311] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/robot_utils.hpp\n'}
+[25.455855] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/include/franka_example_controllers/visibility_control.h\n'}
+[25.468221] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/lib/franka_example_controllers/ptp_motion_example_node\n'}
+[25.478453] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.sh\n'}
+[25.489322] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.dsv\n'}
+[25.500355] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/ament_index/resource_index/package_run_dependencies/franka_example_controllers\n'}
+[25.510517] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/ament_index/resource_index/parent_prefix_path/franka_example_controllers\n'}
+[25.520486] (-) TimerEvent: {}
+[25.521037] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.sh\n'}
+[25.532176] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.dsv\n'}
+[25.543409] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.sh\n'}
+[25.554656] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.dsv\n'}
+[25.565636] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.bash\n'}
+[25.576016] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.sh\n'}
+[25.586918] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.zsh\n'}
+[25.598230] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.dsv\n'}
+[25.609142] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/package.dsv\n'}
+[25.620411] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/ament_index/resource_index/packages/franka_example_controllers\n'}
+[25.620659] (-) TimerEvent: {}
+[25.631576] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_example_controllers\n'}
+[25.642668] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[25.654082] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[25.664671] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[25.675724] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig.cmake\n'}
+[25.686669] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig-version.cmake\n'}
+[25.697721] (franka_example_controllers) StdoutLine: {'line': b'-- Symlinking: /home/mubii/panda_ws/install/franka_example_controllers/share/franka_example_controllers/package.xml\n'}
+[25.713147] (franka_example_controllers) CommandEnded: {'returncode': 0}
+[25.721015] (-) TimerEvent: {}
+[25.733896] (franka_example_controllers) JobEnded: {'identifier': 'franka_example_controllers', 'rc': 0}
+[25.734581] (-) EventReactorShutdown: {}

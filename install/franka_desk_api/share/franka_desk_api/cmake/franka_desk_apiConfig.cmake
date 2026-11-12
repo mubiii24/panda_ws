@@ -1,0 +1,1 @@
+/home/mubii/panda_ws/build/franka_desk_api/ament_cmake_core/franka_desk_apiConfig.cmake

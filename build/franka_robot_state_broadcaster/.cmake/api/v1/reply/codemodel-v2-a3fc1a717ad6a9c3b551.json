@@ -1,0 +1,202 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-06f4fb9da835fc713c35.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "gmock",
+					"jsonFile" : "directory-gmock-3370d118e31866b3418b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gmock_vendor",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "franka_robot_state_broadcaster",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gmock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_robot_state_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_robot_state_broadcaster-8a9c2d0242443c76f995.json",
+					"name" : "franka_robot_state_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_robot_state_broadcaster_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_robot_state_broadcaster_parameters-c8c9c53c07ab16502162.json",
+					"name" : "franka_robot_state_broadcaster_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_robot_state_broadcaster_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_robot_state_broadcaster_test-b6aa2e5f025c08d9f4d2.json",
+					"name" : "franka_robot_state_broadcaster_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_robot_state_broadcaster_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_robot_state_broadcaster_uninstall-9de2c49bcbced07b253f.json",
+					"name" : "franka_robot_state_broadcaster_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock-8e1cb107d77561fa4f7f.json",
+					"name" : "gmock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock_main::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock_main-99525f1a0a2cc9bb7e04.json",
+					"name" : "gmock_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-806e98a6488a327390bf.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-4204c751c25eb5e5893a.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_load_franka_robot_state_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_load_franka_robot_state_broadcaster-3773c4b38d41a8f712c6.json",
+					"name" : "test_load_franka_robot_state_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-09883b98e58f31ed45a0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mubii/panda_ws/build/franka_robot_state_broadcaster",
+		"source" : "/home/mubii/panda_ws/src/franka_ros2/franka_robot_state_broadcaster"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
